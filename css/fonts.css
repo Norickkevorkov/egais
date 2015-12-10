@@ -1,0 +1,80 @@
+/* font-family: "UbuntuRegular"; */
+@font-face {
+    font-family: "UbuntuRegular";
+    src: url("../font/UbuntuRegular/UbuntuRegular.eot");
+    src: url("../font/UbuntuRegular/UbuntuRegular.eot?#iefix")format("embedded-opentype"),
+    url("../font/UbuntuRegular/UbuntuRegular.woff") format("woff"),
+    url("../font/UbuntuRegular/UbuntuRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "UbuntuBold"; */
+@font-face {
+    font-family: "UbuntuBold";
+    src: url("../font/UbuntuBold/UbuntuBold.eot");
+    src: url("../font/UbuntuBold/UbuntuBold.eot?#iefix")format("embedded-opentype"),
+    url("../font/UbuntuBold/UbuntuBold.woff") format("woff"),
+    url("../font/UbuntuBold/UbuntuBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "UbuntuItalic"; */
+@font-face {
+    font-family: "UbuntuItalic";
+    src: url("../font/UbuntuItalic/UbuntuItalic.eot");
+    src: url("../font/UbuntuItalic/UbuntuItalic.eot?#iefix")format("embedded-opentype"),
+    url("../font/UbuntuItalic/UbuntuItalic.woff") format("woff"),
+    url("../font/UbuntuItalic/UbuntuItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "UbuntuLight"; */
+@font-face {
+    font-family: "UbuntuLight";
+    src: url("../font/UbuntuLight/UbuntuLight.eot");
+    src: url("../font/UbuntuLight/UbuntuLight.eot?#iefix")format("embedded-opentype"),
+    url("../font/UbuntuLight/UbuntuLight.woff") format("woff"),
+    url("../font/UbuntuLight/UbuntuLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "UbuntuLightItalic"; */
+@font-face {
+    font-family: "UbuntuLightItalic";
+    src: url("../font/UbuntuLightItalic/UbuntuLightItalic.eot");
+    src: url("../font/UbuntuLightItalic/UbuntuLightItalic.eot?#iefix")format("embedded-opentype"),
+    url("../font/UbuntuLightItalic/UbuntuLightItalic.woff") format("woff"),
+    url("../font/UbuntuLightItalic/UbuntuLightItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "UbuntuMedium"; */
+@font-face {
+    font-family: "UbuntuMedium";
+    src: url("../font/UbuntuMedium/UbuntuMedium.eot");
+    src: url("../font/UbuntuMedium/UbuntuMedium.eot?#iefix")format("embedded-opentype"),
+    url("../font/UbuntuMedium/UbuntuMedium.woff") format("woff"),
+    url("../font/UbuntuMedium/UbuntuMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "UbuntuMediumItalic"; */
+@font-face {
+    font-family: "UbuntuMediumItalic";
+    src: url("../font/UbuntuMediumItalic/UbuntuMediumItalic.eot");
+    src: url("../font/UbuntuMediumItalic/UbuntuMediumItalic.eot?#iefix")format("embedded-opentype"),
+    url("../font/UbuntuMediumItalic/UbuntuMediumItalic.woff") format("woff"),
+    url("../font/UbuntuMediumItalic/UbuntuMediumItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "UbuntuBoldItalic"; */
+@font-face {
+    font-family: "UbuntuBoldItalic";
+    src: url("../font/UbuntuBoldItalic/UbuntuBoldItalic.eot");
+    src: url("../font/UbuntuBoldItalic/UbuntuBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../font/UbuntuBoldItalic/UbuntuBoldItalic.woff") format("woff"),
+    url("../font/UbuntuBoldItalic/UbuntuBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
