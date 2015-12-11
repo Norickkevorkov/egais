@@ -1,5 +1,5 @@
 body{
-    font-size: 100%;
+    font-family: "UbuntuRegular";
 }
 header{
     margin-top: 20px;
@@ -23,7 +23,6 @@ header{
     color: #ff8004;
 }
 .top_menu{
-    margin-top: 40px;
     background-color: #fff;
     box-shadow: none;
     text-align: center;
@@ -44,6 +43,11 @@ header{
     color: #000;
 }
 .slidebar{
+    overflow: hidden;
+
+}
+.slide{
+    overflow: hidden;
     width: 1600px;
     height: 644px;
     background: url("/img/slide.jpg") no-repeat;
@@ -53,7 +57,7 @@ header{
 .submit{
     position: absolute;
     top: 7%;
-    left: 50%;
+    left: 45%;
     width: 570px;
     height: 445px;
     background-color: rgba(255,255,255,0.5);
@@ -71,6 +75,223 @@ header{
     margin: -15px 0 15px 25px;
     text-shadow: 1px 2px 0 #fff;
 }
-.input {
-
+input {
+    margin-left: 35px;
+    vertical-align: middle;
+    padding:8px 10px;
+    border: 1px solid #999999;
+    border-radius: 3px;
+}
+button[type="submit"]{
+    margin-left: 35px;
+    vertical-align: middle;
+    padding:8px 10px;
+    border-radius: 3px;
+    margin-top: 25px;
+    width: 370px;
+    height: 60px;
+    border: none;
+    color: #08233e;font-size: 20px;
+    background-color: #fbd348;
+    box-shadow: 0 5px 0 #cb8500;
+}
+button[type="submit"]:hover{
+    background-color: #ffc000;
+}
+.header{
+    text-align: center;
+}
+.header h1, .header h2{
+    color: #08233e;
+}
+.header h2 {
+    font-size: 30px;
+}
+.implementation .pic_bg{
+    background: url('/img/pic_bg.png') 50% no-repeat;
+    width: 228px;
+    height: 228px;
+    margin: 0 auto;
+    transition: background-image 0.7s 0.1s;
+}
+.implementation .pic_bg:hover{
+    cursor: pointer;
+    background-image: url('/img/pic_bg_hovered.png');
+}
+.implementation .pic_bg img {
+    position: relative;
+    top: 87px;
+}
+.implementation p{
+    font-size: 18px;
+}
+.implementation button{
+    vertical-align: middle;
+    padding:8px 10px;
+    border-radius: 3px;
+    margin-top: 25px;
+    width: 230px;
+    height: 60px;
+    border: none;
+    color: #08233e;font-size: 20px;
+    background-color: #fbd348;
+    box-shadow: 0 5px 0 #cb8500;
+}
+.implementation button:hover{
+    background-color: #ffc000;
+}
+.top_content{
+    background-color: #fff;
+    padding-bottom: 80px;
+    padding-top: 10px;
+    width: 100%;
+    box-shadow: 0 6px 17px rgba(230,198,198,1);
+}
+.content{
+    margin-top: -20px;
+    background-color: #f4f4f4;
+}
+.what_is h3{
+    font-size: 22px;
+    color: #08233e;
+}
+.what_is p, .what_is li{
+    font-size: 16px;
+}
+.what_is ul{
+    list-style-image: url('/img/list_style.png');
+    margin-left: 20px;
+}
+.what_is .la{
+    display: inline;
+    float: left;
+    margin: 0;
+}
+.what_is .lf{
+    text-indent: 10px;
+}
+.quoteblock{
+    background: url("/img/quote.png")no-repeat 3% 0%;
+    width: 100%;
+    height: 180px;
+    padding-top: 25px;
+}
+.quote{
+    background-color: #eaf8ff;
+    width: 970px;
+    height: 95px;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+.quote h3{
+    font-size: 21px;
+    color: #08233e;
+    line-height: 4;
+}
+.scheme{
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    text-align: center;
+    padding-bottom: 30px;
+}
+.scheme h2{
+    padding-top: 45px;
+    margin-bottom: 0;
+    font-size: 36px;
+}
+.price h2{
+    color: #08233e;
+    font-size: 42px;
+    padding-top: 80px;
+    margin-bottom: 30px;
+}
+.price .tab{
+    display: inline-block;
+}
+.price .tab{
+    height: 51px;
+    width: 331px;
+    text-align: center;
+}
+.price .tab a{
+    margin-top: 10px;
+    font-size: 18px;
+    display: block;
+    color: #272727;
+}
+.price .to_standart{
+    position: relative;
+    top: -51px;
+    left: 295px;
+}
+.price .tab.active{
+    background: url("/img/price_list_bg.png") no-repeat;
+}
+.price .tab.active a{
+    cursor: default;
+    color: #07233e!important;
+}
+.price ul{
+    background: url("/img/price_list_bg1.png") no-repeat;
+    width: 620px;
+    height: 51px;
+    margin-bottom: 0;
+    z-index: 5;
+}
+.price_content{
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0 4px 11px rgba(0,0,0,0.2);
+}
+.price_content .row{
+    padding-top: 25px;
+}
+.price_content .photo{
+    overflow: hidden;
+}
+.price_content .photo img {
+    display: inline-block;
+    position: relative;
+    left: 30%;
+    border: 1px solid #b3b1b3;
+    width: 185px;
+    height: 140px;
+}
+.price_content .standart{
+    display: none;
+}
+.desc p{
+    margin-top: 0;
+    font-size: 18px;
+}
+.price_item p{
+    padding-left: 70px;
+    font-size: 15px;
+}
+.price_item p span.name{
+    font-family: "UbuntuBold";
+    color: #07233e;
+}
+.price_item p span.price{
+    color: #dea221;
+}
+.oneC{
+    position: absolute;
+    margin-top: 5px;
+}
+.total_price p{
+    font-family: "UbuntuLight";
+    font-size: 30px;
+    color: #999999;
+}
+.total_price p span{
+    font-size: 49px;
+    color: #000000;
+}
+p.total_price_desc{
+    color: #999999;
+    font-size: 13px;
+    margin-top: -30px;
 }
