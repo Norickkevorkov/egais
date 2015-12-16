@@ -15,20 +15,21 @@
 </head>
 
 <body>
-<div class="top_content">
+<div class="top_content" id="top">
     <div class="container">
         <div class="row">
             <header>
                 <div class="logo"></div>
                 <div class="phone"><span>8 (495)</span> 668 09 23</div>
                 <div style="clear:both"></div>
-                <nav class="top_menu">
+                <nav class="top_menu default">
                     <ul>
-                        <li class="col l2 waves-effect waves-dark"><a href="#">Что такое ЕГАИС</a></li>
-                        <li class="col l2 waves-effect waves-dark"><a href="#">Для розничных магазинов</a></li>
-                        <li class="col l3 waves-effect waves-dark"><a href="#">Для кафе и ресторанов</a></li>
-                        <li class="col l2 waves-effect waves-dark"><a href="#">Для оптовой торговли</a></li>
-                        <li class="col l3 waves-effect waves-dark"><a href="#">Дополнительное оборудование</a></li>
+                        <a class="menu_logo" href="#top"><img src="img/logo_top_menu.png" alt=""></a>
+                        <li class="col l2 waves-effect waves-dark"><a href="#aboutEGAIS">Что такое ЕГАИС</a></li>
+                        <li class="col l2 waves-effect waves-dark"><a href="#retail">Для розничных магазинов</a></li>
+                        <li class="col l3 waves-effect waves-dark"><a href="#rest">Для кафе и ресторанов</a></li>
+                        <li class="col l2 waves-effect waves-dark"><a href="#wholesale">Для оптовой торговли</a></li>
+                        <li class="col l3 waves-effect waves-dark"><a href="#equip">Дополнительное оборудование</a></li>
                     </ul>
                 </nav>
             </header>
@@ -52,26 +53,26 @@
             <h1>Комплексное внедрение <span>ЕГАИС</span></h1>
             <div class="col l4">
                 <h2>Розничная торговля</h2>
-                <div class="pic_bg"><img src="img/for_retail.png" alt=""></div>
-                <p>Для магазинов, реализующих <br> алкогольную продукцию.</p>
-                <button class="waves-effect waves-dark">Подробнее</button>
+                <a href="#retail"><div class="pic_bg"><img src="img/for_retail.png" alt=""></div></a>
+                <p>Для магазинов, реализующих <br>крепкую алкогольную продукцию.</p>
+                <a href="#retail"><button class="waves-effect waves-dark">Подробнее</button></a>
             </div>
             <div class="col l4">
                 <h2>Кафе и рестораны</h2>
-                <div class="pic_bg"><img src="img/for_rest.png" alt=""></div>
-                <p>Внедрение ЕГАИС <br> для общепита.</p>
-                <button class="waves-effect waves-dark">Подробнее</button>
+                <a href="#rest"><div class="pic_bg"><img src="img/for_rest.png" alt=""></div></a>
+                <p>Внедрение ЕГАИС <br> для общепита и пивной розницы.</p>
+                <a href="#rest"><button class="waves-effect waves-dark">Подробнее</button></a>
             </div>
             <div class="col l4">
                 <h2>Оптовая торговля</h2>
-                <div class="pic_bg"><img src="img/for_wholesale.png" alt=""></div>
+                <a href="#wholesale"><div class="pic_bg"><img src="img/for_wholesale.png" alt=""></div></a>
                 <p>Для организаций, реализующих <br> алкогольную продукцию оптом.</p>
-                <button class="waves-effect waves-dark">Подробнее</button>
+                <a href="#wholesale"><button class="waves-effect waves-dark">Подробнее</button></a>
             </div>
         </div>
     </div>
 </div>
-<div class="content">
+<div class="content" id="aboutEGAIS">
     <div class="container">
         <div class="row header">
             <h1>Что такое <span>ЕГАИС</span></h1>
@@ -107,13 +108,13 @@
     <div class="container">
         <div class="scheme">
             <div class="row header"><h2>Схема работы ЕГАИС</h2></div>
-            <p>в розничной торговле</p>
+            <p>в розничной торговле крепким алкоголем</p>
             <img src="img/scheme.jpg" alt="">
         </div>
     </div>
     <div class="container">
-        <div class="price">
-            <h2>Розничная торговля</h2>
+        <div class="price" id="retail">
+            <h2>Розничная торговля крепким алкоголем</h2>
             <ul>
                 <li class="tab to_econom active"><a href="to_econom">Эконом</a></li>
                 <li class="tab to_standart"><a href="to_standart">Стандарт</a></li>
@@ -127,13 +128,13 @@
                             <div class="price_item">
                                 <p>
                                     <span class="name">JaCarta</span> - Сертифицированный защищенный носитель для ЕГАИС JaCarta SE (PKI/ГОСТ)
-                                    <br><span class="price">3 000 <i class="fa fa-rub"></i></span>
+                                    <br><span class="price">2 000 <i class="fa fa-rub"></i></span>
                                 </p>
                             </div>
                             <div class="price_item">
                                 <p>
                                     <span class="name">КЭП </span> - Квалифицированный сертификат электронной подписи для ЕГАИС на 15 месяцев
-                                    <br><span class="price">2 000 <i class="fa fa-rub"></i></span>
+                                    <br><span class="price">3 000 <i class="fa fa-rub"></i></span>
                                 </p>
                             </div>
                             <div class="price_item">
@@ -177,37 +178,263 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col l3"></div>
-                        <div class="col l9">
-                            
+                        <div class="col l8 offset-l3">
+                            <div class="hl"></div>
+                            <div class="price_item">
+                                <p>При приобретении полного пакета для фиксации закупок и продаж - стоимость подключения составит
+                                <br><span class="price">93 000 (скидка 2 100) <i class="fa fa-rub"></i></span></p>
+                            </div>
+                            <div class="hl"></div>
+                        <div class="row price_footer">
+                            <div class="col l6">
+                                <img src="img/ds5.png" class="right" alt="">
+                                <p>ТСД MobileBase DS5 - <span class="price">74 900<i class="fa fa-rub"></i></span><br>(при больших объемах приемки алкоголя рекомендуется приобретение терминала сбора данных для проверки подлинности принимаемого товара онлайн через сервис ФСРАР)</p>
+                            </div>
+                            <div class="col l6">
+                                <img src="img/apc.png" class="right" alt="">
+                                <p>ИБП - <span class="price">12 000<i class="fa fa-rub"></i></span><br>(для защиты оборудования от перепадов в системе электропитания, чтобы избежать потери данных при передаче в ЕГАИС рекомендуется приобретение источника бесперебойного питания)</p>
+                            </div>
+                        </div>
                         </div>
                     </div>
                 </div>
                 <div class="standart">
-
+                    <div class="row">
+                        <div class="col l3 photo"><img src="img/jacarta.png" alt="JaCarta"></div>
+                        <div class="col l5 desc">
+                            <p>Для фиксации закупок. <br> Необходимо подключиться до 1 января 2016 г.</p>
+                            <div class="price_item">
+                                <p>
+                                    <span class="name">JaCarta</span> - Сертифицированный защищенный носитель для ЕГАИС JaCarta SE (PKI/ГОСТ)
+                                    <br><span class="price">2 000 <i class="fa fa-rub"></i></span>
+                                </p>
+                            </div>
+                            <div class="price_item">
+                                <p>
+                                    <span class="name">КЭП </span> - Квалифицированный сертификат электронной подписи для ЕГАИС на 15 месяцев
+                                    <br><span class="price">3 000 <i class="fa fa-rub"></i></span>
+                                </p>
+                            </div>
+                            <div class="price_item">
+                                <img class="oneC" src="img/kontur.png" alt="kontur">
+                                <p>
+                                    <span class="name">Контур.Алко</span> - Система введения и сдачи отчетности в ФСРАР и модуль взаимодействия с ЕГАИС.
+                                    <br><span class="price">9 900 <i class="fa fa-rub"></i></span>
+                                </p>
+                            </div>
+                            <div class="price_item">
+                                <p>
+                                    <span class="name">Интеграция </span> - Работы по настройке и обучение
+                                    <br><span class="price">5 000 <i class="fa fa-rub"></i></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col l4 total_price">
+                            <p>Цена <span>26 800 <i class="fa fa-rub"></i></span></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col l3 photo"><img src="img/pos.png" alt="POS-система"></div>
+                        <div class="col l5 desc">
+                            <p>Для фиксации продаж - до 1 июля 2016 г.</p>
+                            <div class="price_item">
+                                <p>
+                                    <span class="name">POS-система</span> - система с кассовым ПО, совместимым с ЕГАИС, 2D-сканнером и фискальным регистратором, печатающим QR коды
+                                    <br><span class="price">64 900 <i class="fa fa-rub"></i></span>
+                                </p>
+                            </div>
+                            <div class="price_item">
+                                <p>
+                                    <span class="name">Интеграция </span> - Работы по настройке и обучение
+                                    <br><span class="price">11 900 <i class="fa fa-rub"></i></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col l4 total_price">
+                            <p>Цена <span>74 900 <i class="fa fa-rub"></i></span></p>
+                            <p class="total_price_desc">(в зависимости от курсов валют)</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col l8 offset-l3">
+                            <div class="hl"></div>
+                            <div class="price_item">
+                                <p>При приобретении полного пакета для фиксации закупок и продаж - стоимость подключения составит
+                                    <br><span class="price">93 000 (скидка 2 100) <i class="fa fa-rub"></i></span></p>
+                            </div>
+                            <div class="hl"></div>
+                            <div class="row price_footer">
+                                <div class="col l6">
+                                    <img src="img/ds5.png" class="right" alt="">
+                                    <p>ТСД MobileBase DS5 - <span class="price">74 900<i class="fa fa-rub"></i></span><br>(при больших объемах приемки алкоголя рекомендуется приобретение терминала сбора данных для проверки подлинности принимаемого товара онлайн через сервис ФСРАР)</p>
+                                </div>
+                                <div class="col l6">
+                                    <img src="img/apc.png" class="right" alt="">
+                                    <p>ИБП - <span class="price">12 000<i class="fa fa-rub"></i></span><br>(для защиты оборудования от перепадов в системе электропитания, чтобы избежать потери данных при передаче в ЕГАИС рекомендуется приобретение источника бесперебойного питания)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="price">
-            <h2>Кафе и рестораны</h2>
+        <div class="price" id="rest">
+            <h2>Кафе, рестораны и пивная розница</h2>
             <ul>
-                <li class="tab to_econom active"><a href="to_econom">Эконом</a></li>
+                <li class="tab to_econom active"><a href="to_econom">Алкодекларация.Контур плюс</a></li>
                 <li class="tab to_standart"><a href="to_standart">Стандарт</a></li>
             </ul>
             <div class="price_content">
-                <div class="econom">содержимое первого блока</div>
+                <div class="econom">
+                    <div class="row">
+                        <div class="col l3 photo"><img src="img/jacarta.png" alt="JaCarta"></div>
+                        <div class="col l5 desc">
+                            <p>Для фиксации закупок. <br> Необходимо подключиться до 1 января 2016 г.</p>
+                            <div class="price_item">
+                                <p>
+                                    <span class="name">JaCarta</span> - Сертифицированный защищенный носитель для ЕГАИС JaCarta SE (PKI/ГОСТ)
+                                    <br><span class="price">2 000 <i class="fa fa-rub"></i></span>
+                                </p>
+                            </div>
+                            <div class="price_item">
+                                <p>
+                                    <span class="name">КЭП </span> - Квалифицированный сертификат электронной подписи для ЕГАИС на 15 месяцев
+                                    <br><span class="price">3 000 <i class="fa fa-rub"></i></span>
+                                </p>
+                            </div>
+                            <div class="price_item">
+                                <img class="oneC" src="img/1c.png" alt="1c">
+                                <p>
+                                    <span class="name">1С Розница</span> - Система товароучета
+                                    <br><span class="price">3 300 <i class="fa fa-rub"></i></span>
+                                </p>
+                            </div>
+                            <div class="price_item">
+                                <p>
+                                    <span class="name">Интеграция </span> - Работы по настройке и обучение
+                                    <br><span class="price">11 900 <i class="fa fa-rub"></i></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col l4 total_price">
+                            <p>Цена <span>20 200 <i class="fa fa-rub"></i></span></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col l8 offset-l3">
+                            <div class="hl"></div>
+                            <div class="row price_footer">
+                                <div class="col l6">
+                                    <img src="img/ds5.png" class="right" alt="">
+                                    <p>ТСД MobileBase DS5 - <span class="price">74 900<i class="fa fa-rub"></i></span><br>(при больших объемах приемки алкоголя рекомендуется приобретение терминала сбора данных для проверки подлинности принимаемого товара онлайн через сервис ФСРАР)</p>
+                                </div>
+                                <div class="col l6">
+                                    <img src="img/apc.png" class="right" alt="">
+                                    <p>ИБП - <span class="price">12 000<i class="fa fa-rub"></i></span><br>(для защиты оборудования от перепадов в системе электропитания, чтобы избежать потери данных при передаче в ЕГАИС рекомендуется приобретение источника бесперебойного питания)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="standart">содержимое второго блока</div>
             </div>
         </div>
-        <div class="price">
+        <div class="price" id="wholesale">
             <h2>Оптовая торговля</h2>
             <ul>
                 <li class="tab to_econom active"><a href="to_econom">Эконом</a></li>
                 <li class="tab to_standart"><a href="to_standart">Стандарт</a></li>
             </ul>
             <div class="price_content">
-                <div class="econom">содержимое первого блока</div>
+                <div class="econom">
+                    <div class="econom">
+                        <div class="row">
+                            <div class="col l3 photo"><img src="img/jacarta.png" alt="JaCarta"></div>
+                            <div class="col l5 desc">
+                                <p>Для фиксации закупок. <br> Необходимо подключиться до 1 января 2016 г.</p>
+                                <div class="price_item">
+                                    <p>
+                                        <span class="name">JaCarta</span> - Сертифицированный защищенный носитель для ЕГАИС JaCarta SE (PKI/ГОСТ)
+                                        <br><span class="price">2 000 <i class="fa fa-rub"></i></span>
+                                    </p>
+                                </div>
+                                <div class="price_item">
+                                    <p>
+                                        <span class="name">КЭП </span> - Квалифицированный сертификат электронной подписи для ЕГАИС на 15 месяцев
+                                        <br><span class="price">3 000 <i class="fa fa-rub"></i></span>
+                                    </p>
+                                </div>
+                                <div class="price_item">
+                                    <img class="oneC" src="img/1c.png" alt="1c">
+                                    <p>
+                                        <span class="name">1С Розница</span> - Система товароучета
+                                        <br><span class="price">3 300 <i class="fa fa-rub"></i></span>
+                                    </p>
+                                </div>
+                                <div class="price_item">
+                                    <p>
+                                        <span class="name">Интеграция </span> - Работы по настройке и обучение
+                                        <br><span class="price">11 900 <i class="fa fa-rub"></i></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col l4 total_price">
+                                <p>Цена <span>20 200 <i class="fa fa-rub"></i></span></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l8 offset-l3">
+                                <div class="hl"></div>
+                                <div class="row price_footer">
+                                    <div class="col l6">
+                                        <img src="img/ds5.png" class="right" alt="">
+                                        <p>ТСД MobileBase DS5 - <span class="price">74 900<i class="fa fa-rub"></i></span><br>(при больших объемах приемки алкоголя рекомендуется приобретение терминала сбора данных для проверки подлинности принимаемого товара онлайн через сервис ФСРАР)</p>
+                                    </div>
+                                    <div class="col l6">
+                                        <img src="img/apc.png" class="right" alt="">
+                                        <p>ИБП - <span class="price">12 000<i class="fa fa-rub"></i></span><br>(для защиты оборудования от перепадов в системе электропитания, чтобы избежать потери данных при передаче в ЕГАИС рекомендуется приобретение источника бесперебойного питания)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="standart">содержимое второго блока</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="add_equip" id="equip">
+            <div class="row"><h2>Дополнительное оборудование</h2></div>
+            <div class="row">
+                <div class="col l5">
+                    <div class="nettop">
+                        <h4><span>Неттоп</span> - Lenovo ThinkCentre</h4>
+                        <ul>
+                            <li>Процессор: Intel Celeron J1800 2.41 GHz</li>
+                            <li>Объем RAM: 2048 Mb</li>
+                            <li>Встроенная память: 500Gb</li>
+                            <li>Интерфейсы: Wi-Fi, Bluetooth, USB 2.0, USB 3.0 x 1</li>
+                            <li>Операционная система: Windows 8.1</li>
+                            <li>В комплекте - Клавиатура, мышь</li>
+                        </ul>
+                        <p>Оптимальное решение для установки учетной системы и УТМ ЕГАИС соответствующее техническим требованиям.</p>
+                        <div class="total_price">
+                            <p>Цена <span>74 900 <i class="fa fa-rub"></i></span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l7">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col l6">
+
+                </div>
+                <div class="col l6">
+
+                </div>
             </div>
         </div>
     </div>
@@ -218,6 +445,73 @@
 <script type="text/javascript" src="js/materialize.min.js"></script>
 <script>
     $(document).ready(function () {
+        function showLogo(){
+            var $menu = $(".top_menu");
+
+            if($menu.hasClass('default')){
+                $('.menu_logo').hide();
+            }else{
+                $('.menu_logo').show();
+
+            }
+        }
+        showLogo();
+        var $menu = $(".top_menu");
+        $(window).scroll(function(){
+            if ( $(this).scrollTop() > 100 && $menu.hasClass("default") ){
+                $menu.removeClass("default").addClass("fixed");
+            } else if($(this).scrollTop() <= 100 && $menu.hasClass("fixed")) {
+                $menu.removeClass("fixed").addClass("default");
+            }
+            showLogo();
+        });//scroll
+        var lastId,
+                topMenu = $(".top_menu"),
+                topMenuHeight = topMenu.outerHeight()+15,
+        // All list items
+                menuItems = topMenu.find("a"),
+        // Anchors corresponding to menu items
+                scrollItems = menuItems.map(function(){
+                    var item = $($(this).attr("href"));
+                    if (item.length) { return item; }
+                });
+
+        $(window).scroll(function(){
+            // Get container scroll position
+            var fromTop = $(this).scrollTop()+topMenuHeight;
+
+            // Get id of current scroll item
+            var cur = scrollItems.map(function(){
+                if ($(this).offset().top < fromTop)
+                    return this;
+            });
+            // Get the id of the current element
+            cur = cur[cur.length-1];
+            var id = cur && cur.length ? cur[0].id : "";
+
+            if (lastId !== id) {
+                lastId = id;
+                // Set/remove active class
+                menuItems
+                        .parent().removeClass("active")
+                        .end().filter("[href=#"+id+"]").parent().addClass("active");
+            }
+        });
+        $(".top_menu").on("click","a", function (event) {
+            //отменяем стандартную обработку нажатия по ссылке
+            event.preventDefault();
+
+            //забираем идентификатор бока с атрибута href
+            var id  = $(this).attr('href'),
+
+            //узнаем высоту от начала страницы до блока на который ссылается якорь
+                    top = $(id).offset().top;
+            if($(this).attr('href')=='#aboutEGAIS'){
+                top = top-120;
+            }
+            //анимируем переход на расстояние - top за 1500 мс
+            $('body,html').animate({scrollTop: top}, 1500);
+        });
         $('.tab a').click(function (e) {
             e.preventDefault();
             var link = $(this).attr('href');
