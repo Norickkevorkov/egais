@@ -2,12 +2,31 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
+    .container{
+        width: 90%;
+    }
 }
-
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+    .phone{
+        display: none;
+    }
+    header{
+        position: relative;
+    }
+    nav.top_menu{
+        background: url("/img/mobile_menu_button.png") no-repeat;
+        right: 1%;
+        top: 3%;
+        position: fixed;
+        display: block;
+        z-index: 10;
+        width: 50px;
+        cursor: pointer;
+    }
+    nav.top_menu ul{
+        display: none;
+    }
 }
 
 /* Small Devices, Tablets */
