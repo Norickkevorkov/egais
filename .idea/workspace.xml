@@ -2,101 +2,250 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fbdecd0-f2f8-4798-8fdb-aafb4b59a384" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\css\fonts.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\css\materialize.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\css\materialize.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\css\normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\css\normalize.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\css\style.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\custom.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuBoldItalic\UbuntuBoldItalic.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuBoldItalic\UbuntuBoldItalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuBoldItalic\UbuntuBoldItalic.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuBold\UbuntuBold.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuBold\UbuntuBold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuBold\UbuntuBold.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuItalic\UbuntuItalic.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuItalic\UbuntuItalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuItalic\UbuntuItalic.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuLightItalic\UbuntuLightItalic.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuLightItalic\UbuntuLightItalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuLightItalic\UbuntuLightItalic.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuLight\UbuntuLight.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuLight\UbuntuLight.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuLight\UbuntuLight.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuMediumItalic\UbuntuMediumItalic.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuMediumItalic\UbuntuMediumItalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuMediumItalic\UbuntuMediumItalic.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuMedium\UbuntuMedium.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuMedium\UbuntuMedium.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuMedium\UbuntuMedium.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuRegular\UbuntuRegular.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuRegular\UbuntuRegular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuRegular\UbuntuRegular.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\material-design-icons\LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\material-design-icons\Material-Design-Icons.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\material-design-icons\Material-Design-Icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\material-design-icons\Material-Design-Icons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\material-design-icons\Material-Design-Icons.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\material-design-icons\Material-Design-Icons.woff2" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\roboto\Roboto-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\roboto\Roboto-Bold.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\roboto\Roboto-Bold.woff2" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\roboto\Roboto-Light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\roboto\Roboto-Light.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\roboto\Roboto-Light.woff2" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\roboto\Roboto-Medium.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\roboto\Roboto-Medium.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\roboto\Roboto-Medium.woff2" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\roboto\Roboto-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\roboto\Roboto-Regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\roboto\Roboto-Regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\roboto\Roboto-Thin.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\roboto\Roboto-Thin.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\roboto\Roboto-Thin.woff2" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\1c.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\2d-scaner.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\active_list_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\add_equip_list.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\apc.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\cashboxes.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\dotted.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\ds5.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\fiskal_registrators.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\footer_form_bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\for_rest.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\for_retail.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\for_wholesale.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\hl.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\ibs.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\jacarta.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\keyboard.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\kontur.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\list_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\list_style.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\logo.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\logo_top_menu.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\monitor.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\nettop.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\phone.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\pic_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\pic_bg_hovered.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\pos.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\price_list_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\price_list_bg1.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\quote.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\retail_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\scheme.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\slide.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\tsd-module.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\js\inputmask.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\js\inputmask.phone.extensions.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\js\jquery.inputmask.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\js\materialize.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\js\materialize.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\mail.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/1c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/2d-scaner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DS5-big.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/material-design-icons/Material-Design-Icons.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/material-design-icons/Material-Design-Icons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/material-design-icons/Material-Design-Icons.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/material-design-icons/Material-Design-Icons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Bold.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Bold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Light.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Light.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Medium.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Medium.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Medium.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Thin.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Thin.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Thin.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/UbuntuBold/UbuntuBold.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/UbuntuBold/UbuntuBold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/UbuntuBold/UbuntuBold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/UbuntuBoldItalic/UbuntuBoldItalic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/UbuntuBoldItalic/UbuntuBoldItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/UbuntuBoldItalic/UbuntuBoldItalic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/UbuntuItalic/UbuntuItalic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/UbuntuItalic/UbuntuItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/UbuntuItalic/UbuntuItalic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/UbuntuLight/UbuntuLight.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/UbuntuLight/UbuntuLight.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/UbuntuLight/UbuntuLight.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/UbuntuLightItalic/UbuntuLightItalic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/UbuntuLightItalic/UbuntuLightItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/UbuntuLightItalic/UbuntuLightItalic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/UbuntuMedium/UbuntuMedium.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/UbuntuMedium/UbuntuMedium.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/UbuntuMedium/UbuntuMedium.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/UbuntuMediumItalic/UbuntuMediumItalic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/UbuntuMediumItalic/UbuntuMediumItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/UbuntuMediumItalic/UbuntuMediumItalic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/UbuntuRegular/UbuntuRegular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/UbuntuRegular/UbuntuRegular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/UbuntuRegular/UbuntuRegular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/active_list_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/add_equip_list.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/apc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/aps-big.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/atol-lite.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cashboxes.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commerce_offer_1c_roznica.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commerce_offer_1c_utap.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commerce_offer_contur.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commerce_offer_dalion.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dotted.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/download_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/ds5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/helpers/fancybox_buttons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/fancybox_loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/fancybox_loading@2x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/fancybox_overlay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/fancybox_sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/fancybox_sprite@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/fiskal_registrators.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/footer_form_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/for_rest.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/for_retail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/for_wholesale.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/ibs.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jacarta.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jacarta_big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/keyboard.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/kontur.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/list_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/list_style.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo_top_menu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/monitor.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/nettop.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/phone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pic_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pic_bg_hovered.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pos.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/quote.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scheme.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/slide.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/tsd-module.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/utab_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/material-design-icons/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/material-design-icons/Material-Design-Icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ask_question.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/fonts.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/inputmask.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/inputmask.phone.extensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery-1.10.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/helpers/jquery.fancybox-buttons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/helpers/jquery.fancybox-buttons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/helpers/jquery.fancybox-media.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/helpers/jquery.fancybox-thumbs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/helpers/jquery.fancybox-thumbs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/jquery.fancybox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/jquery.fancybox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/jquery.fancybox.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.inputmask.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery.mousewheel.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/materialize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/materialize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/materialize.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/materialize.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/media.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/normalize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/normalize.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\ask_question.php" afterPath="$PROJECT_DIR$/ask_question.php" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\commerce_offer_1c_roznica.pdf" afterPath="$PROJECT_DIR$/commerce_offer_1c_roznica.pdf" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\commerce_offer_1c_utap.pdf" afterPath="$PROJECT_DIR$/commerce_offer_1c_utap.pdf" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\commerce_offer_contur.pdf" afterPath="$PROJECT_DIR$/commerce_offer_contur.pdf" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\commerce_offer_dalion.pdf" afterPath="$PROJECT_DIR$/commerce_offer_dalion.pdf" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\css\fonts.css" afterPath="$PROJECT_DIR$/css/fonts.css" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\css\materialize.css" afterPath="$PROJECT_DIR$/css/materialize.css" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\css\materialize.min.css" afterPath="$PROJECT_DIR$/css/materialize.min.css" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\css\media.css" afterPath="$PROJECT_DIR$/css/media.css" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\css\normalize.css" afterPath="$PROJECT_DIR$/css/normalize.css" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\css\normalize.min.css" afterPath="$PROJECT_DIR$/css/normalize.min.css" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\css\style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\custom.js" afterPath="$PROJECT_DIR$/custom.js" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\favicon.ico" afterPath="$PROJECT_DIR$/favicon.ico" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\UbuntuBoldItalic\UbuntuBoldItalic.eot" afterPath="$PROJECT_DIR$/font/UbuntuBoldItalic/UbuntuBoldItalic.eot" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\UbuntuBoldItalic\UbuntuBoldItalic.ttf" afterPath="$PROJECT_DIR$/font/UbuntuBoldItalic/UbuntuBoldItalic.ttf" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\UbuntuBoldItalic\UbuntuBoldItalic.woff" afterPath="$PROJECT_DIR$/font/UbuntuBoldItalic/UbuntuBoldItalic.woff" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\UbuntuBold\UbuntuBold.eot" afterPath="$PROJECT_DIR$/font/UbuntuBold/UbuntuBold.eot" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\UbuntuBold\UbuntuBold.ttf" afterPath="$PROJECT_DIR$/font/UbuntuBold/UbuntuBold.ttf" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\UbuntuBold\UbuntuBold.woff" afterPath="$PROJECT_DIR$/font/UbuntuBold/UbuntuBold.woff" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\UbuntuItalic\UbuntuItalic.eot" afterPath="$PROJECT_DIR$/font/UbuntuItalic/UbuntuItalic.eot" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\UbuntuItalic\UbuntuItalic.ttf" afterPath="$PROJECT_DIR$/font/UbuntuItalic/UbuntuItalic.ttf" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\UbuntuItalic\UbuntuItalic.woff" afterPath="$PROJECT_DIR$/font/UbuntuItalic/UbuntuItalic.woff" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\UbuntuLightItalic\UbuntuLightItalic.eot" afterPath="$PROJECT_DIR$/font/UbuntuLightItalic/UbuntuLightItalic.eot" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\UbuntuLightItalic\UbuntuLightItalic.ttf" afterPath="$PROJECT_DIR$/font/UbuntuLightItalic/UbuntuLightItalic.ttf" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\UbuntuLightItalic\UbuntuLightItalic.woff" afterPath="$PROJECT_DIR$/font/UbuntuLightItalic/UbuntuLightItalic.woff" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\UbuntuLight\UbuntuLight.eot" afterPath="$PROJECT_DIR$/font/UbuntuLight/UbuntuLight.eot" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\UbuntuLight\UbuntuLight.ttf" afterPath="$PROJECT_DIR$/font/UbuntuLight/UbuntuLight.ttf" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\UbuntuLight\UbuntuLight.woff" afterPath="$PROJECT_DIR$/font/UbuntuLight/UbuntuLight.woff" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\UbuntuMediumItalic\UbuntuMediumItalic.eot" afterPath="$PROJECT_DIR$/font/UbuntuMediumItalic/UbuntuMediumItalic.eot" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\UbuntuMediumItalic\UbuntuMediumItalic.ttf" afterPath="$PROJECT_DIR$/font/UbuntuMediumItalic/UbuntuMediumItalic.ttf" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\UbuntuMediumItalic\UbuntuMediumItalic.woff" afterPath="$PROJECT_DIR$/font/UbuntuMediumItalic/UbuntuMediumItalic.woff" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\UbuntuMedium\UbuntuMedium.eot" afterPath="$PROJECT_DIR$/font/UbuntuMedium/UbuntuMedium.eot" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\UbuntuMedium\UbuntuMedium.ttf" afterPath="$PROJECT_DIR$/font/UbuntuMedium/UbuntuMedium.ttf" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\UbuntuMedium\UbuntuMedium.woff" afterPath="$PROJECT_DIR$/font/UbuntuMedium/UbuntuMedium.woff" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\UbuntuRegular\UbuntuRegular.eot" afterPath="$PROJECT_DIR$/font/UbuntuRegular/UbuntuRegular.eot" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\UbuntuRegular\UbuntuRegular.ttf" afterPath="$PROJECT_DIR$/font/UbuntuRegular/UbuntuRegular.ttf" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\UbuntuRegular\UbuntuRegular.woff" afterPath="$PROJECT_DIR$/font/UbuntuRegular/UbuntuRegular.woff" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\material-design-icons\LICENSE.txt" afterPath="$PROJECT_DIR$/font/material-design-icons/LICENSE.txt" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\material-design-icons\Material-Design-Icons.eot" afterPath="$PROJECT_DIR$/font/material-design-icons/Material-Design-Icons.eot" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\material-design-icons\Material-Design-Icons.svg" afterPath="$PROJECT_DIR$/font/material-design-icons/Material-Design-Icons.svg" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\material-design-icons\Material-Design-Icons.ttf" afterPath="$PROJECT_DIR$/font/material-design-icons/Material-Design-Icons.ttf" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\material-design-icons\Material-Design-Icons.woff" afterPath="$PROJECT_DIR$/font/material-design-icons/Material-Design-Icons.woff" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\material-design-icons\Material-Design-Icons.woff2" afterPath="$PROJECT_DIR$/font/material-design-icons/Material-Design-Icons.woff2" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\roboto\Roboto-Bold.ttf" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Bold.ttf" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\roboto\Roboto-Bold.woff" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Bold.woff" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\roboto\Roboto-Bold.woff2" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Bold.woff2" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\roboto\Roboto-Light.ttf" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Light.ttf" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\roboto\Roboto-Light.woff" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Light.woff" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\roboto\Roboto-Light.woff2" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Light.woff2" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\roboto\Roboto-Medium.ttf" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Medium.ttf" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\roboto\Roboto-Medium.woff" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Medium.woff" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\roboto\Roboto-Medium.woff2" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Medium.woff2" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\roboto\Roboto-Regular.ttf" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Regular.ttf" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\roboto\Roboto-Regular.woff" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Regular.woff" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\roboto\Roboto-Regular.woff2" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Regular.woff2" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\roboto\Roboto-Thin.ttf" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Thin.ttf" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\roboto\Roboto-Thin.woff" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Thin.woff" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\font\roboto\Roboto-Thin.woff2" afterPath="$PROJECT_DIR$/font/roboto/Roboto-Thin.woff2" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\1c.png" afterPath="$PROJECT_DIR$/img/1c.png" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\2d-scaner.jpg" afterPath="$PROJECT_DIR$/img/2d-scaner.jpg" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\DS5-big.jpg" afterPath="$PROJECT_DIR$/img/DS5-big.jpg" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\active_list_bg.png" afterPath="$PROJECT_DIR$/img/active_list_bg.png" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\add_equip_list.png" afterPath="$PROJECT_DIR$/img/add_equip_list.png" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\apc.png" afterPath="$PROJECT_DIR$/img/apc.png" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\aps-big.jpg" afterPath="$PROJECT_DIR$/img/aps-big.jpg" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\atol-lite.jpg" afterPath="$PROJECT_DIR$/img/atol-lite.jpg" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\cashboxes.jpg" afterPath="$PROJECT_DIR$/img/cashboxes.jpg" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\dotted.png" afterPath="$PROJECT_DIR$/img/dotted.png" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\download_button.png" afterPath="$PROJECT_DIR$/img/download_button.png" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\ds5.png" afterPath="$PROJECT_DIR$/img/ds5.png" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\fiskal_registrators.jpg" afterPath="$PROJECT_DIR$/img/fiskal_registrators.jpg" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\footer_form_bg.jpg" afterPath="$PROJECT_DIR$/img/footer_form_bg.jpg" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\for_rest.png" afterPath="$PROJECT_DIR$/img/for_rest.png" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\for_retail.png" afterPath="$PROJECT_DIR$/img/for_retail.png" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\for_wholesale.png" afterPath="$PROJECT_DIR$/img/for_wholesale.png" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\hl.png" afterPath="$PROJECT_DIR$/img/hl.png" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\ibs.jpg" afterPath="$PROJECT_DIR$/img/ibs.jpg" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\jacarta.png" afterPath="$PROJECT_DIR$/img/jacarta.png" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\jacarta_big.png" afterPath="$PROJECT_DIR$/img/jacarta_big.png" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\keyboard.jpg" afterPath="$PROJECT_DIR$/img/keyboard.jpg" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\kontur.png" afterPath="$PROJECT_DIR$/img/kontur.png" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\list_bg.png" afterPath="$PROJECT_DIR$/img/list_bg.png" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\list_style.png" afterPath="$PROJECT_DIR$/img/list_style.png" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\logo.png" afterPath="$PROJECT_DIR$/img/logo.png" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\logo_top_menu.png" afterPath="$PROJECT_DIR$/img/logo_top_menu.png" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\monitor.jpg" afterPath="$PROJECT_DIR$/img/monitor.jpg" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\nettop.jpg" afterPath="$PROJECT_DIR$/img/nettop.jpg" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\phone.png" afterPath="$PROJECT_DIR$/img/phone.png" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\pic_bg.png" afterPath="$PROJECT_DIR$/img/pic_bg.png" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\pic_bg_hovered.png" afterPath="$PROJECT_DIR$/img/pic_bg_hovered.png" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\pos.png" afterPath="$PROJECT_DIR$/img/pos.png" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\quote.png" afterPath="$PROJECT_DIR$/img/quote.png" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\scheme.jpg" afterPath="$PROJECT_DIR$/img/scheme.jpg" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\slide.jpg" afterPath="$PROJECT_DIR$/img/slide.jpg" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\tsd-module.jpg" afterPath="$PROJECT_DIR$/img/tsd-module.jpg" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\img\utab_bg.png" afterPath="$PROJECT_DIR$/img/utab_bg.png" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\js\inputmask.js" afterPath="$PROJECT_DIR$/js/inputmask.js" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\js\inputmask.phone.extensions.js" afterPath="$PROJECT_DIR$/js/inputmask.phone.extensions.js" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\js\jquery.inputmask.js" afterPath="$PROJECT_DIR$/js/jquery.inputmask.js" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\js\materialize.js" afterPath="$PROJECT_DIR$/js/materialize.js" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\js\materialize.min.js" afterPath="$PROJECT_DIR$/js/materialize.min.js" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\lib\jquery-1.10.2.min.js" afterPath="$PROJECT_DIR$/lib/jquery-1.10.2.min.js" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\lib\jquery.mousewheel.pack.js" afterPath="$PROJECT_DIR$/lib/jquery.mousewheel.pack.js" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\mail.php" afterPath="$PROJECT_DIR$/mail.php" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\robots.txt" afterPath="$PROJECT_DIR$/robots.txt" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\source\blank.gif" afterPath="$PROJECT_DIR$/source/blank.gif" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\source\fancybox_loading.gif" afterPath="$PROJECT_DIR$/source/fancybox_loading.gif" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\source\fancybox_loading@2x.gif" afterPath="$PROJECT_DIR$/source/fancybox_loading@2x.gif" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\source\fancybox_overlay.png" afterPath="$PROJECT_DIR$/source/fancybox_overlay.png" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\source\fancybox_sprite.png" afterPath="$PROJECT_DIR$/source/fancybox_sprite.png" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\source\fancybox_sprite@2x.png" afterPath="$PROJECT_DIR$/source/fancybox_sprite@2x.png" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\source\helpers\fancybox_buttons.png" afterPath="$PROJECT_DIR$/source/helpers/fancybox_buttons.png" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\source\helpers\jquery.fancybox-buttons.css" afterPath="$PROJECT_DIR$/source/helpers/jquery.fancybox-buttons.css" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\source\helpers\jquery.fancybox-buttons.js" afterPath="$PROJECT_DIR$/source/helpers/jquery.fancybox-buttons.js" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\source\helpers\jquery.fancybox-media.js" afterPath="$PROJECT_DIR$/source/helpers/jquery.fancybox-media.js" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\source\helpers\jquery.fancybox-thumbs.css" afterPath="$PROJECT_DIR$/source/helpers/jquery.fancybox-thumbs.css" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\source\helpers\jquery.fancybox-thumbs.js" afterPath="$PROJECT_DIR$/source/helpers/jquery.fancybox-thumbs.js" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\source\jquery.fancybox.css" afterPath="$PROJECT_DIR$/source/jquery.fancybox.css" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\source\jquery.fancybox.js" afterPath="$PROJECT_DIR$/source/jquery.fancybox.js" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\egais\егаис-сервис.рф\source\jquery.fancybox.pack.js" afterPath="$PROJECT_DIR$/source/jquery.fancybox.pack.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="egais.iws" />
@@ -125,21 +274,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="media.css" pinned="true" current-in-tab="false">
-        <entry file="REMOTE_DEPLOYMENT_FS://&lt;61c534bb-4827-491f-9803-70ac6dd65c26&gt;/var/www/ruteko_admin_ftp/data/www/егаис-сервис.рф/css/media.css">
+      <file leaf-file-name="fonts.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/fonts.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.864864">
-              <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="true" current-in-tab="true">
-        <entry file="REMOTE_DEPLOYMENT_FS://&lt;61c534bb-4827-491f-9803-70ac6dd65c26&gt;/var/www/ruteko_admin_ftp/data/www/егаис-сервис.рф/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7084079">
-              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -259,6 +398,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="egais" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="egais" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="egais" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="egais" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -280,6 +443,9 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\egais" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\OpenServer\domains\egais\img" />
       <recent name="C:\OpenServer\domains\egais\css" />
@@ -333,16 +499,16 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Remote Host" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18520783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20110025" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18520783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20110025" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294621" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26815644" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26815644" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28715083" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28715083" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -427,6 +593,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.161291">
           <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
