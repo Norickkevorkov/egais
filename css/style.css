@@ -299,11 +299,9 @@ button[type="submit"]:hover{
     overflow: hidden;
 }
 .price_content .photo img {
-    display: inline-block;
     float: right;
     border: 1px solid #b3b1b3;
-    width: 185px;
-    height: 140px;
+    padding: 20px;
 }
 .price_content .standart{
     display: none;
@@ -313,7 +311,7 @@ button[type="submit"]:hover{
     font-size: 18px;
 }
 .price_item p{
-    padding-left: 70px;
+    padding-left: 20px;
     font-size: 15px;
 }
 .price_item ul{
@@ -331,20 +329,26 @@ button[type="submit"]:hover{
     position: absolute;
     margin-top: 5px;
 }
-.price_content .total_price p{
-    margin-left: -20px;
+.price_content .total_price{
+    height: 100%;
+    position: absolute;
+    top: 75%;
+    right: 0;
 }
 .total_price p{
     font-family: "UbuntuLight";
-    font-size: 30px;
+    font-size: 24px;
     color: #999999;
 }
 .total_price p span{
-    font-size: 49px;
+    font-size: 40px;
     color: #07233e;
 }
+.total_price p span.ot{
+    font-size: 28px;
+}
 .total_price p span i{
-    font-size: 30px;
+    font-size: 24px;
 }
 
 p.total_price_desc{
