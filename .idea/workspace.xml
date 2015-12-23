@@ -2,12 +2,101 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fbdecd0-f2f8-4798-8fdb-aafb4b59a384" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/footer_form_bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/price_list_bg.png" afterPath="$PROJECT_DIR$/img/price_list_bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/price_list_bg1.png" afterPath="$PROJECT_DIR$/img/price_list_bg1.png" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\css\fonts.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\css\materialize.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\css\materialize.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\css\normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\css\normalize.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\css\style.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\custom.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuBoldItalic\UbuntuBoldItalic.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuBoldItalic\UbuntuBoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuBoldItalic\UbuntuBoldItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuBold\UbuntuBold.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuBold\UbuntuBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuBold\UbuntuBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuItalic\UbuntuItalic.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuItalic\UbuntuItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuItalic\UbuntuItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuLightItalic\UbuntuLightItalic.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuLightItalic\UbuntuLightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuLightItalic\UbuntuLightItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuLight\UbuntuLight.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuLight\UbuntuLight.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuLight\UbuntuLight.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuMediumItalic\UbuntuMediumItalic.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuMediumItalic\UbuntuMediumItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuMediumItalic\UbuntuMediumItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuMedium\UbuntuMedium.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuMedium\UbuntuMedium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuMedium\UbuntuMedium.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuRegular\UbuntuRegular.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuRegular\UbuntuRegular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\UbuntuRegular\UbuntuRegular.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\material-design-icons\LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\material-design-icons\Material-Design-Icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\material-design-icons\Material-Design-Icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\material-design-icons\Material-Design-Icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\material-design-icons\Material-Design-Icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\material-design-icons\Material-Design-Icons.woff2" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\roboto\Roboto-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\roboto\Roboto-Bold.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\roboto\Roboto-Bold.woff2" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\roboto\Roboto-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\roboto\Roboto-Light.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\roboto\Roboto-Light.woff2" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\roboto\Roboto-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\roboto\Roboto-Medium.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\roboto\Roboto-Medium.woff2" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\roboto\Roboto-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\roboto\Roboto-Regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\roboto\Roboto-Regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\roboto\Roboto-Thin.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\roboto\Roboto-Thin.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\font\roboto\Roboto-Thin.woff2" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\1c.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\2d-scaner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\active_list_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\add_equip_list.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\apc.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\cashboxes.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\dotted.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\ds5.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\fiskal_registrators.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\footer_form_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\for_rest.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\for_retail.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\for_wholesale.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\hl.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\ibs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\jacarta.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\keyboard.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\kontur.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\list_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\list_style.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\logo_top_menu.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\monitor.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\nettop.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\phone.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\pic_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\pic_bg_hovered.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\pos.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\price_list_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\price_list_bg1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\quote.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\retail_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\scheme.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\slide.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\img\tsd-module.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\js\inputmask.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\js\inputmask.phone.extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\js\jquery.inputmask.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\js\materialize.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\js\materialize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\egais\mail.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="egais.iws" />
@@ -36,27 +125,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="true" current-in-tab="true">
-        <entry file="REMOTE_DEPLOYMENT_FS://&lt;61c534bb-4827-491f-9803-70ac6dd65c26&gt;/var/www/ruteko_admin_ftp/data/www/егаис-сервис.рф/index.html">
+      <file leaf-file-name="media.css" pinned="true" current-in-tab="false">
+        <entry file="REMOTE_DEPLOYMENT_FS://&lt;61c534bb-4827-491f-9803-70ac6dd65c26&gt;/var/www/ruteko_admin_ftp/data/www/егаис-сервис.рф/css/media.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6152344">
-              <caret line="542" column="0" selection-start-line="542" selection-start-column="0" selection-end-line="542" selection-end-column="0" />
-              <folding>
-                <element signature="n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#4;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="-18.864864">
+              <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="true" current-in-tab="false">
-        <entry file="REMOTE_DEPLOYMENT_FS://&lt;61c534bb-4827-491f-9803-70ac6dd65c26&gt;/var/www/ruteko_admin_ftp/data/www/егаис-сервис.рф/css/style.css">
+      <file leaf-file-name="index.html" pinned="true" current-in-tab="true">
+        <entry file="REMOTE_DEPLOYMENT_FS://&lt;61c534bb-4827-491f-9803-70ac6dd65c26&gt;/var/www/ruteko_admin_ftp/data/www/егаис-сервис.рф/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5">
-              <caret line="451" column="23" selection-start-line="451" selection-start-column="23" selection-end-line="451" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.7084079">
+              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -93,12 +176,8 @@
         <option value="&lt;905e4a1a-f7e1-41f4-a30a-f6f1d5088fdd&gt;/www/cartridge-nv.ru/hostcmsfiles/lib/lib_26/lib_26.php" />
         <option value="&lt;905e4a1a-f7e1-41f4-a30a-f6f1d5088fdd&gt;/www/cartridge-nv.ru/hostcmsfiles/xsl/174.xsl" />
         <option value="&lt;905e4a1a-f7e1-41f4-a30a-f6f1d5088fdd&gt;/www/cartridge-nv.ru/hostcmsfiles/jquery/jquery.validate.min.js" />
-        <option value="&lt;905e4a1a-f7e1-41f4-a30a-f6f1d5088fdd&gt;/www/cartridge-nv.ru/templates/template7/template.htm" />
-        <option value="&lt;905e4a1a-f7e1-41f4-a30a-f6f1d5088fdd&gt;/www/cartridge-nv.ru/hostcmsfiles/xsl/28.xsl" />
         <option value="&lt;905e4a1a-f7e1-41f4-a30a-f6f1d5088fdd&gt;/www/cartridge-nv.ru/hostcmsfiles/xsl/56.xsl" />
         <option value="&lt;905e4a1a-f7e1-41f4-a30a-f6f1d5088fdd&gt;/www/cartridge-nv.ru/templates/template11/template.htm" />
-        <option value="&lt;905e4a1a-f7e1-41f4-a30a-f6f1d5088fdd&gt;/www/cartridge-nv.ru/templates/template1/style.css" />
-        <option value="&lt;905e4a1a-f7e1-41f4-a30a-f6f1d5088fdd&gt;/www/cartridge-nv.ru/templates/template1/template.htm" />
         <option value="&lt;61c534bb-4827-491f-9803-70ac6dd65c26&gt;/var/www/aleksey/data/www/kontur.guru/templates/template1/template.htm" />
         <option value="&lt;61c534bb-4827-491f-9803-70ac6dd65c26&gt;/var/www/aleksey/data/www/kontur.guru/hostcmsfiles/lib/lib_1/lib_config_1.php" />
         <option value="&lt;61c534bb-4827-491f-9803-70ac6dd65c26&gt;/var/www/ruteko_admin_ftp/data/www/guru.ruteko.ru/templates/template7/template.htm" />
@@ -108,11 +187,25 @@
         <option value="$PROJECT_DIR$/css/fonts.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="&lt;61c534bb-4827-491f-9803-70ac6dd65c26&gt;/var/www/ruteko_admin_ftp/data/www/егаис-алко.рф/index.html" />
         <option value="&lt;61c534bb-4827-491f-9803-70ac6dd65c26&gt;/var/www/ruteko_admin_ftp/data/www/егаис-сервис.рф/mail.php" />
         <option value="&lt;61c534bb-4827-491f-9803-70ac6dd65c26&gt;/var/www/ruteko_admin_ftp/data/www/егаис-алко.рф/mail.php" />
+        <option value="&lt;61c534bb-4827-491f-9803-70ac6dd65c26&gt;/var/www/ruteko_admin_ftp/data/www/егаис-сервис.рф/ask_question.php" />
+        <option value="&lt;61c534bb-4827-491f-9803-70ac6dd65c26&gt;/var/www/ruteko_admin_ftp/data/www/егаис-сервис.рф/confidencial_police.html" />
         <option value="&lt;61c534bb-4827-491f-9803-70ac6dd65c26&gt;/var/www/ruteko_admin_ftp/data/www/егаис-сервис.рф/custom.js" />
+        <option value="&lt;61c534bb-4827-491f-9803-70ac6dd65c26&gt;/var/www/ruteko_admin_ftp/data/www/егаис-сервис.рф/robots.txt" />
+        <option value="&lt;61c534bb-4827-491f-9803-70ac6dd65c26&gt;/var/www/ruteko_admin_ftp/data/www/егаис-алко.рф/robots.txt" />
+        <option value="&lt;905e4a1a-f7e1-41f4-a30a-f6f1d5088fdd&gt;/www/cartridge-nv.ru/templates/template8/template.htm" />
+        <option value="&lt;905e4a1a-f7e1-41f4-a30a-f6f1d5088fdd&gt;/www/cartridge-nv.ru/templates/template9/template.htm" />
+        <option value="&lt;905e4a1a-f7e1-41f4-a30a-f6f1d5088fdd&gt;/www/cartridge-nv.ru/templates/template7/template.htm" />
+        <option value="&lt;905e4a1a-f7e1-41f4-a30a-f6f1d5088fdd&gt;/www/cartridge-nv.ru/hostcmsfiles/xsl/57.xsl" />
+        <option value="&lt;905e4a1a-f7e1-41f4-a30a-f6f1d5088fdd&gt;/www/cartridge-nv.ru/hostcmsfiles/xsl/74.xsl" />
+        <option value="&lt;905e4a1a-f7e1-41f4-a30a-f6f1d5088fdd&gt;/www/cartridge-nv.ru/hostcmsfiles/shop/pay/handler26.php" />
+        <option value="&lt;905e4a1a-f7e1-41f4-a30a-f6f1d5088fdd&gt;/www/cartridge-nv.ru/hostcmsfiles/xsl/28.xsl" />
+        <option value="&lt;905e4a1a-f7e1-41f4-a30a-f6f1d5088fdd&gt;/www/cartridge-nv.ru/templates/template1/template.htm" />
+        <option value="&lt;61c534bb-4827-491f-9803-70ac6dd65c26&gt;/var/www/ruteko_admin_ftp/data/www/егаис-алко.рф/index.html" />
         <option value="&lt;61c534bb-4827-491f-9803-70ac6dd65c26&gt;/var/www/ruteko_admin_ftp/data/www/егаис-сервис.рф/css/style.css" />
+        <option value="&lt;905e4a1a-f7e1-41f4-a30a-f6f1d5088fdd&gt;/www/cartridge-nv.ru/templates/template1/style.css" />
+        <option value="&lt;61c534bb-4827-491f-9803-70ac6dd65c26&gt;/var/www/ruteko_admin_ftp/data/www/егаис-сервис.рф/css/media.css" />
         <option value="&lt;61c534bb-4827-491f-9803-70ac6dd65c26&gt;/var/www/ruteko_admin_ftp/data/www/егаис-сервис.рф/index.html" />
       </list>
     </option>
@@ -157,7 +250,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -166,33 +259,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="egais" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="egais" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="egais" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="egais" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,16 +333,16 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18520783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.094743274" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18520783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20110025" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294621" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26815644" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26815644" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28826815" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28715083" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -323,136 +392,23 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>REMOTE_DEPLOYMENT_FS://&lt;61c534bb-4827-491f-9803-70ac6dd65c26&gt;/var/www/ruteko_admin_ftp/data/www/егаис-сервис.рф/index.html</url>
+          <line>627</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>REMOTE_DEPLOYMENT_FS://&lt;61c534bb-4827-491f-9803-70ac6dd65c26&gt;/var/www/ruteko_admin_ftp/data/www/егаис-сервис.рф/index.html</url>
+          <line>716</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/fonts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/fonts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="304" column="16" selection-start-line="304" selection-start-column="16" selection-end-line="304" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/fonts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="295" column="22" selection-start-line="295" selection-start-column="22" selection-end-line="295" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/fonts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="295" column="22" selection-start-line="295" selection-start-column="22" selection-end-line="295" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/fonts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="32" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/normalize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_5.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1653085">
@@ -472,58 +428,6 @@
         <state vertical-scroll-proportion="-20.161291">
           <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/normalize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="145" column="19" selection-start-line="145" selection-start-column="19" selection-end-line="145" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/normalize.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/materialize.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33293557">
-          <caret line="12" column="6233" selection-start-line="12" selection-start-column="6233" selection-end-line="12" selection-end-column="6233" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.81208056">
-          <caret line="303" column="34" selection-start-line="303" selection-start-column="34" selection-end-line="303" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/fonts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/footer_form_bg.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
   </component>

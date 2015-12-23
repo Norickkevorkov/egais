@@ -72,17 +72,17 @@ header{
 }
 .slide{
     overflow: hidden;
-    width: 1600px;
-    height: 644px;
-    background: url("/img/slide.jpg") no-repeat;
+    max-width: 1920px;
+    height: 768px;
+    background: url("/img/slide.jpg") no-repeat 50%;
     margin: -20px auto 0;
     position: relative;
 }
 .submit{
     position: absolute;
     top: 7%;
-    left: 45%;
-    width: 570px;
+    right: 11%;
+    width: 600px;
     height: 445px;
     background-color: rgba(255,255,255,0.5);
 }
@@ -99,14 +99,14 @@ header{
     margin: -15px 0 15px 25px;
     text-shadow: 1px 2px 0 #fff;
 }
-input {
+#main_form input {
     margin-left: 35px;
     vertical-align: middle;
     padding:8px 10px;
     border: 1px solid #999999;
     border-radius: 3px;
 }
-button[type="submit"]{
+#main_form button[type="submit"]{
     margin-left: 35px;
     vertical-align: middle;
     padding:8px 10px;
@@ -116,8 +116,14 @@ button[type="submit"]{
     height: 60px;
     border: none;
     color: #08233e;font-size: 20px;
-    background-color: #fbd348;
+    background-color: #ffc000;
     box-shadow: 0 5px 0 #cb8500;
+}
+#main_form h6{
+    margin-left: 35px;
+    margin-top: 25px;
+    font-size: 14px;
+    color: #08233e;
 }
 button[type="submit"]:hover{
     background-color: #ffc000;
@@ -197,24 +203,25 @@ button[type="submit"]:hover{
     text-indent: 10px;
 }
 .quoteblock{
-    background: url("/img/quote.png")no-repeat 3% 0%;
-    width: 100%;
+    background: url("/img/quote.png")no-repeat;
     height: 180px;
-    padding-top: 25px;
+    padding-top: 50px;
 }
 .quote{
     background-color: #eaf8ff;
-    width: 970px;
+    width: 90%;
+    margin: 0 auto;
     height: 95px;
     text-align: center;
-    margin: 0 auto;
     box-shadow: 0 0 20px rgba(0,0,0,0.3);
     border-radius: 5px;
+    vertical-align: middle;
 }
 .quote h3{
-    font-size: 21px;
+    font-size: 1.4vw;
+    margin-top: 30px;
     color: #08233e;
-    line-height: 4;
+    display: inline-block;
 }
 .scheme{
     background-color: #ffffff;
@@ -226,6 +233,10 @@ button[type="submit"]:hover{
     padding-top: 45px;
     margin-bottom: 0;
     font-size: 36px;
+}
+.scheme img{
+    width: 100%;
+    padding: 0 10px;
 }
 .price h2, .add_equip h2 {
     color: #08233e;
@@ -239,38 +250,47 @@ button[type="submit"]:hover{
 }
 .price .tab{
     height: 51px;
-    width: 331px;
+    width: 330px;
     text-align: center;
 }
 .price .tab a{
     margin-top: 10px;
-    font-size: 18px;
-    display: block;
+    font-size: 15px;
+    display: inline-block;
     color: #272727;
-}
-.price .to_standart{
-    position: relative;
-    top: -51px;
-    left: 295px;
+    border-image: url("/img/dotted.png") 3 repeat ;
+    border-width: 0 0 3px 0;
 }
 .price .tab.active{
-    background: url("/img/price_list_bg.png") no-repeat;
+    background: url("/img/active_list_bg.png")no-repeat;
+}
+.price .tab.utab.active{
+    background: url("/img/utab_bg.png")no-repeat;
+    width: 450px;
+}
+#wholesale .tab a{
+    margin-top: 10px;
+    margin-left: -20px;
+}
+.to_standart{
+    text-align: left!important;
+    padding-left: 10px!important;
 }
 .price .tab.active a{
     cursor: default;
     color: #07233e!important;
 }
 .price ul{
-    background: url("/img/price_list_bg1.png") no-repeat;
-    width: 620px;
-    height: 51px;
     margin-bottom: 0;
-    z-index: 5;
+}
+.retail_price_list{
+    background: url("/img/list_bg.png") no-repeat;
 }
 .price_content{
     background-color: #fff;
     width: 100%;
     box-shadow: 0 4px 11px rgba(0,0,0,0.2);
+    position: relative;
 }
 .price_content .row{
     padding-top: 25px;
@@ -280,8 +300,7 @@ button[type="submit"]:hover{
 }
 .price_content .photo img {
     display: inline-block;
-    position: relative;
-    left: 30%;
+    float: right;
     border: 1px solid #b3b1b3;
     width: 185px;
     height: 140px;
@@ -297,6 +316,10 @@ button[type="submit"]:hover{
     padding-left: 70px;
     font-size: 15px;
 }
+.price_item ul{
+    list-style-image: url('/img/list_style.png');
+    margin-left: 90px;
+}
 .price_item p span.name{
     font-family: "UbuntuBold";
     color: #07233e;
@@ -308,6 +331,9 @@ button[type="submit"]:hover{
     position: absolute;
     margin-top: 5px;
 }
+.price_content .total_price p{
+    margin-left: -20px;
+}
 .total_price p{
     font-family: "UbuntuLight";
     font-size: 30px;
@@ -315,8 +341,12 @@ button[type="submit"]:hover{
 }
 .total_price p span{
     font-size: 49px;
-    color: #000000;
+    color: #07233e;
 }
+.total_price p span i{
+    font-size: 30px;
+}
+
 p.total_price_desc{
     color: #999999;
     font-size: 13px;
@@ -332,8 +362,204 @@ p.total_price_desc{
 .price_footer p{
     font-size: 14px;
 }
-.nettop{
+.kom_pred{
+    position: absolute;
+    right: 0;
+    bottom: -60px;
+    width: 250px;
+    height: 60px;
+    background-color: #fbd348;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.kom_pred a{
+    color: #07233e;
+    font-size: 16px;
+    margin-top: 12px;
+    background: url("/img/download_button.png")no-repeat 3% 50%;
+    display: block;
+    line-height: 1;
+    padding-left: 50px;
+    text-decoration: underline;
+}
+.equip_item{
     background-color: #ffffff;
     box-shadow: 0 0 20px rgba(0,0,0,0.3);
-
+    position: relative;
+    color: #07233e;
+    padding: 15px;
+    font-family: "UbuntuBold";
+    font-size: 15px;
+}
+.equip_item ul{
+    list-style-image: url("/img/add_equip_list.png");
+    position: relative;
+    top: 20px;
+    left: 0.7em;
+}
+.equip_item h4{
+    position: relative;
+    margin: 0;
+    top: 20px;
+    font-family: "UbuntuRegular";
+    font-size: 24px;
+}
+.equip_item h4 span{
+    font-family: "UbuntuBold";
+}
+.equip_item p{
+    position: relative;
+    z-index: 1;
+    margin-bottom: 65px;
+    top: 30px;
+}
+.equip_item .desc{
+}
+.equip_item .img_border{
+    position: relative;
+    float: right;
+    bottom: 15px;
+    right: 15px;
+    text-align: center;
+}
+.dop_item{
+    font-family: "UbuntuLight";
+    min-height: 357px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    text-align: center;
+    position: relative;
+    vertical-align: middle;
+}
+.dop_item img{
+    width: 100%;
+    padding: 0 10px;
+}
+.scaner{
+    width: 185px!important;
+}
+.dop_item h6{
+    font-size: 18px;
+    padding-top: 20px;
+}
+.dop_item .total_price p{
+    position: absolute;
+    bottom: 20px;
+    left: 4%;
+    font-size: 17px;
+}
+.dop_item .total_price p span{
+    font-size: 30px;
+}
+.dop_item .total_price p span i{
+    font-size: 23px;
+}
+.dop_item .total_price p.total_price_desc{
+    font-size: 13px;
+    position: absolute;
+    bottom: 0;
+}
+footer.contacts{
+    text-align: center;
+    color: #08233e;
+}
+footer.contacts h4{
+    color: #07233e;
+    font-size: 30px;
+    font-family: "UbuntuLight";
+    margin-bottom: 150px;
+}
+footer.contacts .phone_footer{
+    font-size: 70px;
+}
+footer.contacts .phone_footer span{
+    color: #ff8004;
+}
+footer.contacts .email{
+    font-family: "UbuntuLight";
+    font-size: 40px;
+    padding-bottom: 18px;
+    margin-bottom: 0;
+}
+footer.footer_form{
+    background: url("/img/footer_form_bg.jpg");
+    width: 100%;
+    height: 500px;
+}
+#footer_form{
+    text-align: center;
+    color: #ffffff;
+}
+#footer_form h4{
+    padding-top: 25px;
+    line-height: 1.2;
+    font-family: "UbuntuLight";
+    font-weight: 600;
+    font-size: 32px;
+    margin: 0;
+}
+#footer_form h4 span{
+    font-size: 45px;
+}
+#footer_form p{
+    margin-top: 10px;
+    text-align: center;
+}
+#footer_form input{
+    color: #000000;
+    height: 50px;
+    width: 300px;
+    padding: 13px 15px 12px;
+    margin-bottom: 10px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: none;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    outline: 0;
+    z-index: 2;
+    text-align: left;
+}
+#footer_form textarea{
+    resize: none;
+    width: 300px;
+    background-color: #fff;
+    height: 150px;
+    color: #000000;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    outline: 0;
+    z-index: 2;
+    text-align: left;
+    padding: 13px 15px 12px;
+    margin-bottom: 5px;
+}
+#footer_form button[type="submit"]{
+    vertical-align: middle;
+    padding:8px 10px;
+    border-radius: 3px;
+    width: 300px;
+    height: 60px;
+    border: none;
+    color: #08233e;font-size: 20px;
+    background-color: #fbd348;
+    margin-top: 0;
+    box-shadow: 0 5px 0 #cb8500;
+    margin-bottom: 15px;
+}
+#footer_form a{
+    color: #ffffff;
+    text-decoration: underline;
+}
+#confidencial_police{
+    max-width: 600px;
+}
+#confidencial_police h4{
+    text-align: center;
 }

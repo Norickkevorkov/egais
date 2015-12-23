@@ -1,0 +1,3 @@
+User-agent: *
+
+Host: http://xn----7sbhbjdtd4ehbe.xn--p1ai/

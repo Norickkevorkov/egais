@@ -3,18 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Подключение к ЕГАИС под ключ - кассовое оборудование совместимое с ЕГАИС, выпуск сертификата и установка УТМ на учетную систему
+        description: Быстрое подключение к ЕГАИС розничных магазинов, магазинов реализующих пиво и пивные напитки в розницу, кафе, ресторанов и оптовиков. Выпуск сертификата для ЕГАИС, крипто-ключ JaCarta, учетные системы совместимые с УТМ и оборудование.</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="/source/jquery.fancybox.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter34269565 = new Ya.Metrika({
+                    id:34269565,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/34269565" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 <div class="top_content" id="top">
     <div class="container">
         <div class="row">
@@ -26,9 +60,9 @@
                     <ul>
                         <a class="menu_logo" href="#top"><img src="img/logo_top_menu.png" alt=""></a>
                         <li class="col l2 waves-effect waves-dark"><a href="#aboutEGAIS">Что такое ЕГАИС</a></li>
-                        <li class="col l2 waves-effect waves-dark"><a href="#retail">Для розничных магазинов</a></li>
-                        <li class="col l3 waves-effect waves-dark"><a href="#rest">Для кафе и ресторанов</a></li>
-                        <li class="col l2 waves-effect waves-dark"><a href="#wholesale">Для оптовой торговли</a></li>
+                        <li class="col l2 waves-effect waves-dark"><a onclick="yaCounter34269565.reachGoal('retail');" href="#retail">Для розничных магазинов</a></li>
+                        <li class="col l3 waves-effect waves-dark"><a onclick="yaCounter34269565.reachGoal('rest');" href="#rest">Для кафе и ресторанов</a></li>
+                        <li class="col l2 waves-effect waves-dark"><a onclick="yaCounter34269565.reachGoal('wholesale');" href="#wholesale">Для оптовой торговли</a></li>
                         <li class="col l3 waves-effect waves-dark"><a href="#equip">Дополнительное оборудование</a></li>
                     </ul>
                 </nav>
@@ -40,10 +74,11 @@
             <div class="submit">
                 <h1>Быстрое <br> подключение к</h1>
                 <span class="egais">ЕГАИС</span>
-                <form action="/">
+                <form id="main_form" action="javascript:void(null)">
                     <input type="text" name="name" placeholder="Имя">
-                    <input type="tel" name="tel" placeholder="Телефон">
+                    <input type="tel" name="phone" placeholder="Телефон">
                     <button class="waves-effect waves-dark" type="submit" name="action">Получить консультацию</button>
+                    <h6><i>Ваши данные не будут переданы 3-им лицам</i></h6>
                 </form>
             </div>
         </div>
@@ -55,19 +90,19 @@
                 <h2>Розничная торговля</h2>
                 <a href="#retail"><div class="pic_bg"><img src="img/for_retail.png" alt=""></div></a>
                 <p>Для магазинов, реализующих <br>крепкую алкогольную продукцию.</p>
-                <a href="#retail"><button class="waves-effect waves-dark">Подробнее</button></a>
+                <a onclick="yaCounter34269565.reachGoal('retail');" href="#retail"><button class="waves-effect waves-dark">Подробнее</button></a>
             </div>
             <div class="col l4">
                 <h2>Кафе и рестораны</h2>
                 <a href="#rest"><div class="pic_bg"><img src="img/for_rest.png" alt=""></div></a>
                 <p>Внедрение ЕГАИС <br> для общепита и пивной розницы.</p>
-                <a href="#rest"><button class="waves-effect waves-dark">Подробнее</button></a>
+                <a onclick="yaCounter34269565.reachGoal('rest');" href="#rest"><button class="waves-effect waves-dark">Подробнее</button></a>
             </div>
             <div class="col l4">
                 <h2>Оптовая торговля</h2>
                 <a href="#wholesale"><div class="pic_bg"><img src="img/for_wholesale.png" alt=""></div></a>
                 <p>Для организаций, реализующих <br> алкогольную продукцию оптом.</p>
-                <a href="#wholesale"><button class="waves-effect waves-dark">Подробнее</button></a>
+                <a onclick="yaCounter34269565.reachGoal('wholesale'); href="#wholesale"><button class="waves-effect waves-dark">Подробнее</button></a>
             </div>
         </div>
     </div>
@@ -115,14 +150,14 @@
     <div class="container">
         <div class="price" id="retail">
             <h2>Розничная торговля крепким алкоголем</h2>
-            <ul>
-                <li class="tab to_econom active"><a href="to_econom">Эконом</a></li>
-                <li class="tab to_standart"><a href="to_standart">Стандарт</a></li>
+            <ul class="retail_price_list">
+                <li class="tab to_econom active"><a href="to_econom">1С: Розница</a></li>
+                <li class="tab to_standart"><a onclick="yaCounter34269565.reachGoal('dalion');" href="to_standart">ДАЛИОН: Управление магазином.УНО</a></li>
             </ul>
             <div class="price_content">
                 <div class="econom">
                     <div class="row">
-                        <div class="col l3 photo"><img src="img/jacarta.png" alt="JaCarta"></div>
+                        <div class="col l3 photo"><a href="img/jacarta_big.png" class="fancybox"><img src="img/jacarta.png" alt="JaCarta"></a></div>
                         <div class="col l5 desc">
                             <p>Для фиксации закупок. <br> Необходимо подключиться до 1 января 2016 г.</p>
                             <div class="price_item">
@@ -140,9 +175,14 @@
                             <div class="price_item">
                                 <img class="oneC" src="img/1c.png" alt="1c">
                                 <p>
-                                    <span class="name">1С Розница</span> - Система товароучета
-                                    <br><span class="price">3 300 <i class="fa fa-rub"></i></span>
-                                </p>
+                                    <span class="name">1С Розница</span> - Система товароучета</p>
+                                <ul>
+                                    <li>Фиксация закупок алкогольной продукции в ЕГАИС;</li>
+                                    <li>Возможность подключения фискального регистратора и 2D сканера для фиксации продаж в ЕГАИС;</li>
+                                    <li>Возможность подключения внешней POS системы для фиксации продаж.</li>
+                                </ul>
+                                    <p><span class="price">3 300 <i class="fa fa-rub"></i></span></p>
+
                             </div>
                             <div class="price_item">
                                 <p>
@@ -156,7 +196,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col l3 photo"><img src="img/pos.png" alt="POS-система"></div>
+                        <div class="col l3 photo"><a href="img/atol-lite.jpg" class="fancybox"><img src="img/pos.png" alt="POS-система"></a></div>
                         <div class="col l5 desc">
                             <p>Для фиксации продаж - до 1 июля 2016 г.</p>
                             <div class="price_item">
@@ -187,12 +227,12 @@
                             <div class="hl"></div>
                         <div class="row price_footer">
                             <div class="col l6">
-                                <img src="img/ds5.png" class="right" alt="">
+                                <a href="img/DS5-big.jpg" class="fancybox"><img src="img/ds5.png" class="right" alt=""></a>
                                 <p>ТСД MobileBase DS5 - <span class="price">74 900<i class="fa fa-rub"></i></span><br>(при больших объемах приемки алкоголя рекомендуется приобретение терминала сбора данных для проверки подлинности принимаемого товара онлайн через сервис ФСРАР)</p>
                             </div>
                             <div class="col l6">
-                                <img src="img/apc.png" class="right" alt="">
-                                <p>ИБП - <span class="price">12 000<i class="fa fa-rub"></i></span><br>(для защиты оборудования от перепадов в системе электропитания, чтобы избежать потери данных при передаче в ЕГАИС рекомендуется приобретение источника бесперебойного питания)</p>
+                                <a href="img/aps-big.jpg" class="fancybox"><img src="img/aps-big.jpg" width="120" class="right" alt=""></a>
+                                <p>ИБП - <span class="price">11 700<i class="fa fa-rub"></i></span><br>(для защиты оборудования от перепадов в системе электропитания, чтобы избежать потери данных при передаче в ЕГАИС рекомендуется приобретение источника бесперебойного питания)</p>
                             </div>
                         </div>
                         </div>
@@ -200,7 +240,7 @@
                 </div>
                 <div class="standart">
                     <div class="row">
-                        <div class="col l3 photo"><img src="img/jacarta.png" alt="JaCarta"></div>
+                        <div class="col l3 photo"><a href="img/jacarta_big.png" class="fancybox"><img src="img/jacarta.png" alt="JaCarta"></a></div>
                         <div class="col l5 desc">
                             <p>Для фиксации закупок. <br> Необходимо подключиться до 1 января 2016 г.</p>
                             <div class="price_item">
@@ -216,21 +256,26 @@
                                 </p>
                             </div>
                             <div class="price_item">
-                                <img class="oneC" src="img/kontur.png" alt="kontur">
-                                <p>
-                                    <span class="name">Контур.Алко</span> - Система введения и сдачи отчетности в ФСРАР и модуль взаимодействия с ЕГАИС.
-                                    <br><span class="price">9 900 <i class="fa fa-rub"></i></span>
-                                </p>
+                                <!--<img class="oneC" src="img/kontur.png" alt="kontur">-->
+                                <p><span class="name">ДАЛИОН: Управление магазином.УНО</span> -  Комплексное решение для автоматизации магазинов.</p>
+                                <ul>
+                                    <li>Фиксация закупок алкогольной продукции в ЕГАИС;</li>
+                                    <li>Автоматическое ведение журнала покупок и продаж алкогольной продукции;</li>
+                                    <li>Возможность подключения фискального регистратора и 2D сканера для фиксации продаж в ЕГАИС;</li>
+                                    <li>Возможность подключения внешней POS системы для фиксации продаж.</li>
+                                </ul>
+                                <p><span class="price">39 000 <i class="fa fa-rub"></i></span></p>
+                                
                             </div>
                             <div class="price_item">
                                 <p>
                                     <span class="name">Интеграция </span> - Работы по настройке и обучение
-                                    <br><span class="price">5 000 <i class="fa fa-rub"></i></span>
+                                    <br><span class="price">15 900 <i class="fa fa-rub"></i></span>
                                 </p>
                             </div>
                         </div>
                         <div class="col l4 total_price">
-                            <p>Цена <span>26 800 <i class="fa fa-rub"></i></span></p>
+                            <p>Цена <span>59 900 <i class="fa fa-rub"></i></span></p>
                         </div>
                     </div>
                     <div class="row">
@@ -260,21 +305,24 @@
                             <div class="hl"></div>
                             <div class="price_item">
                                 <p>При приобретении полного пакета для фиксации закупок и продаж - стоимость подключения составит
-                                    <br><span class="price">93 000 (скидка 2 100) <i class="fa fa-rub"></i></span></p>
+                                    <br><span class="price">от 131 800 (скидка 3 000) <i class="fa fa-rub"></i></span></p>
                             </div>
                             <div class="hl"></div>
                             <div class="row price_footer">
                                 <div class="col l6">
-                                    <img src="img/ds5.png" class="right" alt="">
+                                    <a href="img/DS5-big.jpg" class="fancybox"><img src="img/ds5.png" class="right" alt=""></a>
                                     <p>ТСД MobileBase DS5 - <span class="price">74 900<i class="fa fa-rub"></i></span><br>(при больших объемах приемки алкоголя рекомендуется приобретение терминала сбора данных для проверки подлинности принимаемого товара онлайн через сервис ФСРАР)</p>
                                 </div>
                                 <div class="col l6">
-                                    <img src="img/apc.png" class="right" alt="">
-                                    <p>ИБП - <span class="price">12 000<i class="fa fa-rub"></i></span><br>(для защиты оборудования от перепадов в системе электропитания, чтобы избежать потери данных при передаче в ЕГАИС рекомендуется приобретение источника бесперебойного питания)</p>
+                                    <a href="img/aps-big.jpg" class="fancybox"><img src="img/aps-big.jpg" width="120" class="right" alt=""></a>
+                                    <p>ИБП - <span class="price">11 700<i class="fa fa-rub"></i></span><br>(для защиты оборудования от перепадов в системе электропитания, чтобы избежать потери данных при передаче в ЕГАИС рекомендуется приобретение источника бесперебойного питания)</p>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="kom_pred">
+                    <a target="_blank" href="commerce_offer_1c_roznica.pdf">Скачать коммерческое <br> предложение</a>
                 </div>
             </div>
         </div>
@@ -282,12 +330,11 @@
             <h2>Кафе, рестораны и пивная розница</h2>
             <ul>
                 <li class="tab to_econom active"><a href="to_econom">Алкодекларация.Контур плюс</a></li>
-                <li class="tab to_standart"><a href="to_standart">Стандарт</a></li>
             </ul>
             <div class="price_content">
                 <div class="econom">
                     <div class="row">
-                        <div class="col l3 photo"><img src="img/jacarta.png" alt="JaCarta"></div>
+                        <div class="col l3 photo"><a href="img/jacarta_big.png" class="fancybox"><img src="img/jacarta.png" alt="JaCarta"></a></div>
                         <div class="col l5 desc">
                             <p>Для фиксации закупок. <br> Необходимо подключиться до 1 января 2016 г.</p>
                             <div class="price_item">
@@ -303,21 +350,25 @@
                                 </p>
                             </div>
                             <div class="price_item">
-                                <img class="oneC" src="img/1c.png" alt="1c">
+                                <img class="oneC" src="img/kontur.png" alt="1c">
                                 <p>
-                                    <span class="name">1С Розница</span> - Система товароучета
-                                    <br><span class="price">3 300 <i class="fa fa-rub"></i></span>
+                                    <span class="name">Контур.Алкодекларация Плюс</span> - Система товароучета
+                                    <br><span class="price">9 900 <i class="fa fa-rub"></i></span>
                                 </p>
+                                <ul>
+                                    <li>Фиксация закупок алкогольной продукции в ЕГАИС;</li>
+                                    <li>Отчетность в ФСРАР (требуется квалифицированная электронная подпись).</li>
+                                </ul>
                             </div>
                             <div class="price_item">
                                 <p>
                                     <span class="name">Интеграция </span> - Работы по настройке и обучение
-                                    <br><span class="price">11 900 <i class="fa fa-rub"></i></span>
+                                    <br><span class="price">5 000 <i class="fa fa-rub"></i></span>
                                 </p>
                             </div>
                         </div>
                         <div class="col l4 total_price">
-                            <p>Цена <span>20 200 <i class="fa fa-rub"></i></span></p>
+                            <p>Цена <span>19 900 <i class="fa fa-rub"></i></span></p>
                         </div>
                     </div>
                     <div class="row">
@@ -325,31 +376,32 @@
                             <div class="hl"></div>
                             <div class="row price_footer">
                                 <div class="col l6">
-                                    <img src="img/ds5.png" class="right" alt="">
+                                    <a href="img/DS5-big.jpg" class="fancybox"><img src="img/ds5.png" class="right" alt=""></a>
                                     <p>ТСД MobileBase DS5 - <span class="price">74 900<i class="fa fa-rub"></i></span><br>(при больших объемах приемки алкоголя рекомендуется приобретение терминала сбора данных для проверки подлинности принимаемого товара онлайн через сервис ФСРАР)</p>
                                 </div>
                                 <div class="col l6">
-                                    <img src="img/apc.png" class="right" alt="">
-                                    <p>ИБП - <span class="price">12 000<i class="fa fa-rub"></i></span><br>(для защиты оборудования от перепадов в системе электропитания, чтобы избежать потери данных при передаче в ЕГАИС рекомендуется приобретение источника бесперебойного питания)</p>
+                                    <a href="img/aps-big.jpg" class="fancybox"><img src="img/aps-big.jpg" width="120" class="right" alt=""></a>
+                                    <p>ИБП - <span class="price">11 700<i class="fa fa-rub"></i></span><br>(для защиты оборудования от перепадов в системе электропитания, чтобы избежать потери данных при передаче в ЕГАИС рекомендуется приобретение источника бесперебойного питания)</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="standart">содержимое второго блока</div>
+                <div class="kom_pred">
+                    <a target="_blank" href="commerce_offer_contur.pdf">Скачать коммерческое <br> предложение</a>
+                </div>
             </div>
         </div>
         <div class="price" id="wholesale">
             <h2>Оптовая торговля</h2>
             <ul>
-                <li class="tab to_econom active"><a href="to_econom">Эконом</a></li>
-                <li class="tab to_standart"><a href="to_standart">Стандарт</a></li>
+                <li class="tab utab active"><a href="to_econom">1С: Управление торговлей алкогольной продукцией</a></li>
             </ul>
             <div class="price_content">
                 <div class="econom">
                     <div class="econom">
                         <div class="row">
-                            <div class="col l3 photo"><img src="img/jacarta.png" alt="JaCarta"></div>
+                            <div class="col l3 photo"><a href="img/jacarta_big.png" class="fancybox"><img src="img/jacarta.png" alt="JaCarta"></a></div>
                             <div class="col l5 desc">
                                 <p>Для фиксации закупок. <br> Необходимо подключиться до 1 января 2016 г.</p>
                                 <div class="price_item">
@@ -367,19 +419,23 @@
                                 <div class="price_item">
                                     <img class="oneC" src="img/1c.png" alt="1c">
                                     <p>
-                                        <span class="name">1С Розница</span> - Система товароучета
-                                        <br><span class="price">3 300 <i class="fa fa-rub"></i></span>
+                                        <span class="name">1С: управление торговлей алкогольной продукцией</span> - Специализированное отраслевое решение для торговли
+                                        алкогольной продукцией.
+                                        <br><span class="price">57 600 <i class="fa fa-rub"></i></span>
+                                    <ul>
+                                        <li>Специализированное отраслевое решение для торговли алкогольной продукцией, имеет полную интеграцию с ЕГАИС.</li>
+                                    </ul>
                                     </p>
                                 </div>
                                 <div class="price_item">
                                     <p>
-                                        <span class="name">Интеграция </span> - Работы по настройке и обучение
-                                        <br><span class="price">11 900 <i class="fa fa-rub"></i></span>
+                                        <span class="name">Установка </span> - установка и настройка программы
+                                        <br><span class="price">25 900 <i class="fa fa-rub"></i></span>
                                     </p>
                                 </div>
                             </div>
                             <div class="col l4 total_price">
-                                <p>Цена <span>20 200 <i class="fa fa-rub"></i></span></p>
+                                <p>Цена <span>88 500 <i class="fa fa-rub"></i></span></p>
                             </div>
                         </div>
                         <div class="row">
@@ -387,19 +443,21 @@
                                 <div class="hl"></div>
                                 <div class="row price_footer">
                                     <div class="col l6">
-                                        <img src="img/ds5.png" class="right" alt="">
+                                        <a href="img/DS5-big.jpg" class="fancybox"><img src="img/ds5.png" class="right" alt=""></a>
                                         <p>ТСД MobileBase DS5 - <span class="price">74 900<i class="fa fa-rub"></i></span><br>(при больших объемах приемки алкоголя рекомендуется приобретение терминала сбора данных для проверки подлинности принимаемого товара онлайн через сервис ФСРАР)</p>
                                     </div>
                                     <div class="col l6">
-                                        <img src="img/apc.png" class="right" alt="">
-                                        <p>ИБП - <span class="price">12 000<i class="fa fa-rub"></i></span><br>(для защиты оборудования от перепадов в системе электропитания, чтобы избежать потери данных при передаче в ЕГАИС рекомендуется приобретение источника бесперебойного питания)</p>
+                                        <a href="img/aps-big.jpg" class="fancybox"><img src="img/aps-big.jpg" width="120" class="right" alt=""></a>
+                                        <p>ИБП - <span class="price">11 700<i class="fa fa-rub"></i></span><br>(для защиты оборудования от перепадов в системе электропитания, чтобы избежать потери данных при передаче в ЕГАИС рекомендуется приобретение источника бесперебойного питания)</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="standart">содержимое второго блока</div>
+                <div class="kom_pred">
+                    <a target="_blank" href="commerce_offer_1c_utap.pdf">Скачать коммерческое <br> предложение</a>
+                </div>
             </div>
         </div>
     </div>
@@ -407,8 +465,8 @@
         <div class="add_equip" id="equip">
             <div class="row"><h2>Дополнительное оборудование</h2></div>
             <div class="row">
-                <div class="col l5">
-                    <div class="nettop">
+                <div class="col l6">
+                    <div class="equip_item">
                         <h4><span>Неттоп</span> - Lenovo ThinkCentre</h4>
                         <ul>
                             <li>Процессор: Intel Celeron J1800 2.41 GHz</li>
@@ -419,30 +477,154 @@
                             <li>В комплекте - Клавиатура, мышь</li>
                         </ul>
                         <p>Оптимальное решение для установки учетной системы и УТМ ЕГАИС соответствующее техническим требованиям.</p>
+                        <div class="img_border"><img src="img/nettop.jpg" height="150" alt=""></div>
                         <div class="total_price">
-                            <p>Цена <span>74 900 <i class="fa fa-rub"></i></span></p>
+                            <p>Цена <span>26 900 <i class="fa fa-rub"></i></span></p>
                         </div>
+
                     </div>
                 </div>
-                <div class="col l7">
+                <div class="col l6">
+                    <div class="equip_item">
+                        <h4><span>Монитор</span> - Acer V206HQLBb, 19.5", Black</h4>
+                        <ul>
+                            <li>Диагональ экрана19.5"</li>
+                            <li>Формат экрана 16:9</li>
+                            <li>Максимальное разрешение1366x768 пикс.</li>
+                            <li>Светодиодная подсветка (LED)</li>
+                            <li>Тип матрицы TN</li>
+                            <li>Порты и разъемыVGA (D-Sub)</li>
+                        </ul>
+                        <p>Компактный ЖК монитор 19.5”.
+                            Оптимальное решение для рабочего
+                            места.</p>
+                        <div class="img_border"><img src="img/monitor.jpg" height="150" alt=""></div>
+                        <div class="total_price">
+                            <p>Цена <span>6 710 <i class="fa fa-rub"></i></span></p>
+                        </div>
 
+                    </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col l6">
+                    <div class="equip_item">
+                        <h4><span>ИБП</span> - APC Back-UPS 800VA</h4>
+                        <p class="desc">Источник бесперебойного питания для защиты оборудования от перепадов в системе электропитания, для избежания сбоев в работе при передаче данных в ЕГАИС.</p>
+                        <div class="img_border"><img src="img/ibs.jpg" height="150" alt=""></div>
+                        <div class="total_price">
+                            <p>Цена <span>11 700 <i class="fa fa-rub"></i></span></p>
+                        </div>
 
+                    </div>
                 </div>
                 <div class="col l6">
+                    <div class="equip_item">
+                        <h4><span>ТСД</span> - MobileBase DS5</h4>
 
+                        <p class="desc">При больших объемах приемки алкоголя рекомендуется приобретение терминала сбора данных для проверки подлинности принимаемого товара онлайн через сервис ФСРАР.</p>
+                        <div class="img_border"><img src="img/tsd-module.jpg" height="150" alt=""></div>
+                        <div class="total_price">
+                            <p>Цена <span>74 900 <i class="fa fa-rub"></i></span></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <h2>В наличии также имеются:</h2>
+            </div>
+            <div class="row">
+                <div class="col l3">
+                    <div class="dop_item">
+                        <h6><b>Фискальные регистраторы</b></h6>
+                        <img src="img/fiskal_registrators.jpg" alt="">
+
+                        <div class="total_price">
+                            <p>Цена от <span>18 500 <i class="fa fa-rub"></i></span></p>
+                            <p class="total_price_desc">(в зависимости от курсов валют)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l3">
+                    <div class="dop_item">
+                        <h6><b>2D-сканеры</b></h6>
+                        <img class="scaner" src="img/2d-scaner.jpg" height="200" width="230" alt="">
+
+                        <div class="total_price">
+                            <p>Цена от <span>8 700 <i class="fa fa-rub"></i></span></p>
+                            <p class="total_price_desc">(в зависимости от курсов валют)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l3">
+                    <div class="dop_item">
+                        <h6><b>POS-клавиатуры</b></h6>
+                        <img src="img/keyboard.jpg" alt="">
+
+                        <div class="total_price">
+                            <p>Цена от <span>6 400 <i class="fa fa-rub"></i></span></p>
+                            <p class="total_price_desc">(в зависимости от курсов валют)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l3">
+                    <div class="dop_item">
+                        <h6><b>Денежные ящики</b></h6>
+                        <img src="img/cashboxes.jpg" alt="">
+
+                        <div class="total_price">
+                            <p>Цена от <span>4 060 <i class="fa fa-rub"></i></span></p>
+                            <p class="total_price_desc">(в зависимости от курсов валют)</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="container">
+        <footer class="contacts">
+            <h4>По вопросам приобретения периферийного оборудования обращайтесь
+                к специалистам нашего сервисного центра.</h4>
+            <h1 class="phone_footer"><span>8 (495)</span> 668 09 23</h1>
+            <h3 class="email"><b>info@ruteko.ru</b></h3>
+        </footer>
+    </div>
 </div>
-
+<footer class="footer_form">
+    <form action="javascript:void(null)" id="footer_form">
+        <h4>Остались вопросы?<br><span>Задайте их нам!</span></h4>
+        <p>Мы свяжемся с Вами в течение 15 минут</p>
+        <input type="tel" name="phone" placeholder="Введите телефон"/>
+        <div style="clear:both"></div>
+        <textarea name="question" id="question" cols="30" rows="10" placeholder="Задайте вопрос" ></textarea>
+        <div style="clear:both"></div>
+        <button class="waves-effect waves-dark" type="submit" name="action">Получить консультацию</button>
+        <div style="clear:both"></div>
+        <a href="#confidencial_police" class="fancybox">Политика конфиденциальности</a>
+    </form>
+</footer>
+<div class="pop-up" id="confidencial_police" style="display: none;">
+    <div class="pop-text">
+        <h4>Политика конфиденциальности</h4>
+        <p>Сайт уважает и соблюдает законодательство РФ. Также мы уважаем Ваше право и соблюдаем конфиденциальность при заполнении, передаче и хранении ваших конфиденциальных сведений.</p>
+        <br>
+        <p>Мы запрашиваем Ваши персональные данные исключительно для информирования об оказываемых услугах сайта.</p>
+        <br>
+        <p>Персональные данные - это информация, относящаяся к субъекту персональных данных, то есть, к потенциальному покупателю. В частности, это фамилия, имя и отчество, дата рождения, адрес, контактные реквизиты (телефон, адрес электронной почты), семейное, имущественное положение и иные данные, относимые Федеральным законом от 27 июля 2006 года № 152-ФЗ «О персональных данных» (далее – «Закон») к категории персональных данных.</p>
+        <br>
+        <p>Если Вы разместили Ваши контактные данные на сайте, то Вы автоматически согласились на обработку данных и дальнейшую передачу Ваших контактных данных менеджерам нашего сайта.</p>
+        <br>
+        <p>В случае отзыва согласия на обработку своих персональных данных мы обязуемся удалить Ваши персональные данные в срок не позднее 3 рабочих дней.</p>
+    </div>
+</div>
 <!--Import jQuery before materialize.js-->
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
+<script src="/js/inputmask.js"></script>
+<script src="/js/jquery.inputmask.js"></script>
+<script src="/js/inputmask.phone.extensions.js"></script>
+<script src="/source/jquery.fancybox.pack.js"></script>
 <script>
     $(document).ready(function () {
         function showLogo(){
@@ -521,14 +703,136 @@
                 parent.parent().parent().find('.econom').hide();
                 parent.addClass('active');
                 parent.parent().find('.to_econom').removeClass('active');
+                parent.parent().parent().find('.kom_pred a').attr('href','commerce_offer_dalion.pdf');
             }else if(link == 'to_econom'){
                 parent.parent().parent().find('.standart').hide();
                 parent.parent().parent().find('.econom').show();
                 parent.addClass('active');
                 parent.parent().find('.to_standart').removeClass('active');
+                parent.parent().parent().find('.kom_pred a').attr('href','commerce_offer_1c_roznica.pdf');
             }
         });
+
+        $('.fancybox').fancybox();
+    });
+    $(window).load(function () {
+        if($(window).width()<1500){
+            $('.equip_item .img_border').css({
+                'float':'none',
+            });
+        }else{
+            $('.equip_item .img_border').css({
+                'float':'right'
+            });
+        }
+    });
+    $(window).resize(function () {
+        if($(window).width()<1500){
+            $('.equip_item .img_border').css({
+                'float':'none'
+            });
+        }else{
+            $('.equip_item .img_border').css({
+                'float':'right'
+            });
+        }
+    });
+    $(document).ready(function(){
+        function success(){
+            $('#main_form').find('i').html('Ваши данные успешно отправлены!<br> С Вами свяжутся наши специалисты в течении 15 минут').css('color','green');
+            setTimeout(function () {
+                $('#main_form').find('i').html('Ваши данные не будут переданы 3-им лицам').css('color','#000');
+            }, 3000);
+            yaCounter34269565.reachGoal('consutation');
+        }
+        function error(){
+            $('#main_form').find('i').html('Не удалось отправить данные, пожалуйста проверьте правильность заполнения полей.').css('color','red');
+            setTimeout(function () {
+                $('#main_form').find('i').html('Ваши данные не будут переданы 3-им лицам').css('color','#000');
+            }, 3000);
+        }
+        $('#main_form input[name="phone"]').inputmask("+7(999)999-99-99");
+        $('#footer_form input[name="phone"]').inputmask("+7(999)999-99-99");
+        $('#main_form button[type="submit"]').click(function () {
+            var isErrors = false;
+            if(($('#main_form input[name="name"]').val()=="Имя")||($('#main_form input[name="name"]').val()=='')){
+                isErrors = true;
+            }
+            if($('#main_form input[name="phone"]').val().indexOf('_')!= -1){
+                isErrors = true;
+            }
+            if(isErrors == false){
+                $(function() {
+                    $('#main_form ').submit(function (e) {
+                        e.preventDefault();
+                        var data = $('#main_form').serializeArray();
+                        $.ajax({
+                            type: "POST",
+                            url: 'mail.php',
+                            data: data,
+                            error: error(),
+                            success: success()
+                        });
+                    });
+                });
+
+            }else{
+                error();
+            }
+        });
+        function error_on_footer(){
+
+            $('#footer_form').find('p').html('Не удалось отправить данные, пожалуйста проверьте правильность заполнения полей.').css('color','red');
+            setTimeout(function () {
+                $('#footer_form').find('p').html('Мы свяжемся с Вами в течение 15 минут').css('color','#fff');
+            }, 3000);
+        }
+        function success_on_footer(){
+            console.log(42);
+            $('#footer_form').find('p').html('Ваши данные успешно отправлены!<br> С Вами свяжутся наши специалисты в течении 15 минут').css('color','green');
+            setTimeout(function () {
+                $('#footer_form').find('p').html('Мы свяжемся с Вами в течение 15 минут').css('color','#fff');
+            }, 3000);
+            yaCounter34269565.reachGoal('consultation_down');
+        }
+        $('#footer_form button[type="submit"]').click(function () {
+            var isErrors = false;
+            if(($('#footer_form textarea').val()=="Задайте вопрос")||($('#footer_form textarea').val()=='')){
+                isErrors = true;
+            }
+            if($('#main_form input[name="phone"]').val().indexOf('_')!= -1){
+                isErrors = true;
+            }
+            if(isErrors == false){
+                $(function() {
+                    $('#footer_form ').submit(function (e) {
+                        e.preventDefault();
+                        var data = $('#footer_form').serializeArray();
+                        $.ajax({
+                            type: "POST",
+                            url: 'ask_question.php',
+                            data: data,
+                            error: error_on_footer(),
+                            success: success_on_footer()
+                        });
+                    });
+                });
+
+            }else{
+                error_on_footer();
+            }
+        });
+
     });
 </script>
+<!-- RedHelper -->
+<script id="rhlpscrtg" src="https://web.redhelper.ru/nx/start?version=1&c=max1" charset="utf-8"></script>
+<!-- RedHelper -->
+<!-- BEGIN JIVOSITE CODE {literal} -->
+<script type='text/javascript'>
+    (function(){ var widget_id = 'gyfGNn0oos';
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);})();</script>
+<!-- {/literal} END JIVOSITE CODE -->
+
 </body>
 </html>
