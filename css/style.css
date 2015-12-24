@@ -297,11 +297,10 @@ button[type="submit"]:hover{
 }
 .price_content .photo{
     overflow: hidden;
+    text-align: center;
 }
 .price_content .photo img {
-    float: right;
-    border: 1px solid #b3b1b3;
-    padding: 20px;
+    max-width: 130px;
 }
 .price_content .standart{
     display: none;
@@ -309,6 +308,7 @@ button[type="submit"]:hover{
 .desc p{
     margin-top: 0;
     font-size: 18px;
+    max-width: 593px;
 }
 .price_item p{
     padding-left: 20px;
@@ -324,15 +324,25 @@ button[type="submit"]:hover{
 }
 .price_item p span.price{
     color: #dea221;
+    float: right;
+    margin-top: -5px;
 }
 .oneC{
     position: absolute;
     margin-top: 5px;
 }
+.jacarta_img {
+    position: relative;
+    padding: 5px;
+    border: 1px solid #D0D0D0;
+    top: 62px;
+    left: 25px;
+    max-width: 195px;
+}
 .price_content .total_price{
     height: 100%;
     position: absolute;
-    top: 75%;
+    top: 85%;
     right: 0;
 }
 .total_price p{
@@ -359,6 +369,11 @@ p.total_price_desc{
 .hl{
     background: url("/img/hl.png");
     height: 2px;
+    margin-bottom: 20px;
+}
+.econom, .standart{
+    padding-top: 20px;
+    min-height: 650px;
 }
 .econom .offset-l3, .standart .offset-l3{
     margin-left: 25%!important;
@@ -416,8 +431,6 @@ p.total_price_desc{
     z-index: 1;
     margin-bottom: 65px;
     top: 30px;
-}
-.equip_item .desc{
 }
 .equip_item .img_border{
     position: relative;
