@@ -457,6 +457,7 @@ p.total_price_desc{
     background-color: #fbd348;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
+    box-shadow: 0 10px 11px rgba(0,0,0,0.1);
 }
 .kom_pred a{
     color: #07233e;
