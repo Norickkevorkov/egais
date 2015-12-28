@@ -78,7 +78,7 @@
                     <input type="text" name="name" placeholder="Имя">
                     <input type="tel" name="phone" placeholder="Телефон">
                     <button class="waves-effect waves-dark" type="submit" name="action">Получить консультацию</button>
-                    <h6><i>Ваши данные не будут переданы 3-им лицам</i></h6>
+                    <h6><b>Ваши данные не будут переданы 3-им лицам</b></h6>
                 </form>
             </div>
         </div>
@@ -113,8 +113,8 @@
         </div>
     </div>
 </div>
-<div class="content" id="aboutEGAIS">
-    <div class="container">
+<div class="content">
+    <div class="container"  id="aboutEGAIS">
         <div class="row header">
             <h1>Что такое <span>ЕГАИС</span></h1>
         </div>
@@ -161,48 +161,65 @@
                 <li class="tab to_econom active"><a href="to_econom">Контур.Алко</a></li>
             </ul>
             <div class="price_content">
-                <div class="econom">
-                    <div class="row">
-                        <div class="col l3 photo"><img src="img/rest.png" alt=""></div>
-                        <div class="col l6 desc">
+                <div class="row econom">
+                    <div class="col l3 photo"><img src="img/rest.png" alt=""></div>
+                    <div class="col l9">
+                        <div class="row desc">
                             <p>Для приемки и подписания накладных от поставщиков в системе ЕГАИС. <br> Необходимо подключиться до 1 января 2016 г.</p>
-                            <div class="price_item">
-                                <p><br><br>
-                                    <span class="name">JaCarta + КЭП</span> - Сертифицированный защищенный носитель для ЕГАИС JaCarta SE (PKI/ГОСТ)  и квалифицированный сертификат электронной подписи.
-                                    <br><span class="price">5 000 <i class="fa fa-rub"></i></span>
-                                </p>
-                            </div>
-                            <div class="hl"></div>
-                            <div class="price_item">
-                                <p>
-                                    <span class="name">Контур.Алко</span> - Веб-сервис для отчетности в ФСРАР и взаимодействия с ЕГАИС.
-                                </p>
-                                <ul>
-                                    <li>Фиксация закупок алкогольной продукции в ЕГАИС;</li>
-                                    <li>Отчетность в ФСРАР (требуется квалифицированная электронная подпись).</li>
-                                </ul>
-                                <p><span class="price">9 900 <i class="fa fa-rub"></i></span></p>
-                            </div>
-                            <div class="hl"></div>
-                            <div class="price_item">
-                                <p>
-                                    <span class="name">Установка </span> - Выездные работы по настройке и обучение.
-                                </p>
-                                <ul>
-                                    <li>Проверка и прием документов для выпуска сертификата;</li>
-                                    <li>Запись сертификата на носитель JaCarta и установка УТМ;</li>
-                                    <li>Настройка взаимодействия УТМ и Контур.Алко для получения накладных в ЕГАИС.</li>
-                                </ul>
-                                <p><span class="price">5 000 <i class="fa fa-rub"></i></span></p>
-                            </div>
-                            <div class="hl"></div>
                         </div>
-                        <div class="col l3">
-                            <div class="jacarta_img">
-                                <a href="img/jacarta_big.png" target="_blank" class="fancybox"><img src="img/jacarta.png" alt=""></a>
+                        <div class="row">
+                            <div class="col l8 jacarta_desc">
+                                <div class="price_item">
+                                    <p>
+                                        <span class="name">JaCarta + КЭП</span> - Сертифицированный защищенный носитель для ЕГАИС JaCarta SE (PKI/ГОСТ)  и квалифицированный сертификат электронной подписи.
+                                        <br><span class="price">5 000 <i class="fa fa-rub"></i></span>
+                                    </p>
+                                    <div class="hl"></div>
+                                </div>
                             </div>
-                            <div class="total_price">
-                                <p>Цена: <span class="ot">от</span><span> 5 000 <i class="fa fa-rub"></i></span></p>
+                            <div class="col l4">
+                                <div class="jacarta_img">
+                                    <a href="img/jacarta_big.png" target="_blank" class="fancybox"><img src="img/jacarta.png" alt=""></a>
+                                </div>
+                                <div class="total_price">
+                                    <p>Цена: <span class="ot">от</span><span> 5 000 <i class="fa fa-rub"></i></span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l8">
+                                <div class="price_item">
+                                    <p>
+                                        <span class="name">Контур.Алко</span> - Веб-сервис для отчетности в ФСРАР и взаимодействия с ЕГАИС.
+                                    </p>
+                                    <ul>
+                                        <li>Фиксация закупок алкогольной продукции в ЕГАИС;</li>
+                                        <li>Отчетность в ФСРАР (требуется квалифицированная электронная подпись).</li>
+                                    </ul>
+                                    <p><span class="price">9 900 <i class="fa fa-rub"></i></span></p>
+                                </div>
+                                <div class="hl"></div>
+                            </div>
+                            <div class="col l4">
+                                <div class="logo_kontur">
+                                    <img src="img/logo_kontur.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l8">
+                                <div class="price_item">
+                                    <p>
+                                        <span class="name">Установка </span> - Выездные работы по настройке и обучение.
+                                    </p>
+                                    <ul>
+                                        <li>Проверка и прием документов для выпуска сертификата;</li>
+                                        <li>Запись сертификата на носитель JaCarta и установка УТМ;</li>
+                                        <li>Настройка взаимодействия УТМ и Контур.Алко для получения накладных в ЕГАИС.</li>
+                                    </ul>
+                                    <p><span class="price">5 000 <i class="fa fa-rub"></i></span></p>
+                                </div>
+                                <div class="hl"></div>
                             </div>
                         </div>
                     </div>
@@ -219,75 +236,130 @@
                 <li class="tab to_standart"><a onclick="yaCounter34269565.reachGoal('dalion');" href="to_standart">ДАЛИОН: Управление магазином.УНО</a></li>
             </ul>
             <div class="price_content">
-                <div class="econom">
-                    <div class="row">
-                        <div class="col l3 photo"><img src="img/retail.png" alt=""></div>
-                        <div class="col l6 desc">
+                <div class="row econom">
+                    <div class="col l3 photo"><img src="img/retail.png" alt=""></div>
+                    <div class="col l9">
+                        <div class="row desc">
                             <p>Для приемки и отправки накладных в системе ЕГАИС. <br> Необходимо подключиться до 1 января 2016 г.</p>
-                            <div class="price_item">
-                                <p><br><br>
-                                    <span class="name">JaCarta + КЭП</span> - Сертифицированный защищенный носитель для ЕГАИС JaCarta SE (PKI/ГОСТ)  и квалифицированный сертификат электронной подписи.
-                                    <br><span class="price">5 000 <i class="fa fa-rub"></i></span>
-                                </p>
-                            </div>
-                            <div class="hl"></div>
-                            <div class="price_item">
-                                <p>
-                                    <span class="name">1С Розница</span> - Система товароучета</p>
-                                <ul>
-                                    <li>Фиксация закупок алкогольной продукции в ЕГАИС;</li>
-                                    <li>Возможность подключения фискального регистратора и 2D сканера для фиксации продаж в ЕГАИС;</li>
-                                    <li>Возможность подключения внешней POS системы для фиксации продаж.</li>
-                                </ul>
-                                <p><span class="price">3 300 <i class="fa fa-rub"></i></span></p>
-                            </div>
-                            <div class="hl"></div>
-                            <div class="price_item">
-                                <p>
-                                    <span class="name">Установка </span> - Выездные работы по настройке и обучение.
-                                    <br><span class="price">11 900 <i class="fa fa-rub"></i></span>
-                                </p>
-                            </div>
-                            <div class="hl"></div>
                         </div>
-                        <div class="col l3 total_price">
-                            <p>Цена <span class="ot">от</span><span> 5 000 <i class="fa fa-rub"></i></span></p>
+                        <div class="row">
+                            <div class="col l8 jacarta_desc">
+                                <div class="price_item">
+                                    <p>
+                                        <span class="name">JaCarta + КЭП</span> - Сертифицированный защищенный носитель для ЕГАИС JaCarta SE (PKI/ГОСТ)  и квалифицированный сертификат электронной подписи.
+                                        <br><span class="price">5 000 <i class="fa fa-rub"></i></span>
+                                    </p>
+                                    <div class="hl"></div>
+                                </div>
+                            </div>
+                            <div class="col l4">
+                                <div class="jacarta_img">
+                                    <a href="img/jacarta_big.png" target="_blank" class="fancybox"><img src="img/jacarta.png" alt=""></a>
+                                </div>
+                                <div class="total_price">
+                                    <p>Цена: <span class="ot">от</span><span> 5 000 <i class="fa fa-rub"></i></span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l8">
+                                <div class="price_item">
+                                    <p>
+                                        <span class="name">1С Розница</span> - Система товароучета</p>
+                                    </p>
+                                    <ul>
+                                        <li>Фиксация закупок алкогольной продукции в ЕГАИС;</li>
+                                        <li>Возможность подключения фискального регистратора и 2D сканера для фиксации продаж в ЕГАИС;</li>
+                                        <li>Возможность подключения внешней POS системы для фиксации продаж.</li>
+                                    </ul>
+                                    <p><span class="price">3 300 <i class="fa fa-rub"></i></span></p>
+                                </div>
+                                <div class="hl"></div>
+                            </div>
+                            <div class="col l4">
+                                <div class="logo_1c">
+                                    <img src="img/logo_1c.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l8">
+                                <div class="price_item">
+                                    <p>
+                                        <span class="name">Установка </span> - Выездные работы по настройке и обучение.
+                                    </p>
+                                    <ul>
+                                        <li>Проверка и прием документов для выпуска сертификата;</li>
+                                        <li>Запись сертификата на носитель JaCarta и установка УТМ;</li>
+                                        <li>Настройка взаимодействия УТМ и Контур.Алко для получения накладных в ЕГАИС.</li>
+                                    </ul>
+                                    <p><span class="price">11 900 <i class="fa fa-rub"></i></span></p>
+                                </div>
+                                <div class="hl"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="standart">
-                    <div class="row">
-                        <div class="col l3 photo"><img src="img/retail.png" alt=""></div>
-                        <div class="col l6 desc">
+                <div class="standart row">
+                    <div class="col l3 photo"><img src="img/retail.png" alt=""></div>
+                    <div class="col l9">
+                        <div class="row desc">
                             <p>Для приемки и отправки накладных в системе ЕГАИС. <br> Необходимо подключиться до 1 января 2016 г.</p>
-                            <div class="price_item">
-                                <p><br><br>
-                                    <span class="name">JaCarta + КЭП</span> - Сертифицированный защищенный носитель для ЕГАИС JaCarta SE (PKI/ГОСТ)  и квалифицированный сертификат электронной подписи.
-                                    <br><span class="price">5 000 <i class="fa fa-rub"></i></span>
-                                </p>
-                            </div>
-                            <div class="hl"></div>
-                            <div class="price_item">
-                                <p><span class="name">ДАЛИОН: Управление магазином.УНО</span> -  Комплексное решение для автоматизации магазинов.</p>
-                                <ul>
-                                    <li>Фиксация закупок алкогольной продукции в ЕГАИС;</li>
-                                    <li>Автоматическое ведение журнала покупок и продаж алкогольной продукции;</li>
-                                    <li>Возможность подключения фискального регистратора и 2D сканера для фиксации продаж в ЕГАИС;</li>
-                                    <li>Возможность подключения внешней POS системы для фиксации продаж.</li>
-                                </ul>
-                                <p><span class="price">39 000 <i class="fa fa-rub"></i></span></p>
-                            </div>
-                            <div class="hl"></div>
-                            <div class="price_item">
-                                <p>
-                                    <span class="name">Установка </span> - Выездные работы по настройке и обучение.
-                                    <br><span class="price">15 900 <i class="fa fa-rub"></i></span>
-                                </p>
-                            </div>
-                            <div class="hl"></div>
                         </div>
-                        <div class="col l3 total_price">
-                            <p>Цена <span class="ot">от</span><span> 5 000 <i class="fa fa-rub"></i></span></p>
+                        <div class="row">
+                            <div class="col l8 jacarta_desc">
+                                <div class="price_item">
+                                    <p>
+                                        <span class="name">JaCarta + КЭП</span> - Сертифицированный защищенный носитель для ЕГАИС JaCarta SE (PKI/ГОСТ)  и квалифицированный сертификат электронной подписи.
+                                        <br><span class="price">5 000 <i class="fa fa-rub"></i></span>
+                                    </p>
+                                    <div class="hl"></div>
+                                </div>
+                            </div>
+                            <div class="col l4">
+                                <div class="jacarta_img">
+                                    <a href="img/jacarta_big.png" target="_blank" class="fancybox"><img src="img/jacarta.png" alt=""></a>
+                                </div>
+                                <div class="total_price">
+                                    <p>Цена: <span class="ot">от</span><span> 5 000 <i class="fa fa-rub"></i></span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l8">
+                                <div class="price_item">
+                                    <p><span class="name">ДАЛИОН: Управление магазином.УНО</span> -  Комплексное решение для автоматизации магазинов.</p>
+                                    <ul>
+                                        <li>Фиксация закупок алкогольной продукции в ЕГАИС;</li>
+                                        <li>Автоматическое ведение журнала покупок и продаж алкогольной продукции;</li>
+                                        <li>Возможность подключения фискального регистратора и 2D сканера для фиксации продаж в ЕГАИС;</li>
+                                        <li>Возможность подключения внешней POS системы для фиксации продаж.</li>
+                                    </ul>
+                                    <p><span class="price">39 000 <i class="fa fa-rub"></i></span></p>
+                                </div>
+                                <div class="hl"></div>
+                            </div>
+                            <div class="col l4">
+                                <div class="logo_dalion">
+                                    <img src="img/logo_dalion.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l8">
+                                <div class="price_item">
+                                    <p>
+                                        <span class="name">Установка </span> - Выездные работы по настройке и обучение.
+                                    </p>
+                                    <ul>
+                                        <li>Проверка и прием документов для выпуска сертификата;</li>
+                                        <li>Запись сертификата на носитель JaCarta и установка УТМ;</li>
+                                        <li>Настройка взаимодействия УТМ и Контур.Алко для получения накладных в ЕГАИС.</li>
+                                    </ul>
+                                    <p><span class="price">15 900 <i class="fa fa-rub"></i></span></p>
+                                </div>
+                                <div class="hl"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -302,40 +374,64 @@
                 <li class="tab utab active"><a href="to_econom">1С: Управление торговлей алкогольной продукцией</a></li>
             </ul>
             <div class="price_content">
-                <div class="econom">
-                    <div class="econom">
+                <div class="row econom">
+                    <div class="col l3 photo"><img src="img/wholesale.png" alt=""></div>
+                    <div class="col l9">
+                        <div class="row desc">
+                            <p>Для приемки накладных в системе ЕГАИС.<br> Необходимо подключиться до 1 января 2016 г.</p>
+                        </div>
                         <div class="row">
-                            <div class="col l3 photo"><img src="img/wholesale.png" alt=""></div>
-                            <div class="col l6 desc">
-                                <p>Для приемки накладных в системе ЕГАИС.<br> Необходимо подключиться до 1 января 2016 г.</p>
+                            <div class="col l8 jacarta_desc">
                                 <div class="price_item">
-                                    <p><br><br>
+                                    <p>
                                         <span class="name">JaCarta + КЭП</span> - Сертифицированный защищенный носитель для ЕГАИС JaCarta SE (PKI/ГОСТ)  и квалифицированный сертификат электронной подписи.
                                         <br><span class="price">5 000 <i class="fa fa-rub"></i></span>
                                     </p>
+                                    <div class="hl"></div>
                                 </div>
-                                <div class="hl"></div>
+                            </div>
+                            <div class="col l4">
+                                <div class="jacarta_img">
+                                    <a href="img/jacarta_big.png" target="_blank" class="fancybox"><img src="img/jacarta.png" alt=""></a>
+                                </div>
+                                <div class="total_price">
+                                    <p>Цена: <span class="ot">от</span><span> 5 000 <i class="fa fa-rub"></i></span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l8">
                                 <div class="price_item">
                                     <p>
                                         <span class="name">1С: управление торговлей алкогольной продукцией</span> - Специализированное отраслевое решение для торговли
-                                        алкогольной продукцией.
-                                        <br><span class="price">57 600 <i class="fa fa-rub"></i></span>
+                                        алкогольной продукцией.</p>
                                     <ul>
                                         <li>Специализированное отраслевое решение для торговли алкогольной продукцией, имеет полную интеграцию с ЕГАИС.</li>
                                     </ul>
-                                    </p>
-                                </div>
-                                <div class="hl"></div>
-                                <div class="price_item">
-                                    <p>
-                                        <span class="name">Установка </span> - Выездные работы по настройке и обучение.
-                                        <br><span class="price">29 900 <i class="fa fa-rub"></i></span>
-                                    </p>
+                                    <p><span class="price">57 600 <i class="fa fa-rub"></i></span></p>
                                 </div>
                                 <div class="hl"></div>
                             </div>
-                            <div class="col l3 total_price">
-                                <p>Цена <span class="ot">от</span><span> 5 000 <i class="fa fa-rub"></i></span></p>
+                            <div class="col l4">
+                                <div class="logo_1c">
+                                    <img src="img/logo_1c.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l8">
+                                <div class="price_item">
+                                    <p>
+                                        <span class="name">Установка </span> - Выездные работы по настройке и обучение.
+                                    </p>
+                                    <ul>
+                                        <li>Проверка и прием документов для выпуска сертификата;</li>
+                                        <li>Запись сертификата на носитель JaCarta и установка УТМ;</li>
+                                        <li>Настройка взаимодействия УТМ и Контур.Алко для получения накладных в ЕГАИС.</li>
+                                    </ul>
+                                    <p><span class="price">29 900 <i class="fa fa-rub"></i></span></p>
+                                </div>
+                                <div class="hl"></div>
                             </div>
                         </div>
                     </div>
@@ -427,7 +523,7 @@
 
                         <div class="total_price">
                             <p>Цена от <span>18 500 <i class="fa fa-rub"></i></span></p>
-                            <p class="total_price_desc">(в зависимости от курсов валют)</p>
+                            <p class="total_price_desc"></p>
                         </div>
                     </div>
                 </div>
@@ -438,7 +534,7 @@
 
                         <div class="total_price">
                             <p>Цена от <span>8 700 <i class="fa fa-rub"></i></span></p>
-                            <p class="total_price_desc">(в зависимости от курсов валют)</p>
+                            <p class="total_price_desc"></p>
                         </div>
                     </div>
                 </div>
@@ -449,7 +545,7 @@
 
                         <div class="total_price">
                             <p>Цена от <span>6 400 <i class="fa fa-rub"></i></span></p>
-                            <p class="total_price_desc">(в зависимости от курсов валют)</p>
+                            <p class="total_price_desc"></p>
                         </div>
                     </div>
                 </div>
@@ -460,11 +556,24 @@
 
                         <div class="total_price">
                             <p>Цена от <span>4 060 <i class="fa fa-rub"></i></span></p>
-                            <p class="total_price_desc">(в зависимости от курсов валют)</p>
+                            <p class="total_price_desc"></p>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="container our_partners">
+        <h2>Наши <span>партнеры</span></h2>
+        <div class="row">
+            <div class="col l2 offset-l1 partner_item"><img src="img/partner_1c.png" alt=""></div>
+            <div class="col l3 partner_item"><img src="img/partner_bts.png" alt=""></div>
+            <div class="col l3 partner_item"><img src="img/partner_shtrih-m.png" alt=""></div>
+            <div class="col l3 partner_item"><img src="img/partner_rrc.png" alt=""></div>
+        </div>
+        <div class="row">
+            <div class="col l4 offset-l1 partner_item"><img src="img/partner_kontur.png" alt=""></div>
+            <div class="col l4 offset-l1 partner_item"><img src="img/partner_dalion.png" alt=""></div>
         </div>
     </div>
     <div class="container">
@@ -524,6 +633,7 @@
         }
         showLogo();
         var $menu = $(".top_menu");
+
         $(window).scroll(function(){
             if($(window).width()>992){
                 if ( $(this).scrollTop() > 100 && $menu.hasClass("default") ){
@@ -626,16 +736,16 @@
     });
     $(document).ready(function(){
         function success(){
-            $('#main_form').find('i').html('Ваши данные успешно отправлены!<br> С Вами свяжутся наши специалисты в течении 15 минут').css('color','green');
+            $('#main_form').find('b').html('Ваши данные успешно отправлены!<br> С Вами свяжутся наши специалисты в течении 15 минут').css('color','green');
             setTimeout(function () {
-                $('#main_form').find('i').html('Ваши данные не будут переданы 3-им лицам').css('color','#000');
+                $('#main_form').find('b').html('Ваши данные не будут переданы 3-им лицам').css('color','#000');
             }, 3000);
             yaCounter34269565.reachGoal('consutation');
         }
         function error(){
-            $('#main_form').find('i').html('Не удалось отправить данные, пожалуйста проверьте правильность заполнения полей.').css('color','red');
+            $('#main_form').find('b').html('Не удалось отправить данные, пожалуйста проверьте правильность заполнения полей.').css('color','red');
             setTimeout(function () {
-                $('#main_form').find('i').html('Ваши данные не будут переданы 3-им лицам').css('color','#000');
+                $('#main_form').find('b').html('Ваши данные не будут переданы 3-им лицам').css('color','#000');
             }, 3000);
         }
         $('#main_form input[name="phone"]').inputmask("+7(999)999-99-99");

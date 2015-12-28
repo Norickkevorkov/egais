@@ -83,7 +83,7 @@ header{
     top: 7%;
     right: 11%;
     width: 600px;
-    height: 445px;
+    height: 470px;
     background-color: rgba(255,255,255,0.5);
 }
 .submit h1{
@@ -105,12 +105,16 @@ header{
     padding:8px 10px;
     border: 1px solid #999999;
     border-radius: 3px;
+    height: 45px;
+    width: 240px;
+    font-size: 23px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
 }
 #main_form button[type="submit"]{
     margin-left: 35px;
     vertical-align: middle;
     padding:8px 10px;
-    border-radius: 3px;
+    border-radius: 10px;
     margin-top: 25px;
     width: 370px;
     height: 60px;
@@ -134,14 +138,25 @@ button[type="submit"]:hover{
 }
 .header h1, .header h2{
     color: #08233e;
+    font-family: "UbuntuLight";
+}
+.header h1{
+    font-size: 48px;
+}
+.header h1 span, .header h2 span{
+    font-family: "UbuntuRegular";
 }
 .header h2 {
     font-size: 30px;
+    font-family: "UbuntuRegular";
+}
+.implementation .row{
+    margin-bottom: 0;
 }
 .implementation .pic_bg{
     background: url('/img/pic_bg.png') 50% no-repeat;
     width: 228px;
-    height: 228px;
+    height: 200px;
     margin: 0 auto;
     transition: background-image 0.7s 0.1s;
 }
@@ -151,10 +166,18 @@ button[type="submit"]:hover{
 }
 .implementation .pic_bg img {
     position: relative;
-    top: 87px;
+    top: 75px;
 }
 .implementation p{
     font-size: 18px;
+}
+.implementation a{
+    width: 100%;
+    height: 60px;
+    padding-top: 7px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 11px rgba(0,0,0,0.3);
 }
 .implementation button{
     vertical-align: middle;
@@ -170,6 +193,9 @@ button[type="submit"]:hover{
 }
 .implementation button:hover{
     background-color: #ffc000;
+}
+#aboutEGAIS h1{
+    padding-top: 40px;
 }
 .top_content{
     background-color: #fff;
@@ -189,6 +215,10 @@ button[type="submit"]:hover{
 }
 .what_is p, .what_is li{
     font-size: 16px;
+    line-height: 1.8;
+}
+.what_is h3{
+    font-family: "UbuntuBold";
 }
 .what_is ul{
     list-style-image: url('/img/list_style.png');
@@ -236,7 +266,7 @@ button[type="submit"]:hover{
 }
 .scheme img{
     width: 100%;
-    padding: 0 10px;
+    padding: 0 35px;
 }
 .price h2, .add_equip h2 {
     color: #08233e;
@@ -292,15 +322,13 @@ button[type="submit"]:hover{
     box-shadow: 0 4px 11px rgba(0,0,0,0.2);
     position: relative;
 }
-.price_content .row{
-    padding-top: 25px;
-}
 .price_content .photo{
     overflow: hidden;
     text-align: center;
 }
 .price_content .photo img {
     max-width: 130px;
+    margin-top: 20px;
 }
 .price_content .standart{
     display: none;
@@ -310,9 +338,16 @@ button[type="submit"]:hover{
     font-size: 18px;
     max-width: 593px;
 }
+.price_item{
+    height: 100%;
+    max-width: 570px;
+}
 .price_item p{
+    position: relative;
+    height: 100%;
     padding-left: 20px;
     font-size: 15px;
+    margin-bottom: 0;
 }
 .price_item ul{
     list-style-image: url('/img/list_style.png');
@@ -324,20 +359,47 @@ button[type="submit"]:hover{
 }
 .price_item p span.price{
     color: #dea221;
-    float: right;
-    margin-top: -5px;
-}
-.oneC{
     position: absolute;
-    margin-top: 5px;
+    bottom: 0;
+    left: 87%;
+}
+.jacarta_desc{
+    height: 10em;
 }
 .jacarta_img {
     position: relative;
     padding: 5px;
     border: 1px solid #D0D0D0;
-    top: 62px;
-    left: 25px;
+    left: 35px;
     max-width: 195px;
+}
+.logo_kontur, .logo_1c, .logo_dalion{
+    position: relative;
+    height: 10em;
+}
+.logo_1c img{
+    padding: 10px 5px;
+    border: 1px solid #D0D0D0;
+    left: 35px;
+    max-width: 195px;
+    position: absolute;
+    top: 10px;
+}
+.logo_kontur img{
+    padding: 24px 5px;
+    border: 1px solid #D0D0D0;
+    left: 35px;
+    max-width: 195px;
+    position: absolute;
+    bottom: -6px;
+}
+.logo_dalion img {
+    padding: 58px 5px;
+    border: 1px solid #D0D0D0;
+    left: 35px;
+    max-width: 195px;
+    position: absolute;
+    top: 52%;
 }
 .price_content .total_price{
     height: 100%;
@@ -435,8 +497,8 @@ p.total_price_desc{
 .equip_item .img_border{
     position: relative;
     float: right;
-    bottom: 15px;
-    right: 15px;
+    bottom: 30px;
+    right: 25px;
     text-align: center;
 }
 .dop_item{
@@ -476,6 +538,26 @@ p.total_price_desc{
     position: absolute;
     bottom: 0;
 }
+.our_partners{
+    margin: 90px auto;
+    text-align: center;
+}
+.our_partners h2{
+    color: #08233e;
+    font-size: 42px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    font-family: "UbuntuLight";
+}
+.our_partners h2 span{
+    font-family: "UbuntuBold";
+}
+.row .col.offset-l1.partner_item {
+    margin-left: 8.33333%!important;
+}
+.partner_item img{
+    height: 76px;
+}
 footer.contacts{
     text-align: center;
     color: #08233e;
@@ -484,7 +566,7 @@ footer.contacts h4{
     color: #07233e;
     font-size: 30px;
     font-family: "UbuntuLight";
-    margin-bottom: 150px;
+    margin-bottom: 120px;
 }
 footer.contacts .phone_footer{
     font-size: 70px;
@@ -493,7 +575,7 @@ footer.contacts .phone_footer span{
     color: #ff8004;
 }
 footer.contacts .email{
-    font-family: "UbuntuLight";
+    font-family: "UbuntuBold";
     font-size: 40px;
     padding-bottom: 18px;
     margin-bottom: 0;
@@ -560,12 +642,12 @@ footer.footer_form{
 #footer_form button[type="submit"]{
     vertical-align: middle;
     padding:8px 10px;
-    border-radius: 3px;
+    border-radius: 10px;
     width: 300px;
     height: 60px;
     border: none;
     color: #08233e;font-size: 20px;
-    background-color: #fbd348;
+    background-color: #fbc300;
     margin-top: 0;
     box-shadow: 0 5px 0 #cb8500;
     margin-bottom: 15px;
