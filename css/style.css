@@ -31,6 +31,9 @@ header {
 }
 .menu_logo:hover{
 }
+.top_menu_row{
+    margin-bottom: 0;
+}
 .top_menu.fixed {
     position:fixed;
     top:0; left:0;
@@ -68,15 +71,16 @@ header {
 }
 .slidebar{
     overflow: hidden;
-
+    position: relative;
+    min-height: 768px;
 }
 .slide{
     overflow: hidden;
     max-width: 1920px;
+    width: 100%;
     height: 768px;
-    background: url("/img/slide.jpg") no-repeat 50%;
-    margin: -20px auto 0;
-    position: relative;
+    background: url("/img/slide.jpg") no-repeat 50% 0;
+    position: absolute;
 }
 .submit{
     position: absolute;
@@ -88,9 +92,13 @@ header {
 }
 .submit h1{
     color: #383838;
+    width: 280px;
     font-size: 2.5em;
     margin: 35px 0 0 30px;
     text-shadow: 1px 2px 0 #fff;
+}
+.submit .phone, .submit .hl{
+    display: none;
 }
 .submit .egais{
     display: block;
@@ -266,6 +274,11 @@ button[type="submit"]:hover{
     margin-bottom: 0;
     font-size: 36px;
 }
+.scheme p{
+    color: #555555;
+    font-size: 16px;
+    margin-top: -15px;
+}
 .scheme img{
     width: 100%;
     padding: 0 35px;
@@ -280,6 +293,19 @@ button[type="submit"]:hover{
     margin-left: 10px;
     margin-bottom: 30px;
 }
+.pricecard_header{
+    display: inline-block;
+}
+.pricecard{
+    display: none;
+}
+.pricecard.active{
+    display: block;
+}
+.retail_price_list{
+    display: inline-block;
+    background-color: #dcdcdc;
+}
 .price .tab{
     display: inline-block;
 }
@@ -287,6 +313,7 @@ button[type="submit"]:hover{
     height: 51px;
     width: 330px;
     text-align: center;
+    background-color: #dcdcdc;
 }
 .price .tab a{
     margin-top: 10px;
@@ -309,7 +336,7 @@ button[type="submit"]:hover{
 }
 .to_standart{
     text-align: left!important;
-    padding-left: 10px!important;
+    padding-left: 20px!important;
 }
 .price .tab.active a{
     cursor: default;
@@ -318,8 +345,12 @@ button[type="submit"]:hover{
 .price ul{
     margin-bottom: 0;
 }
-.retail_price_list{
+.bg_list{
     background: url("/img/list_bg.png") no-repeat;
+    width: 28px;
+    height: 51px;
+    margin-top: 15px;
+    float: right;
 }
 .price_content{
     background-color: #fff;
@@ -334,9 +365,6 @@ button[type="submit"]:hover{
 .price_content .photo img {
     max-width: 130px;
     margin-top: 20px;
-}
-.price_content .standart{
-    display: none;
 }
 .desc p{
     margin-top: 0;
@@ -375,17 +403,17 @@ button[type="submit"]:hover{
     position: relative;
     padding: 5px;
     border: 1px solid #D0D0D0;
-    left: 35px;
+    left: 17%;
     max-width: 195px;
 }
-.logo_kontur, .logo_1c, .logo_dalion{
+.logo_kontur, .logo_1c, .logo_dalion, .logo_shtrih{
     position: relative;
     height: 10em;
 }
 .logo_1c img{
     padding: 10px 5px;
     border: 1px solid #D0D0D0;
-    left: 35px;
+    left: 17%;
     max-width: 195px;
     position: absolute;
     top: 10px;
@@ -393,7 +421,7 @@ button[type="submit"]:hover{
 .logo_kontur img{
     padding: 24px 5px;
     border: 1px solid #D0D0D0;
-    left: 35px;
+    left: 17%;
     max-width: 195px;
     position: absolute;
     bottom: -6px;
@@ -401,10 +429,19 @@ button[type="submit"]:hover{
 .logo_dalion img {
     padding: 58px 5px;
     border: 1px solid #D0D0D0;
-    left: 35px;
+    left: 17%;
     max-width: 195px;
     position: absolute;
     top: 52%;
+}
+.logo_shtrih{
+    position: relative;
+    padding: 5px;
+    border: 1px solid #D0D0D0;
+    top: 70px;
+    left: 17%;
+    max-width: 195px;
+    height: 11em;
 }
 .price_content .total_price{
     height: 100%;
@@ -438,7 +475,7 @@ p.total_price_desc{
     height: 2px;
     margin-bottom: 20px;
 }
-.econom, .standart{
+.econom, .standart, .shtrih{
     padding-top: 20px;
     min-height: 650px;
 }
@@ -475,8 +512,12 @@ p.total_price_desc{
     position: relative;
     color: #07233e;
     padding: 15px;
+    min-height: 375px;
     font-family: "UbuntuBold";
     font-size: 15px;
+}
+.equip_item.advanced{
+    min-height: 475px;
 }
 .equip_item ul{
     list-style-image: url("/img/add_equip_list.png");
@@ -521,7 +562,7 @@ p.total_price_desc{
     padding: 0 10px;
 }
 .scaner{
-    width: 185px!important;
+    width: 200px!important;
 }
 .dop_item h6{
     font-size: 18px;
@@ -552,7 +593,7 @@ p.total_price_desc{
     color: #08233e;
     font-size: 42px;
     margin-left: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
     font-family: "UbuntuLight";
 }
 .our_partners h2 span{
@@ -572,7 +613,7 @@ footer.contacts h4{
     color: #07233e;
     font-size: 30px;
     font-family: "UbuntuLight";
-    margin-bottom: 120px;
+    margin-bottom: 80px;
 }
 footer.contacts .phone_footer{
     font-size: 70px;

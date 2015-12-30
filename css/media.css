@@ -5,27 +5,127 @@
     .container{
         width: 90%;
     }
+    .logo_1c img{
+        left: 0;
+    }
+    .logo_kontur img{
+        left: 0;
+    }
+    .logo_dalion img {
+        left: 0;
+    }
+    .jacarta_img {
+        left: 0;
+    }
+    .price_content .total_price {
+        top: 90%;
+        right: 1%;
+    }
+    .total_price p {
+        font-size: 20px;
+    }
+    .total_price p span.ot {
+        font-size: 24px;
+    }
+    .total_price p span {
+        font-size: 30px;
+    }
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
     .phone{
         display: none;
     }
+    .submit .phone, .submit .hl{
+        display: block;
+    }
     header{
         position: relative;
     }
     nav.top_menu{
-        background: url("/img/mobile_menu_button.png") no-repeat;
+        background: url("/img/tablet_menu_button.png") no-repeat;
         right: 1%;
         top: 3%;
         position: fixed;
         display: block;
         z-index: 10;
-        width: 50px;
+        width: 80px;
+        height: 100%;
         cursor: pointer;
     }
     nav.top_menu ul{
         display: none;
+    }
+    .mobile_menu{
+        position: fixed;
+        z-index: 9;
+        top: 0;
+        left: 0;
+        background-color: #08233e;
+    }
+    .implementation, #aboutEGAIS, .scheme{
+        display: none;
+    }
+    header{
+        height: 90px;
+    }
+    .logo{
+        background: url('/img/logo_for_tablets.png') no-repeat;
+        width: 100%;
+        height: 100%;
+        float: left;
+        margin-left: 5px;
+    }
+    .slidebar{
+        min-height: 1100px;
+    }
+    .slide {
+        overflow: hidden;
+        min-height: 1100px;
+
+        max-width: 992px;
+        background: url("/img/tablet_slide.jpg") no-repeat 50% 0;
+        position: relative;
+    }
+    .submit {
+        position: relative;
+        top: 47%;
+        right: 0;
+        margin: 0 auto;
+        height: 525px;
+        border-radius: 20px;
+        padding: 20px 45px;
+        background-color: rgba(255,255,255,0.8);
+        box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    }
+    .submit h1{
+        width: 100%;
+        text-shadow: none;
+        margin: 0;
+    }
+    .submit .phone{
+        background: url('/img/phone.png') no-repeat 53%;
+        font-family: "UbuntuRegular";
+        font-size: 28px;
+        float: none;
+        text-align: right;
+        width: 100%;
+    }
+    .submit .egais{
+        margin: 0;
+        text-shadow: none;
+    }
+    #main_form input{
+        display: block;
+        margin-left: 0;
+        height: 58px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #main_form button[type="submit"] {
+        margin-left: 0;
+        margin-top: 0;
+        width: 100%;
     }
 }
 

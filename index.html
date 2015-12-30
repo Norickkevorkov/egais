@@ -51,7 +51,7 @@
 <!-- /Yandex.Metrika counter -->
 <div class="top_content" id="top">
     <div class="container">
-        <div class="row">
+        <div class="row top_menu_row">
             <header>
                 <div class="logo"></div>
                 <div class="phone"><span>8 (495)</span> 668 09 23</div>
@@ -72,7 +72,9 @@
     <div class="slidebar">
         <div class="slide">
             <div class="submit">
-                <h1>Быстрое <br> подключение к</h1>
+                <div class="phone"><span>8 (495)</span> 668 09 23</div>
+                <div class="hl"></div>
+                <h1>Быстрое подключение к</h1>
                 <span class="egais">ЕГАИС</span>
                 <form id="main_form" action="javascript:void(null)">
                     <input type="text" name="name" placeholder="Имя">
@@ -154,12 +156,13 @@
         </div>
     </div>
     <div class="container price_container">
-
         <div class="price" id="rest">
             <h2>Кафе, рестораны и пивная розница</h2>
-            <ul>
+            <div class="pricecard_header">
+                <ul class="retail_price_list">
                 <li class="tab to_econom active"><a href="to_econom">Контур.Алко</a></li>
-            </ul>
+                </ul><div class="bg_list"></div>
+            </div>
             <div class="price_content">
                 <div class="row econom">
                     <div class="col l3 photo"><img src="img/rest.png" alt=""></div>
@@ -197,8 +200,8 @@
                                         <li>Отчетность в ФСРАР (требуется квалифицированная электронная подпись).</li>
                                     </ul>
                                     <p><span class="price">9 900 <i class="fa fa-rub"></i></span></p>
+                                    <div class="hl"></div>
                                 </div>
-                                <div class="hl"></div>
                             </div>
                             <div class="col l4">
                                 <div class="logo_kontur">
@@ -210,7 +213,7 @@
                             <div class="col l8">
                                 <div class="price_item">
                                     <p>
-                                        <span class="name">Установка </span> - Выездные работы по настройке и обучение.
+                                        <span class="name">Установка </span> - Выездные работы по настройке и обучению.
                                     </p>
                                     <ul>
                                         <li>Проверка и прием документов для выпуска сертификата;</li>
@@ -218,25 +221,28 @@
                                         <li>Настройка взаимодействия УТМ и Контур.Алко для получения накладных в ЕГАИС.</li>
                                     </ul>
                                     <p><span class="price">5 000 <i class="fa fa-rub"></i></span></p>
+                                    <div class="hl"></div>
                                 </div>
-                                <div class="hl"></div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="kom_pred">
-                    <a target="_blank" href="commerce_offer_contur.pdf">Скачать коммерческое <br> предложение</a>
+                    <a target="_blank" href="com_offer_contur.pdf">Скачать коммерческое <br> предложение</a>
                 </div>
             </div>
         </div>
         <div class="price" id="retail">
             <h2>Розничная торговля крепким алкоголем</h2>
-            <ul class="retail_price_list">
-                <li class="tab to_econom active"><a href="to_econom">1С: Розница</a></li>
-                <li class="tab to_standart"><a onclick="yaCounter34269565.reachGoal('dalion');" href="to_standart">ДАЛИОН: Управление магазином.УНО</a></li>
-            </ul>
+            <div class="pricecard_header">
+                <ul class="retail_price_list">
+                    <li class="tab to_econom active"><a href="to_econom">1С: Розница</a></li>
+                    <li class="tab to_standart"><a onclick="yaCounter34269565.reachGoal('dalion');" href="to_standart">ДАЛИОН: Управление магазином.УНО</a></li>
+                    <li class="tab to_shtrih"><a href="to_shtrih">Штрих-М</a></li>
+                </ul><div class="bg_list"></div>
+            </div>
             <div class="price_content">
-                <div class="row econom">
+                <div class="econom active row pricecard">
                     <div class="col l3 photo"><img src="img/retail.png" alt=""></div>
                     <div class="col l9">
                         <div class="row desc">
@@ -273,8 +279,8 @@
                                         <li>Возможность подключения внешней POS системы для фиксации продаж.</li>
                                     </ul>
                                     <p><span class="price">3 300 <i class="fa fa-rub"></i></span></p>
+                                    <div class="hl"></div>
                                 </div>
-                                <div class="hl"></div>
                             </div>
                             <div class="col l4">
                                 <div class="logo_1c">
@@ -286,7 +292,7 @@
                             <div class="col l8">
                                 <div class="price_item">
                                     <p>
-                                        <span class="name">Установка </span> - Выездные работы по настройке и обучение.
+                                        <span class="name">Установка </span> - Выездные работы по настройке и обучению.
                                     </p>
                                     <ul>
                                         <li>Проверка и прием документов для выпуска сертификата;</li>
@@ -294,13 +300,13 @@
                                         <li>Настройка взаимодействия УТМ и Контур.Алко для получения накладных в ЕГАИС.</li>
                                     </ul>
                                     <p><span class="price">11 900 <i class="fa fa-rub"></i></span></p>
+                                    <div class="hl"></div>
                                 </div>
-                                <div class="hl"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="standart row">
+                <div class="standart row pricecard">
                     <div class="col l3 photo"><img src="img/retail.png" alt=""></div>
                     <div class="col l9">
                         <div class="row desc">
@@ -336,8 +342,8 @@
                                         <li>Возможность подключения внешней POS системы для фиксации продаж.</li>
                                     </ul>
                                     <p><span class="price">39 000 <i class="fa fa-rub"></i></span></p>
+                                    <div class="hl"></div>
                                 </div>
-                                <div class="hl"></div>
                             </div>
                             <div class="col l4">
                                 <div class="logo_dalion">
@@ -349,7 +355,7 @@
                             <div class="col l8">
                                 <div class="price_item">
                                     <p>
-                                        <span class="name">Установка </span> - Выездные работы по настройке и обучение.
+                                        <span class="name">Установка </span> - Выездные работы по настройке и обучению.
                                     </p>
                                     <ul>
                                         <li>Проверка и прием документов для выпуска сертификата;</li>
@@ -357,22 +363,88 @@
                                         <li>Настройка взаимодействия УТМ и Контур.Алко для получения накладных в ЕГАИС.</li>
                                     </ul>
                                     <p><span class="price">15 900 <i class="fa fa-rub"></i></span></p>
+                                    <div class="hl"></div>
                                 </div>
-                                <div class="hl"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shtrih row pricecard">
+                    <div class="col l3 photo"><img src="img/retail.png" alt=""></div>
+                    <div class="col l9">
+                        <div class="row desc">
+                            <p>Для приемки и отправки накладных в системе ЕГАИС. <br> Необходимо подключиться до 1 января 2016 г.</p>
+                        </div>
+                        <div class="row">
+                            <div class="col l8 jacarta_desc">
+                                <div class="price_item">
+                                    <p>
+                                        <span class="name">JaCarta + КЭП</span> - Сертифицированный защищенный носитель для ЕГАИС JaCarta SE (PKI/ГОСТ)  и квалифицированный сертификат электронной подписи.
+                                        <br><span class="price">5 000 <i class="fa fa-rub"></i></span>
+                                    </p>
+                                    <div class="hl"></div>
+                                </div>
+                            </div>
+                            <div class="col l4">
+                                <div class="jacarta_img">
+                                    <a href="img/jacarta_big.png" target="_blank" class="fancybox"><img src="img/jacarta.png" alt=""></a>
+                                </div>
+                                <div class="total_price">
+                                    <p>Цена: <span class="ot">от</span><span> 5 000 <i class="fa fa-rub"></i></span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l8">
+                                <div class="price_item">
+                                    <p><span class="name">Штрих-М: Розничная торговля</span> -  Cистема товароучета.</p>
+                                    <ul>
+                                        <li>Фиксация закупок алкогольной продукции в ЕГАИС;</li>
+                                        <li>Автоматическое ведение журнала покупок и продаж алкогольной продукции;</li>
+                                        <li>Возможность подключения фискального регистратора и 2D сканера для фиксации продаж в ЕГАИС;</li>
+                                        <li>Возможность подключения внешней POS системы для фиксации продаж;</li>
+                                        <li>Журнал учета алкогольной продукции.</li>
+                                    </ul>
+                                    <p><span class="price">5 000 <i class="fa fa-rub"></i></span></p>
+                                    <div class="hl"></div>
+                                </div>
+                            </div>
+                            <div class="col l4">
+                                <div class="logo_shtrih">
+                                    <img src="img/logo_shtrihm.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l8">
+                                <div class="price_item">
+                                    <p>
+                                        <span class="name">Установка </span> - Выездные работы по настройке и обучению.
+                                    </p>
+                                    <ul>
+                                        <li>Проверка и прием документов для выпуска сертификата;</li>
+                                        <li>Запись сертификата на носитель JaCarta и установка УТМ;</li>
+                                        <li>Настройка взаимодействия УТМ и Контур.Алко для получения накладных в ЕГАИС.</li>
+                                    </ul>
+                                    <p><span class="price">11 900 <i class="fa fa-rub"></i></span></p>
+                                    <div class="hl"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="kom_pred">
-                    <a target="_blank" href="commerce_offer_1c_roznica.pdf">Скачать коммерческое <br> предложение</a>
+                    <a target="_blank" href="com_offer_shtrihm.pdf">Скачать коммерческое <br> предложение</a>
                 </div>
             </div>
         </div>
         <div class="price" id="wholesale">
             <h2>Оптовая торговля</h2>
-            <ul>
-                <li class="tab utab active"><a href="to_econom">1С: Управление торговлей алкогольной продукцией</a></li>
-            </ul>
+            <div class="pricecard_header">
+                <ul class="retail_price_list">
+                    <li class="tab utab active"><a href="to_econom">1С: Управление торговлей алкогольной продукцией</a></li>
+                </ul><div class="bg_list"></div>
+            </div>
             <div class="price_content">
                 <div class="row econom">
                     <div class="col l3 photo"><img src="img/wholesale.png" alt=""></div>
@@ -409,8 +481,8 @@
                                         <li>Специализированное отраслевое решение для торговли алкогольной продукцией, имеет полную интеграцию с ЕГАИС.</li>
                                     </ul>
                                     <p><span class="price">57 600 <i class="fa fa-rub"></i></span></p>
+                                    <div class="hl"></div>
                                 </div>
-                                <div class="hl"></div>
                             </div>
                             <div class="col l4">
                                 <div class="logo_1c">
@@ -422,7 +494,7 @@
                             <div class="col l8">
                                 <div class="price_item">
                                     <p>
-                                        <span class="name">Установка </span> - Выездные работы по настройке и обучение.
+                                        <span class="name">Установка </span> - Выездные работы по настройке и обучению.
                                     </p>
                                     <ul>
                                         <li>Проверка и прием документов для выпуска сертификата;</li>
@@ -430,14 +502,14 @@
                                         <li>Настройка взаимодействия УТМ и Контур.Алко для получения накладных в ЕГАИС.</li>
                                     </ul>
                                     <p><span class="price">29 900 <i class="fa fa-rub"></i></span></p>
+                                    <div class="hl"></div>
                                 </div>
-                                <div class="hl"></div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="kom_pred">
-                    <a target="_blank" href="commerce_offer_1c_utap.pdf">Скачать коммерческое <br> предложение</a>
+                    <a target="_blank" href="com_offer_1c_utap.pdf">Скачать коммерческое <br> предложение</a>
                 </div>
             </div>
         </div>
@@ -447,7 +519,7 @@
             <div class="row"><h2>Дополнительное оборудование</h2></div>
             <div class="row">
                 <div class="col l6">
-                    <div class="equip_item">
+                    <div class="equip_item advanced">
                         <h4><span>Неттоп</span> - Lenovo ThinkCentre</h4>
                         <ul>
                             <li>Процессор: Intel Celeron J1800 2.41 GHz</li>
@@ -462,11 +534,10 @@
                         <div class="total_price">
                             <p>Цена <span>26 900 <i class="fa fa-rub"></i></span></p>
                         </div>
-
                     </div>
                 </div>
                 <div class="col l6">
-                    <div class="equip_item">
+                    <div class="equip_item advanced">
                         <h4><span>Монитор</span> - Acer V206HQLBb, 19.5", Black</h4>
                         <ul>
                             <li>Диагональ экрана19.5"</li>
@@ -483,7 +554,6 @@
                         <div class="total_price">
                             <p>Цена <span>6 710 <i class="fa fa-rub"></i></span></p>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -496,19 +566,16 @@
                         <div class="total_price">
                             <p>Цена <span>11 700 <i class="fa fa-rub"></i></span></p>
                         </div>
-
                     </div>
                 </div>
                 <div class="col l6">
                     <div class="equip_item">
                         <h4><span>ТСД</span> - MobileBase DS5</h4>
-
                         <p class="desc">При больших объемах приемки алкоголя рекомендуется приобретение терминала сбора данных для проверки подлинности принимаемого товара онлайн через сервис ФСРАР.</p>
                         <div class="img_border"><img src="img/tsd-module.jpg" height="150" alt=""></div>
                         <div class="total_price">
                             <p>Цена <span>74 900 <i class="fa fa-rub"></i></span></p>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -520,7 +587,6 @@
                     <div class="dop_item">
                         <h6><b>Фискальные регистраторы</b></h6>
                         <img src="img/fiskal_registrators.jpg" alt="">
-
                         <div class="total_price">
                             <p>Цена от <span>18 500 <i class="fa fa-rub"></i></span></p>
                             <p class="total_price_desc"></p>
@@ -531,7 +597,6 @@
                     <div class="dop_item">
                         <h6><b>2D-сканеры</b></h6>
                         <img class="scaner" src="img/2d-scaner.jpg" height="200" width="230" alt="">
-
                         <div class="total_price">
                             <p>Цена от <span>8 700 <i class="fa fa-rub"></i></span></p>
                             <p class="total_price_desc"></p>
@@ -542,7 +607,6 @@
                     <div class="dop_item">
                         <h6><b>POS-клавиатуры</b></h6>
                         <img src="img/keyboard.jpg" alt="">
-
                         <div class="total_price">
                             <p>Цена от <span>6 400 <i class="fa fa-rub"></i></span></p>
                             <p class="total_price_desc"></p>
@@ -553,7 +617,6 @@
                     <div class="dop_item">
                         <h6><b>Денежные ящики</b></h6>
                         <img src="img/cashboxes.jpg" alt="">
-
                         <div class="total_price">
                             <p>Цена от <span>4 060 <i class="fa fa-rub"></i></span></p>
                             <p class="total_price_desc"></p>
@@ -572,8 +635,8 @@
             <div class="col l3 partner_item"><img src="img/partner_rrc.png" alt=""></div>
         </div>
         <div class="row">
-            <div class="col l4 offset-l1 partner_item"><img src="img/partner_kontur.png" alt=""></div>
-            <div class="col l4 offset-l1 partner_item"><img src="img/partner_dalion.png" alt=""></div>
+            <div class="col l5 partner_item"><img src="img/partner_kontur.png" alt=""></div>
+            <div class="col l5 offset-l1 partner_item"><img src="img/partner_dalion.png" alt=""></div>
         </div>
     </div>
     <div class="container">
@@ -621,6 +684,7 @@
 <script src="/source/jquery.fancybox.pack.js"></script>
 <script>
     $(document).ready(function () {
+        var mobileMenuShown = false;
         function showLogo(){
             var $menu = $(".top_menu");
 
@@ -628,12 +692,10 @@
                 $('.menu_logo').hide();
             }else{
                 $('.menu_logo').show();
-
             }
         }
         showLogo();
         var $menu = $(".top_menu");
-
         $(window).scroll(function(){
             if($(window).width()>992){
                 if ( $(this).scrollTop() > 100 && $menu.hasClass("default") ){
@@ -676,6 +738,22 @@
                         .end().filter("[href=#"+id+"]").parent().addClass("active");
             }
         });
+        $('nav.top_menu').click(function () {
+            if(!mobileMenuShown){
+                $('body').append('<div class="mobile_menu"><ul></ul></div>');
+                $('.mobile_menu').width($(window).width()).height($(window).height());
+                $(this).find('li').each(function (i, elem) {
+                    $('.mobile_menu ul').append(elem);
+                });
+                mobileMenuShown = true;
+            }else{
+                $('.mobile_menu ul').find('li').each(function (i, elem) {
+                    $('.top_menu').find('ul').append(elem);
+                });
+                $('.mobile_menu').remove();
+                mobileMenuShown = false;
+            }
+        });
         $(".top_menu").on("click","a", function (event) {
             //отменяем стандартную обработку нажатия по ссылке
             event.preventDefault();
@@ -694,22 +772,21 @@
         $('.tab a').click(function (e) {
             e.preventDefault();
             var link = $(this).attr('href');
-            var parent = $(this).parent();
+            var parent = $(this).parents('.pricecard_header');
+            parent.find('.tab').removeClass('active');
+            parent.parent().find('.pricecard').removeClass('active');
+            console.log(parent);
             if(link == 'to_standart'){
-                parent.parent().parent().find('.standart').show();
-                parent.parent().parent().find('.econom').hide();
-                parent.addClass('active');
-                parent.parent().find('.to_econom').removeClass('active');
-                parent.parent().parent().find('.kom_pred a').attr('href','commerce_offer_dalion.pdf');
+                parent.find('.to_standart').addClass('active');
+                parent.parent().find('.standart').addClass('active');
             }else if(link == 'to_econom'){
-                parent.parent().parent().find('.standart').hide();
-                parent.parent().parent().find('.econom').show();
-                parent.addClass('active');
-                parent.parent().find('.to_standart').removeClass('active');
-                parent.parent().parent().find('.kom_pred a').attr('href','commerce_offer_1c_roznica.pdf');
+                parent.find('.to_econom').addClass('active');
+                parent.parent().find('.econom').addClass('active');
+            }else if(link == 'to_shtrih'){
+                parent.find('.to_shtrih').addClass('active');
+                parent.parent().find('.shtrih').addClass('active');
             }
         });
-
         $('.fancybox').fancybox();
     });
     $(window).load(function () {
@@ -785,7 +862,6 @@
             }, 3000);
         }
         function success_on_footer(){
-            console.log(42);
             $('#footer_form').find('p').html('Ваши данные успешно отправлены!<br> С Вами свяжутся наши специалисты в течении 15 минут').css('color','green');
             setTimeout(function () {
                 $('#footer_form').find('p').html('Мы свяжемся с Вами в течение 15 минут').css('color','#fff');
@@ -814,7 +890,6 @@
                         });
                     });
                 });
-
             }else{
                 error_on_footer();
             }
