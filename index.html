@@ -243,8 +243,8 @@
             </div>
             <div class="price_content">
                 <div class="econom active row pricecard">
-                    <div class="col l3 photo"><img src="img/retail.png" alt=""></div>
-                    <div class="col l9">
+                    <div class="col l3 m12 photo"><img src="img/retail.png" alt=""></div>
+                    <div class="col l9 m12">
                         <div class="row desc">
                             <p>Для приемки и отправки накладных в системе ЕГАИС. <br> Необходимо подключиться до 1 января 2016 г.</p>
                         </div>
@@ -739,7 +739,7 @@
             }
         });
         $('nav.top_menu').click(function () {
-            if(!mobileMenuShown){
+            if(!mobileMenuShown&&($(window).width()<=992)){
                 $('body').append('<div class="mobile_menu"><ul></ul></div>');
                 $('.mobile_menu').width($(window).width()).height($(window).height());
                 $(this).find('li').each(function (i, elem) {
@@ -764,7 +764,7 @@
             //узнаем высоту от начала страницы до блока на который ссылается якорь
                     top = $(id).offset().top;
             if($(this).attr('href')=='#aboutEGAIS'){
-                top = top-120;
+                top = top-90;
             }
             //анимируем переход на расстояние - top за 1500 мс
             $('body,html').animate({scrollTop: top}, 1500);
@@ -792,7 +792,7 @@
     $(window).load(function () {
         if($(window).width()<1500){
             $('.equip_item .img_border').css({
-                'float':'none',
+                'float':'none'
             });
         }else{
             $('.equip_item .img_border').css({
