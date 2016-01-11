@@ -2,7 +2,7 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-    .container{
+    .container {
         width: 90%;
     }
     .logo_1c img{
@@ -180,5 +180,8 @@
     .price_content .total_price p {
         margin-right: 15px;
         float: right;
+    }
+    .container {
+        width: 90%;
     }
 }
