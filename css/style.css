@@ -293,27 +293,39 @@ button[type="submit"]:hover{
     margin-left: 10px;
     margin-bottom: 30px;
 }
-.pricecard_header{
-    display: inline-block;
-}
+
 .pricecard{
     display: none;
 }
 .pricecard.active{
     display: block;
 }
-.retail_price_list{
-    display: inline-block;
-    background-color: #dcdcdc;
-}
 .price .tab{
     display: inline-block;
-}
-.price .tab{
     height: 51px;
-    width: 330px;
+    min-width: 29%;
+    position: relative;
+    bottom: 25px;
     text-align: center;
-    background-color: #dcdcdc;
+    background-color: #d6d6d6;
+}
+.list_bg{
+    width: 60px;
+    height: 51px;
+    display: inline-block;
+    margin: 0 -5px;
+}
+.list_bg.near_active{
+    background: url("/img/list_bg.png") no-repeat;
+}
+.list_bg.not_active{
+    background: url("/img/list_bg_not_active.png") no-repeat;
+}
+.list_bg.active{
+    background: url("/img/list_bg_active.png") no-repeat;
+}
+.menu_list_button{
+    display: none;
 }
 .price .tab a{
     margin-top: 10px;
@@ -324,33 +336,26 @@ button[type="submit"]:hover{
     border-width: 0 0 3px 0;
 }
 .price .tab.active{
-    background: url("/img/active_list_bg.png")no-repeat;
-}
-.price .tab.utab.active{
-    background: url("/img/utab_bg.png")no-repeat;
-    width: 450px;
-}
-#wholesale .tab a{
-    margin-top: 10px;
-    margin-left: -20px;
-}
-.to_standart{
-    text-align: left!important;
-    padding-left: 20px!important;
+    background-color: #fff;
 }
 .price .tab.active a{
     cursor: default;
     color: #07233e!important;
 }
-.price ul{
-    margin-bottom: 0;
+li.tab.to_shtrih.active {
+    width: 33.2%;
 }
-.bg_list{
-    background: url("/img/list_bg.png") no-repeat;
-    width: 28px;
+li.tab.utab{
+    width: 40%;
+}
+.retail_price_list{
+    margin-bottom: 0;
     height: 51px;
-    margin-top: 15px;
-    float: right;
+    background-color: #d6d6d6;
+    white-space: nowrap;
+}
+.pricecard_header{
+    height: 51px;
 }
 .price_content{
     background-color: #fff;
@@ -444,7 +449,6 @@ button[type="submit"]:hover{
     height: 11em;
 }
 .price_content .total_price{
-    height: 100%;
     position: absolute;
     top: 85%;
     right: 0;
@@ -516,6 +520,9 @@ p.total_price_desc{
     font-family: "UbuntuBold";
     font-size: 15px;
 }
+p.desc {
+    padding-top: 30px;
+}
 .equip_item.advanced{
     min-height: 475px;
 }
@@ -535,18 +542,17 @@ p.total_price_desc{
 .equip_item h4 span{
     font-family: "UbuntuBold";
 }
-.equip_item p{
-    position: relative;
-    z-index: 1;
-    margin-bottom: 65px;
-    top: 30px;
+.equip_item .total_price p {
+    position: absolute;
+    bottom: 0;
 }
-.equip_item .img_border{
-    position: relative;
+.equip_item .img_border {
+    position: absolute;
     float: right;
-    bottom: 30px;
+    bottom: 35px;
     right: 25px;
     text-align: center;
+    max-height: 150px;
 }
 .dop_item{
     font-family: "UbuntuLight";
@@ -588,6 +594,9 @@ p.total_price_desc{
 .our_partners{
     margin: 90px auto;
     text-align: center;
+}
+.our_partners .row{
+    margin-bottom: 30px;
 }
 .our_partners h2{
     color: #08233e;
