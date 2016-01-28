@@ -60,8 +60,8 @@
                     <ul>
                         <a class="menu_logo" href="#top"><img src="img/logo_top_menu.png" alt=""></a>
                         <li class="col l2 waves-effect waves-dark"><a href="#aboutEGAIS">Что такое ЕГАИС</a></li>
-                        <li class="col l3 waves-effect waves-dark"><a onclick="yaCounter34269565.reachGoal('rest');" href="#rest">Для кафе и ресторанов</a></li>
-                        <li class="col l2 waves-effect waves-dark"><a onclick="yaCounter34269565.reachGoal('retail');" href="#retail">Для розничных магазинов</a></li>
+                        <li class="col l2 waves-effect waves-dark"><a onclick="yaCounter34269565.reachGoal('rest');" href="#rest">Для кафе и ресторанов</a></li>
+                        <li class="col l3 waves-effect waves-dark"><a onclick="yaCounter34269565.reachGoal('retail');" href="#retail">Для розничных магазинов</a></li>
                         <li class="col l2 waves-effect waves-dark"><a onclick="yaCounter34269565.reachGoal('wholesale');" href="#wholesale">Для оптовой торговли</a></li>
                         <li class="col l3 waves-effect waves-dark"><a href="#equip">Дополнительное оборудование</a></li>
                     </ul>
@@ -74,15 +74,22 @@
             <div class="submit">
                 <div class="phone"><span>8 (495)</span> 664 22 94</div>
                 <div class="hl"></div>
-                <h1>Быстрое подключение к</h1>
+                <p class="submit_header">Быстрое подключение к</p>
                 <span class="egais">ЕГАИС</span>
-                <form id="main_form" action="javascript:void(null)">
+                <form id="main_form" class="col s12" action="javascript:void(null)">
                     <input type="text" name="name" placeholder="Имя">
                     <input type="tel" name="phone" placeholder="Телефон">
                     <button class="waves-effect waves-dark" type="submit" name="action">Получить консультацию</button>
                     <h6><b>Ваши данные не будут переданы 3-им лицам</b></h6>
                 </form>
             </div>
+        </div>
+        <div class="top_menu_opened">
+            <ul>
+                <li class=""><a onclick="yaCounter34269565.reachGoal('rest');" href="#rest">Для кафе и ресторанов</a></li>
+                <li class=""><a onclick="yaCounter34269565.reachGoal('retail');" href="#retail">Для розничных магазинов</a></li>
+                <li class=""><a onclick="yaCounter34269565.reachGoal('wholesale');" href="#wholesale">Для оптовой торговли</a></li>
+            </ul>
         </div>
     </div>
     <div class="container">
@@ -118,7 +125,7 @@
 <div class="content">
     <div class="container"  id="aboutEGAIS">
         <div class="row header">
-            <h1>Что такое <span>ЕГАИС</span></h1>
+            <h2>Что такое <span>ЕГАИС</span></h2>
         </div>
         <div class="row what_is">
             <div class="col l6">
@@ -145,7 +152,7 @@
             </div>
         </div>
         <div class="row quoteblock">
-            <div class="quote"><h3>С 1 января 2016 года продажа алкоголя без подключения к ЕГАИС будет незаконной!</h3></div>
+            <div class="quote"><h3>Организации розничной торговли закупающие алкогольную продукцию в 1-м квартале 2016 года, должны зафиксировать факт закупок в ЕГАИС до 20 апреля 2016 года</h3></div>
         </div>
     </div>
     <div class="container">
@@ -160,19 +167,19 @@
             <h2>Кафе, рестораны и пивная розница</h2>
             <div class="pricecard_header">
                 <ul class="retail_price_list">
-                    <li class="tab to_econom active"><a href="to_econom">Контур.Алко</a></li>
+                    <li class="tab to_econom active"><a href="to_econom">Контур.Алкодекларация</a></li>
                     <li class="list_bg near_active"></li>
                 </ul>
             </div>
             <div class="price_content">
                 <div class="row econom">
-                    <div class="col l3 m12 photo"><img src="img/rest.png" alt=""></div>
-                    <div class="col l9 m12">
+                    <div class="col l3 m12 s12 photo"><img src="img/rest.png" alt=""></div>
+                    <div class="col l9 m12 s12">
                         <div class="row desc">
                             <p>Для приемки и подписания накладных от поставщиков в системе ЕГАИС. <br> Необходимо подключиться до 1 января 2016 г.</p>
                         </div>
                         <div class="row">
-                            <div class="col l8 m12 jacarta_desc">
+                            <div class="col l8 m12 s12 jacarta_desc">
                                 <div class="price_item">
                                     <p>
                                         <span class="name">JaCarta + КЭП</span> - Сертифицированный защищенный носитель для ЕГАИС JaCarta SE (PKI/ГОСТ)  и квалифицированный сертификат электронной подписи.
@@ -181,7 +188,7 @@
                                     <div class="hl"></div>
                                 </div>
                             </div>
-                            <div class="col l4 m12">
+                            <div class="col l4 s12 m12">
                                 <div class="jacarta_img">
                                     <a href="img/jacarta_big.png" target="_blank" class="fancybox"><img src="img/jacarta.png" alt=""></a>
                                 </div>
@@ -191,10 +198,10 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col l8 m12">
+                            <div class="col l8 m12 s12">
                                 <div class="price_item">
                                     <p>
-                                        <span class="name">Контур.Алко</span> - Веб-сервис для отчетности в ФСРАР и взаимодействия с ЕГАИС.
+                                        <span class="name">Контур.Алкодекларация</span> - Веб-сервис для отчетности в ФСРАР и взаимодействия с ЕГАИС.
                                     </p>
                                     <ul>
                                         <li>Фиксация закупок алкогольной продукции в ЕГАИС;</li>
@@ -204,14 +211,14 @@
                                     <div class="hl"></div>
                                 </div>
                             </div>
-                            <div class="col l4 m12">
+                            <div class="col l4 m12 s12">
                                 <div class="logo_kontur">
                                     <img src="img/logo_kontur.png" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col l8 m12">
+                            <div class="col l8 m12 s12">
                                 <div class="price_item">
                                     <p>
                                         <span class="name">Установка </span> - Выездные работы по настройке и обучению.
@@ -219,7 +226,7 @@
                                     <ul>
                                         <li>Проверка и прием документов для выпуска сертификата;</li>
                                         <li>Запись сертификата на носитель JaCarta и установка УТМ;</li>
-                                        <li>Настройка взаимодействия УТМ и Контур.Алко для получения накладных в ЕГАИС.</li>
+                                        <li>Настройка взаимодействия УТМ и Контур.Алкодекларация для получения накладных в ЕГАИС.</li>
                                     </ul>
                                     <p><span class="price">5 000 <i class="fa fa-rub"></i></span></p>
                                     <div class="hl"></div>
@@ -244,16 +251,23 @@
                     <li class="tab to_shtrih"><a href="to_shtrih">Штрих-М</a></li>
                 </ul>
                 <div class="menu_list_button"></div>
+                <div class="opened_menu">
+                    <ul>
+                        <li class="tab to_econom active"><a href="to_econom">1С: Розница</a></li>
+                        <li class="tab to_standart"><a onclick="yaCounter34269565.reachGoal('dalion');" href="to_standart">ДАЛИОН: Управление магазином.УНО</a></li>
+                        <li class="tab to_shtrih"><a href="to_shtrih">Штрих-М</a></li>
+                    </ul>
+                </div>
             </div>
             <div class="price_content">
                 <div class="econom active row pricecard">
-                    <div class="col l3 m12 photo"><img src="img/retail.png" alt=""></div>
-                    <div class="col l9 m12">
+                    <div class="col l3 m12 s12 photo"><img src="img/retail.png" alt=""></div>
+                    <div class="col l9 m12 s12">
                         <div class="row desc">
                             <p>Для приемки и отправки накладных в системе ЕГАИС. <br> Необходимо подключиться до 1 января 2016 г.</p>
                         </div>
                         <div class="row">
-                            <div class="col l8 m12 jacarta_desc">
+                            <div class="col l8 m12 s12 jacarta_desc">
                                 <div class="price_item">
                                     <p>
                                         <span class="name">JaCarta + КЭП</span> - Сертифицированный защищенный носитель для ЕГАИС JaCarta SE (PKI/ГОСТ)  и квалифицированный сертификат электронной подписи.
@@ -262,7 +276,7 @@
                                     <div class="hl"></div>
                                 </div>
                             </div>
-                            <div class="col l4 m12">
+                            <div class="col l4 m12 s12">
                                 <div class="jacarta_img">
                                     <a href="img/jacarta_big.png" target="_blank" class="fancybox"><img src="img/jacarta.png" alt=""></a>
                                 </div>
@@ -272,7 +286,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col l8 m12">
+                            <div class="col l8 m12 s12">
                                 <div class="price_item">
                                     <p>
                                         <span class="name">1С Розница</span> - Система товароучета</p>
@@ -286,14 +300,14 @@
                                     <div class="hl"></div>
                                 </div>
                             </div>
-                            <div class="col l4 m12">
+                            <div class="col l4 m12 s12">
                                 <div class="logo_1c">
                                     <img src="img/logo_1c.png" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col l8 m12">
+                            <div class="col l8 m12 s12">
                                 <div class="price_item">
                                     <p>
                                         <span class="name">Установка </span> - Выездные работы по настройке и обучению.
@@ -301,7 +315,7 @@
                                     <ul>
                                         <li>Проверка и прием документов для выпуска сертификата;</li>
                                         <li>Запись сертификата на носитель JaCarta и установка УТМ;</li>
-                                        <li>Настройка взаимодействия УТМ и Контур.Алко для получения накладных в ЕГАИС.</li>
+                                        <li>Настройка взаимодействия УТМ и 1С Розница для получения накладных в ЕГАИС.</li>
                                     </ul>
                                     <p><span class="price">11 900 <i class="fa fa-rub"></i></span></p>
                                     <div class="hl"></div>
@@ -311,13 +325,13 @@
                     </div>
                 </div>
                 <div class="standart row pricecard">
-                    <div class="col l3 m12 photo"><img src="img/retail.png" alt=""></div>
-                    <div class="col l9 m12">
+                    <div class="col l3 m12 s12 photo"><img src="img/retail.png" alt=""></div>
+                    <div class="col l9 m12 s12">
                         <div class="row desc">
                             <p>Для приемки и отправки накладных в системе ЕГАИС. <br> Необходимо подключиться до 1 января 2016 г.</p>
                         </div>
                         <div class="row">
-                            <div class="col l8 m12 jacarta_desc">
+                            <div class="col l8 m12 s12 jacarta_desc">
                                 <div class="price_item">
                                     <p>
                                         <span class="name">JaCarta + КЭП</span> - Сертифицированный защищенный носитель для ЕГАИС JaCarta SE (PKI/ГОСТ)  и квалифицированный сертификат электронной подписи.
@@ -326,7 +340,7 @@
                                     <div class="hl"></div>
                                 </div>
                             </div>
-                            <div class="col l4 m12">
+                            <div class="col l4 m12 s12">
                                 <div class="jacarta_img">
                                     <a href="img/jacarta_big.png" target="_blank" class="fancybox"><img src="img/jacarta.png" alt=""></a>
                                 </div>
@@ -336,7 +350,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col l8 m12">
+                            <div class="col l8 m12 s12">
                                 <div class="price_item">
                                     <p><span class="name">ДАЛИОН: Управление магазином.УНО</span> -  Комплексное решение для автоматизации магазинов.</p>
                                     <ul>
@@ -349,14 +363,14 @@
                                     <div class="hl"></div>
                                 </div>
                             </div>
-                            <div class="col l4 m12">
+                            <div class="col l4 m12 s12">
                                 <div class="logo_dalion">
                                     <img src="img/logo_dalion.png" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col l8 m12">
+                            <div class="col l8 m12 s12">
                                 <div class="price_item">
                                     <p>
                                         <span class="name">Установка </span> - Выездные работы по настройке и обучению.
@@ -364,7 +378,7 @@
                                     <ul>
                                         <li>Проверка и прием документов для выпуска сертификата;</li>
                                         <li>Запись сертификата на носитель JaCarta и установка УТМ;</li>
-                                        <li>Настройка взаимодействия УТМ и Контур.Алко для получения накладных в ЕГАИС.</li>
+                                        <li>Настройка взаимодействия УТМ и ДАЛИОН: Управление магазином.УНО для получения накладных в ЕГАИС.</li>
                                     </ul>
                                     <p><span class="price">15 900 <i class="fa fa-rub"></i></span></p>
                                     <div class="hl"></div>
@@ -374,13 +388,13 @@
                     </div>
                 </div>
                 <div class="shtrih row pricecard">
-                    <div class="col l3 m12 photo"><img src="img/retail.png" alt=""></div>
-                    <div class="col l9 m12">
+                    <div class="col l3 m12 s12 photo"><img src="img/retail.png" alt=""></div>
+                    <div class="col l9 m12 s12">
                         <div class="row desc">
                             <p>Для приемки и отправки накладных в системе ЕГАИС. <br> Необходимо подключиться до 1 января 2016 г.</p>
                         </div>
                         <div class="row">
-                            <div class="col l8 m12 jacarta_desc">
+                            <div class="col l8 m12 s12 jacarta_desc">
                                 <div class="price_item">
                                     <p>
                                         <span class="name">JaCarta + КЭП</span> - Сертифицированный защищенный носитель для ЕГАИС JaCarta SE (PKI/ГОСТ)  и квалифицированный сертификат электронной подписи.
@@ -389,7 +403,7 @@
                                     <div class="hl"></div>
                                 </div>
                             </div>
-                            <div class="col l4 m12">
+                            <div class="col l4 m12 s12">
                                 <div class="jacarta_img">
                                     <a href="img/jacarta_big.png" target="_blank" class="fancybox"><img src="img/jacarta.png" alt=""></a>
                                 </div>
@@ -399,7 +413,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col l8 m12">
+                            <div class="col l8 m12 s12">
                                 <div class="price_item">
                                     <p><span class="name">Штрих-М: Розничная торговля</span> -  Cистема товароучета.</p>
                                     <ul>
@@ -413,14 +427,14 @@
                                     <div class="hl"></div>
                                 </div>
                             </div>
-                            <div class="col l4 m12">
+                            <div class="col l4 m12 s12">
                                 <div class="logo_shtrih">
                                     <img src="img/logo_shtrihm.png" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col l8 m12">
+                            <div class="col l8 m12 s12">
                                 <div class="price_item">
                                     <p>
                                         <span class="name">Установка </span> - Выездные работы по настройке и обучению.
@@ -428,7 +442,7 @@
                                     <ul>
                                         <li>Проверка и прием документов для выпуска сертификата;</li>
                                         <li>Запись сертификата на носитель JaCarta и установка УТМ;</li>
-                                        <li>Настройка взаимодействия УТМ и Контур.Алко для получения накладных в ЕГАИС.</li>
+                                        <li>Настройка взаимодействия УТМ и Штрих-М: Розничная торговля для получения накладных в ЕГАИС.</li>
                                     </ul>
                                     <p><span class="price">11 900 <i class="fa fa-rub"></i></span></p>
                                     <div class="hl"></div>
@@ -452,13 +466,13 @@
             </div>
             <div class="price_content">
                 <div class="row econom">
-                    <div class="col l3 m12 photo"><img src="img/wholesale.png" alt=""></div>
-                    <div class="col l9 m12">
+                    <div class="col l3 m12 s12 photo"><img src="img/wholesale.png" alt=""></div>
+                    <div class="col l9 m12 s12">
                         <div class="row desc">
                             <p>Для приемки накладных в системе ЕГАИС.<br> Необходимо подключиться до 1 января 2016 г.</p>
                         </div>
                         <div class="row">
-                            <div class="col l8 m12 jacarta_desc">
+                            <div class="col l8 m12 s12 jacarta_desc">
                                 <div class="price_item">
                                     <p>
                                         <span class="name">JaCarta + КЭП</span> - Сертифицированный защищенный носитель для ЕГАИС JaCarta SE (PKI/ГОСТ)  и квалифицированный сертификат электронной подписи.
@@ -467,7 +481,7 @@
                                     <div class="hl"></div>
                                 </div>
                             </div>
-                            <div class="col l4 m12">
+                            <div class="col l4 m12 s12">
                                 <div class="jacarta_img">
                                     <a href="img/jacarta_big.png" target="_blank" class="fancybox"><img src="img/jacarta.png" alt=""></a>
                                 </div>
@@ -477,7 +491,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col l8 m12">
+                            <div class="col l8 m12 s12">
                                 <div class="price_item">
                                     <p>
                                         <span class="name">1С: управление торговлей алкогольной продукцией</span> - Специализированное отраслевое решение для торговли
@@ -489,14 +503,14 @@
                                     <div class="hl"></div>
                                 </div>
                             </div>
-                            <div class="col l4 m12">
+                            <div class="col l4 m12 s12">
                                 <div class="logo_1c">
                                     <img src="img/logo_1c.png" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col l8 m12">
+                            <div class="col l8 m12 s12">
                                 <div class="price_item">
                                     <p>
                                         <span class="name">Установка </span> - Выездные работы по настройке и обучению.
@@ -504,7 +518,7 @@
                                     <ul>
                                         <li>Проверка и прием документов для выпуска сертификата;</li>
                                         <li>Запись сертификата на носитель JaCarta и установка УТМ;</li>
-                                        <li>Настройка взаимодействия УТМ и Контур.Алко для получения накладных в ЕГАИС.</li>
+                                        <li>Настройка взаимодействия УТМ и 1С: управление торговлей алкогольной продукцией для получения накладных в ЕГАИС.</li>
                                     </ul>
                                     <p><span class="price">29 900 <i class="fa fa-rub"></i></span></p>
                                     <div class="hl"></div>
@@ -521,49 +535,40 @@
     </div>
     <div class="container">
         <div class="add_equip" id="equip">
-            <div class="row"><h2>Дополнительное оборудование</h2></div>
+            <div class="row"><h2 class="add_equip_header">Дополнительное оборудование</h2></div>
             <div class="row">
-                <div class="col l6 m12">
+                <div class="col l6 m12 s12">
                     <div class="equip_item advanced">
-                        <h4><span>Неттоп</span> - Lenovo ThinkCentre</h4>
-                        <ul>
-                            <li>Процессор: Intel Celeron J1800 2.41 GHz</li>
-                            <li>Объем RAM: 2048 Mb</li>
-                            <li>Встроенная память: 500Gb</li>
-                            <li>Интерфейсы: Wi-Fi, Bluetooth, USB 2.0, USB 3.0 x 1</li>
-                            <li>Операционная система: Windows 8.1</li>
-                            <li>В комплекте - Клавиатура, мышь</li>
-                        </ul>
-                        <p class="desc">Оптимальное решение для установки учетной системы и УТМ ЕГАИС соответствующее техническим требованиям.</p>
-                        <div class="img_border"><img src="img/nettop.jpg" height="150" alt=""></div>
+                        <h4><span>POS</span> - система АТОЛ Ритейл ЕГАИС Lite </h4>
+                        <p class="desc">Полноценная касса для автоматизации рабочего места кассира.
+                            Подходит для магазинов любых форматов,
+                            осуществляющих торговлю алкогольной продукцией, в том числе пивом.</p>
+                        <div class="img_border"><img src="img/atol.jpg" height="150" alt=""></div>
                         <div class="total_price">
-                            <p>Цена <span>26 900 <i class="fa fa-rub"></i></span></p>
+                            <p>Цена от <span>64 900 <i class="fa fa-rub"></i></span></p>
                         </div>
                     </div>
                 </div>
-                <div class="col l6 m12">
+                <div class="col l6 m12 s12">
                     <div class="equip_item advanced">
-                        <h4><span>Монитор</span> - Acer V206HQLBb, 19.5", Black</h4>
+                        <h4><span>УТМ</span> АТОЛ HUB-19</h4>
+                        <p class="desc">Микро-компьютер с УТМ ЕГАИС на операционной системе Linux:</p>
                         <ul>
-                            <li>Диагональ экрана19.5"</li>
-                            <li>Формат экрана 16:9</li>
-                            <li>Максимальное разрешение1366x768 пикс.</li>
-                            <li>Светодиодная подсветка (LED)</li>
-                            <li>Тип матрицы TN</li>
-                            <li>Порты и разъемыVGA (D-Sub)</li>
+                            <li>Поддержка крипто-ключа JaCarta PKI/ГОСТ SE с квалифицированным сертификатом электронной
+                                подписи
+                            </li>
+                            <li>Соответствует требованиям ФСРАР</li>
+                            <li>Взаимодействует с сервисами совместимыми с ЕГАИС</li>
                         </ul>
-                        <p class="desc">Компактный ЖК монитор 19.5”.
-                            Оптимальное решение для рабочего
-                            места.</p>
-                        <div class="img_border"><img src="img/monitor.jpg" height="150" alt=""></div>
+                        <div class="img_border"><img src="img/utm.jpg" height="100" alt=""></div>
                         <div class="total_price">
-                            <p>Цена <span>6 710 <i class="fa fa-rub"></i></span></p>
+                            <p>Цена <span>12 900 <i class="fa fa-rub"></i></span></p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col l6 m12">
+                <div class="col l6 m12 s12">
                     <div class="equip_item">
                         <h4><span>ИБП</span> - APC Back-UPS 800VA</h4>
                         <p class="desc">Источник бесперебойного питания для защиты оборудования от перепадов в системе электропитания, для избежания сбоев в работе при передаче данных в ЕГАИС.</p>
@@ -573,7 +578,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col l6 m12">
+                <div class="col l6 m12 s12">
                     <div class="equip_item">
                         <h4><span>ТСД</span> - MobileBase DS5</h4>
                         <p class="desc">При больших объемах приемки алкоголя рекомендуется приобретение терминала сбора данных для проверки подлинности принимаемого товара онлайн через сервис ФСРАР.</p>
@@ -588,7 +593,7 @@
                 <h2>В наличии также имеются:</h2>
             </div>
             <div class="row">
-                <div class="col l3 m6">
+                <div class="col l3 m6 s12">
                     <div class="dop_item">
                         <h6><b>Фискальные регистраторы</b></h6>
                         <img src="img/fiskal_registrators.jpg" alt="">
@@ -598,7 +603,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col l3 m6">
+                <div class="col l3 m6 s12">
                     <div class="dop_item">
                         <h6><b>2D-сканеры</b></h6>
                         <img class="scaner" src="img/2d-scaner.jpg" height="200" width="230" alt="">
@@ -608,7 +613,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col l3 m6">
+                <div class="col l3 m6 s12">
                     <div class="dop_item">
                         <h6><b>POS-клавиатуры</b></h6>
                         <img src="img/keyboard.jpg" alt="">
@@ -618,7 +623,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col l3 m6">
+                <div class="col l3 m6 s12">
                     <div class="dop_item">
                         <h6><b>Денежные ящики</b></h6>
                         <img src="img/cashboxes.jpg" alt="">
@@ -631,25 +636,40 @@
             </div>
         </div>
     </div>
+    <div class="container">
+        <div class="reviews row">
+            <h2>Наши <span>клиенты</span></h2>
+            <div class="col l4 s12">
+                <img src="img/otz1.jpg" alt="">
+            </div>
+            <div class="col review l6 s12">
+                <div class="review_desc">
+                    <p><span>«Всё доступно разъяснили и научили работать с накладными»</span></p>
+                    <p>«Выражаем благодарность компании “Рутеко” за качественную работу специалистов. Быстро подключили рестораны в Москве и в Сочи к ЕГАИС, притом работа в Сочи была выполнена удалённо. Всё доступно разъяснили и научили работать с накладными.»</p>
+                </div>
+                <div class="author"><h5>Ирина Котельникова,</h5><p>главный бухгалтер ресторана «Follow Me», г. Москва</p></div>
+            </div>
+        </div>
+    </div>
     <div class="container our_partners">
         <h2>Наши <span>партнеры</span></h2>
         <div class="row">
-            <div class="col l3 m6 partner_item"><img src="img/partner_1c.png" alt=""></div>
-            <div class="col l3 m6 partner_item"><img src="img/partner_bts.png" alt=""></div>
-            <div class="col l3 m6 partner_item"><img src="img/partner_shtrihm.png" alt=""></div>
-            <div class="col l3 m6 partner_item"><img src="img/partner_rrc.png" alt=""></div>
+            <div class="col l3 m6 s12 partner_item"><img src="img/partner_1c.png" alt=""></div>
+            <div class="col l3 m6 s12 partner_item"><img src="img/partner_bts.png" alt=""></div>
+            <div class="col l3 m6 s12 partner_item"><img src="img/partner_shtrihm.png" alt=""></div>
+            <div class="col l3 m6 s12 partner_item"><img src="img/partner_rrc.png" alt=""></div>
         </div>
         <div class="row">
-            <div class="col l5 m12 offset-l1 partner_item"><img src="img/partner_kontur.png" alt=""></div>
-            <div class="col l5 m12 partner_item"><img src="img/partner_dalion.png" alt=""></div>
+            <div class="col l5 m12 s12 offset-l1 partner_item"><img src="img/partner_kontur.png" alt=""></div>
+            <div class="col l5 m12 s12 partner_item"><img src="img/partner_dalion.png" alt=""></div>
         </div>
     </div>
     <div class="container">
         <footer class="contacts">
             <h4>По вопросам приобретения периферийного оборудования обращайтесь
                 к специалистам нашего сервисного центра.</h4>
-            <h1 class="phone_footer"><span>8 (495)</span> 664 22 94</h1>
-            <h3 class="email"><b>info@ruteko.ru</b></h3>
+            <p class="phone_footer"><span>8 (495)</span> 664 22 94</p>
+            <p class="email"><b>info@ruteko.ru</b></p>
         </footer>
     </div>
 </div>
@@ -759,7 +779,30 @@
             //анимируем переход на расстояние - top за 1500 мс
             $('body,html').animate({scrollTop: top}, 1500);
         });
-        $('.tab a').click(function (e) {
+
+        $('#rest .tab a').click(function(e){e.preventDefault()});
+        $('#wholesale .tab a').click(function(e){e.preventDefault()});
+        if($(window).width()<=768){
+            $('#wholesale .tab a').text('1С: УТАП');
+            $('.pricecard_header .to_standart a').text('ДАЛИОН');
+        }
+        $('.menu_list_button').click(function () {
+            $('.opened_menu').toggle();
+        });
+        $('.top_menu').click(function () {
+            if($(window).width()<=992){
+                $('.top_menu_opened').toggle();
+            }
+        });
+        $('.top_menu_opened a').click(function () {
+            if($(window).width()<=992){
+                $('.top_menu_opened').hide();
+            }
+        });
+        $('.opened_menu a').click(function () {
+            $('.opened_menu').hide();
+        });
+        $('#retail .tab a').click(function (e) {
             e.preventDefault();
             var link = $(this).attr('href');
             var parent = $(this).parents('.pricecard_header');
@@ -894,6 +937,7 @@
 
     });
 </script>
+
 <!-- RedHelper -->
 <script id="rhlpscrtg" src="https://web.redhelper.ru/nx/start?version=1&c=max1" charset="utf-8"></script>
 <!-- RedHelper -->
@@ -902,6 +946,5 @@
     (function(){ var widget_id = 'gyfGNn0oos';
         var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);})();</script>
 <!-- {/literal} END JIVOSITE CODE -->
-
 </body>
 </html>
