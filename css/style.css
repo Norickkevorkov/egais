@@ -636,12 +636,12 @@ p.desc {
     text-align: left;
 }
 .review p{
-    font-size: 14px;
+    font-size: 15px;
     line-height: 19px;
     color: #616466;
 }
 .review p span{
-    font-weight: 700;
+    font-family: "UbuntuBold";
 }
 .author{
     float: right;
