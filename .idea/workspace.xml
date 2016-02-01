@@ -2,10 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fbdecd0-f2f8-4798-8fdb-aafb4b59a384" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom.js" afterPath="$PROJECT_DIR$/custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/2d-scaner.jpg" afterPath="$PROJECT_DIR$/img/2d-scaner.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/add_equip_list.png" afterPath="$PROJECT_DIR$/img/add_equip_list.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/atol.jpg" afterPath="$PROJECT_DIR$/img/atol.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/cashboxes.jpg" afterPath="$PROJECT_DIR$/img/cashboxes.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/download_button.png" afterPath="$PROJECT_DIR$/img/download_button.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/fiskal_registrators.jpg" afterPath="$PROJECT_DIR$/img/fiskal_registrators.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/footer_form_bg.jpg" afterPath="$PROJECT_DIR$/img/footer_form_bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/for_rest.png" afterPath="$PROJECT_DIR$/img/for_rest.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/for_retail.png" afterPath="$PROJECT_DIR$/img/for_retail.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/for_wholesale.png" afterPath="$PROJECT_DIR$/img/for_wholesale.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/hl.png" afterPath="$PROJECT_DIR$/img/hl.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/ibs.jpg" afterPath="$PROJECT_DIR$/img/ibs.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/keyboard.jpg" afterPath="$PROJECT_DIR$/img/keyboard.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/list_bg.png" afterPath="$PROJECT_DIR$/img/list_bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/list_bg_not_active.png" afterPath="$PROJECT_DIR$/img/list_bg_not_active.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/list_style.png" afterPath="$PROJECT_DIR$/img/list_style.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/logo_1c.png" afterPath="$PROJECT_DIR$/img/logo_1c.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/logo_dalion.png" afterPath="$PROJECT_DIR$/img/logo_dalion.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/logo_for_tablets.png" afterPath="$PROJECT_DIR$/img/logo_for_tablets.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/logo_shtrihm.png" afterPath="$PROJECT_DIR$/img/logo_shtrihm.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/logo_top_menu.png" afterPath="$PROJECT_DIR$/img/logo_top_menu.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/menu_list_button.png" afterPath="$PROJECT_DIR$/img/menu_list_button.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/otz1.jpg" afterPath="$PROJECT_DIR$/img/otz1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/partner_1c.png" afterPath="$PROJECT_DIR$/img/partner_1c.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/partner_bts.png" afterPath="$PROJECT_DIR$/img/partner_bts.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/partner_dalion.png" afterPath="$PROJECT_DIR$/img/partner_dalion.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/partner_kontur.png" afterPath="$PROJECT_DIR$/img/partner_kontur.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/partner_rrc.png" afterPath="$PROJECT_DIR$/img/partner_rrc.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/partner_shtrihm.png" afterPath="$PROJECT_DIR$/img/partner_shtrihm.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/phone.png" afterPath="$PROJECT_DIR$/img/phone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/rest.png" afterPath="$PROJECT_DIR$/img/rest.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/retail.png" afterPath="$PROJECT_DIR$/img/retail.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/scheme.jpg" afterPath="$PROJECT_DIR$/img/scheme.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/tablet_menu_button.png" afterPath="$PROJECT_DIR$/img/tablet_menu_button.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/tablet_slide.jpg" afterPath="$PROJECT_DIR$/img/tablet_slide.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/tsd-module.jpg" afterPath="$PROJECT_DIR$/img/tsd-module.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/utm.jpg" afterPath="$PROJECT_DIR$/img/utm.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/wholesale.png" afterPath="$PROJECT_DIR$/img/wholesale.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts.css" afterPath="$PROJECT_DIR$/css/fonts.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/inputmask.phone.extensions.js" afterPath="$PROJECT_DIR$/js/inputmask.phone.extensions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.inputmask.js" afterPath="$PROJECT_DIR$/js/jquery.inputmask.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize.min.css" afterPath="$PROJECT_DIR$/css/materialize.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/materialize.min.js" afterPath="$PROJECT_DIR$/js/materialize.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/media.css" afterPath="$PROJECT_DIR$/css/media.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/normalize.min.css" afterPath="$PROJECT_DIR$/css/normalize.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robots.txt" afterPath="$PROJECT_DIR$/robots.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="egais.iws" />
@@ -34,51 +79,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
+      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="623" column="1" selection-start-line="623" selection-start-column="1" selection-end-line="623" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="71.51724">
-              <caret line="0" column="11139" selection-start-line="0" selection-start-column="11136" selection-end-line="0" selection-end-column="11139" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47232473">
-              <caret line="694" column="16" selection-start-line="694" selection-start-column="16" selection-end-line="694" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/custom.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="135" column="29" selection-start-line="135" selection-start-column="29" selection-end-line="135" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/custom.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.821718">
+              <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -100,11 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="&lt;905e4a1a-f7e1-41f4-a30a-f6f1d5088fdd&gt;/www/cartridge-nv.ru/hostcmsfiles/jquery/jquery.validate.min.js" />
-        <option value="&lt;61c534bb-4827-491f-9803-70ac6dd65c26&gt;/var/www/aleksey/data/www/kontur.guru/templates/template1/template.htm" />
-        <option value="&lt;61c534bb-4827-491f-9803-70ac6dd65c26&gt;/var/www/aleksey/data/www/kontur.guru/hostcmsfiles/lib/lib_1/lib_config_1.php" />
-        <option value="&lt;61c534bb-4827-491f-9803-70ac6dd65c26&gt;/var/www/ruteko_admin_ftp/data/www/guru.ruteko.ru/templates/template7/template.htm" />
-        <option value="&lt;61c534bb-4827-491f-9803-70ac6dd65c26&gt;/var/www/ruteko_admin_ftp/data/www/guru.ruteko.ru/templates/template1/template.htm" />
         <option value="&lt;61c534bb-4827-491f-9803-70ac6dd65c26&gt;/var/www/ruteko_admin_ftp/data/www/guru.ruteko.ru/templates/template1/style.css" />
         <option value="$PROJECT_DIR$/css/materialize.min.css" />
         <option value="$PROJECT_DIR$/css/fonts.css" />
@@ -140,17 +140,22 @@
         <option value="&lt;905e4a1a-f7e1-41f4-a30a-f6f1d5088fdd&gt;/www/cartridge-nv.ru/templates/template11/template.htm" />
         <option value="&lt;905e4a1a-f7e1-41f4-a30a-f6f1d5088fdd&gt;/www/cartridge-nv.ru/hostcmsfiles/xsl/237.xsl" />
         <option value="&lt;905e4a1a-f7e1-41f4-a30a-f6f1d5088fdd&gt;/www/cartridge-nv.ru/hostcmsfiles/lib/lib_6/lib_config_6.php" />
-        <option value="$PROJECT_DIR$/css/media.css" />
         <option value="&lt;905e4a1a-f7e1-41f4-a30a-f6f1d5088fdd&gt;/www/cartridge-nv.ru/hostcmsfiles/lib/lib_18/lib_18.php" />
         <option value="$PROJECT_DIR$/mail.php" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="&lt;905e4a1a-f7e1-41f4-a30a-f6f1d5088fdd&gt;/www/cartridge-nv.ru/ajax/call_request.php" />
         <option value="&lt;905e4a1a-f7e1-41f4-a30a-f6f1d5088fdd&gt;/www/cartridge-nv.ru/templates/template1/template.htm" />
         <option value="&lt;905e4a1a-f7e1-41f4-a30a-f6f1d5088fdd&gt;/www/cartridge-nv.ru/templates/template1/style.css" />
-        <option value="&lt;905e4a1a-f7e1-41f4-a30a-f6f1d5088fdd&gt;/www/cartridge-nv.ru/js/validation.js" />
-        <option value="$PROJECT_DIR$/css/style.min.css" />
         <option value="$PROJECT_DIR$/custom.js" />
+        <option value="$PROJECT_DIR$/robots.txt" />
+        <option value="&lt;905e4a1a-f7e1-41f4-a30a-f6f1d5088fdd&gt;/www/cartridge-nv.ru/js/validation.js" />
+        <option value="$PROJECT_DIR$/css/media.css" />
+        <option value="$PROJECT_DIR$/css/style.min.css" />
+        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="&lt;61c534bb-4827-491f-9803-70ac6dd65c26&gt;/var/www/ruteko_admin_ftp/data/www/web.ruteko.ru/index.php" />
+        <option value="&lt;61c534bb-4827-491f-9803-70ac6dd65c26&gt;/var/www/ruteko_admin_ftp/data/www/test2.ruteko.ru/index.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
       </list>
     </option>
   </component>
@@ -194,7 +199,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -213,23 +218,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="egais" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="egais" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -244,7 +235,7 @@
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/yuicompressor/build/yuicompressor-2.4.8.jar" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -315,16 +306,15 @@
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17420538" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.094743274" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17359413" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Assets" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32849163" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294621" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24916202" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24916202" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2905028" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28938547" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -333,6 +323,7 @@
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Assets" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32849163" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -410,41 +401,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="785" column="82" selection-start-line="785" selection-start-column="82" selection-end-line="785" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="243" column="45" selection-start-line="243" selection-start-column="45" selection-end-line="243" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/media.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -696,20 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robots.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/media.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="297" column="27" selection-start-line="297" selection-start-column="27" selection-end-line="297" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ask_question.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21052632">
@@ -724,11 +666,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/robots.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10248447">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="135" column="29" selection-start-line="135" selection-start-column="29" selection-end-line="135" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -736,30 +684,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/css/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4967105">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/normalize.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="623" column="1" selection-start-line="623" selection-start-column="1" selection-end-line="623" selection-end-column="1" />
-          <folding />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/media.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.59585494">
+          <caret line="54" column="58" selection-start-line="54" selection-start-column="58" selection-end-line="54" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="71.51724">
-          <caret line="0" column="11139" selection-start-line="0" selection-start-column="11136" selection-end-line="0" selection-end-column="11139" />
-          <folding />
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="0" column="4602" selection-start-line="0" selection-start-column="4601" selection-end-line="0" selection-end-column="4602" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/inputmask.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18092105">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40932643">
+          <caret line="317" column="17" selection-start-line="317" selection-start-column="16" selection-end-line="317" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47232473">
-          <caret line="694" column="16" selection-start-line="694" selection-start-column="16" selection-end-line="694" selection-end-column="16" />
+        <state vertical-scroll-proportion="1.3613138">
+          <caret line="715" column="16" selection-start-line="715" selection-start-column="16" selection-end-line="715" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.821718">
+          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
           <folding />
         </state>
       </provider>
